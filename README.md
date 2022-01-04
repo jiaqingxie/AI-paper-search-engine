@@ -8,9 +8,18 @@ Database
 UI for online inference
 Classification
 
-## Conferences
-| | AAAI | ICLR | CVPR | ICML | ICCV | ECCV | NIPS |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 2019 | [:heavy_check_mark:](paperlist/paperlist_aaai2019.tsv) | [:heavy_check_mark:](paperlist/paperlist_iclr2019.tsv) | [:heavy_check_mark:](paperlist/paperlist_cvpr2019.tsv) | [:heavy_check_mark:](paperlist/paperlist_icml2019.tsv) | [:heavy_check_mark:](paperlist/paperlist_iccv2019.tsv) | - | [:heavy_check_mark:](paperlist/paperlist_nips2019.tsv) |
-| 2020 | [:heavy_check_mark:](paperlist/paperlist_aaai2020.tsv) | [:heavy_check_mark:](paperlist/paperlist_iclr2020.tsv) | [:heavy_check_mark:](paperlist/paperlist_cvpr2020.tsv) | [:heavy_check_mark:](paperlist/paperlist_icml2020.tsv) | - | [:heavy_check_mark:](paperlist/paperlist_eccv2020.tsv) | [:heavy_check_mark:](paperlist/paperlist_nips2020.tsv) |
-| 2021 | [:heavy_check_mark:](paperlist/paperlist_aaai2021.tsv) | [:heavy_check_mark:](paperlist/paperlist_iclr2021.tsv) | [:heavy_check_mark:](paperlist/paperlist_cvpr2021.tsv) | [:heavy_check_mark:](paperlist/paperlist_icml2021.tsv) | TBU | - | TBU |
+## Top-tier Conferences on AI 
+|      | AAAI | ICLR | CVPR | ICML | ICCV | ECCV | NIPS | AISTATS | NAACL | EMNLP | ACL | COLT | ICRA | AAMAS | KDD | WWW | SIGIR |
+|:----:| :---: |:----:|:----:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 2010 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2011 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2012 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2013 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2014 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2015 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2016 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2017 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2018 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2019 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2020 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
+| 2021 |  :heavy_check_mark:    |  -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   | -   |
