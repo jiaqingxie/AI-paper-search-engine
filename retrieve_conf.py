@@ -13,26 +13,25 @@ def parse():
 
 cur_path = path.dirname(path.abspath(__file__))
 icml_url_list = [
-    "http://proceedings.mlr.press/v139/",  # ICML-21
+    "http://proceedings.mlr.press/v139/",   # ICML-21
     "https://proceedings.mlr.press/v119/",  # ICML-20
-    "http://proceedings.mlr.press/v97/",  # ICML-19
-    "https://proceedings.mlr.press/v80/",  # ICML-18
-    "https://proceedings.mlr.press/v70/",  # ICML-17
-    "https://proceedings.mlr.press/v48/",  # ICML-16
-    "https://proceedings.mlr.press/v37/",  # ICML-15
-    "https://proceedings.mlr.press/v32/",  # ICML-14
-    "https://proceedings.mlr.press/v28/"  # ICML-13
+    "http://proceedings.mlr.press/v97/",    # ICML-19
+    "https://proceedings.mlr.press/v80/",   # ICML-18
+    "https://proceedings.mlr.press/v70/",   # ICML-17
+    "https://proceedings.mlr.press/v48/",   # ICML-16
+    "https://proceedings.mlr.press/v37/",   # ICML-15
+    "https://proceedings.mlr.press/v32/",   # ICML-14
+    "https://proceedings.mlr.press/v28/"    # ICML-13
 ]
 
 aaai_url_list = [
+    "https://aaai.org/Library/AAAI/aaai10contents.php" # AAAI-10
 
 ]
 
 chromedriver_path = cur_path + "\chromedriver.exe"
 root = cur_path + "\Papers\ICML"
 os.makedirs(root, exist_ok=True)
-
-
 
 
 if __name__ == "__main__":
