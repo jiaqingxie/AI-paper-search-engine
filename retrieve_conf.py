@@ -1,16 +1,17 @@
-import time
-import urllib
-import random
+import argparse
 import os
-import requests
 import pandas as pd
-from selenium import webdriver
-from slugify import slugify
-from os import path
 from retrieve_titles import *
 
+
+def parse():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--conf', type=str, help='conference name', required=True)
+    arg = parser.parse_args()
+    return arg
+
+
 cur_path = path.dirname(path.abspath(__file__))
-conference = "icml"
 icml_url_list = [
     "http://proceedings.mlr.press/v139/",  # ICML-21
     "https://proceedings.mlr.press/v119/",  # ICML-20
@@ -22,16 +23,25 @@ icml_url_list = [
     "https://proceedings.mlr.press/v32/",  # ICML-14
     "https://proceedings.mlr.press/v28/"  # ICML-13
 ]
+
+aaai_url_list = [
+
+]
+
 chromedriver_path = cur_path + "\chromedriver.exe"
 root = cur_path + "\Papers\ICML"
 os.makedirs(root, exist_ok=True)
 
+
+
+
 if __name__ == "__main__":
+    args = parse()
     # open PMLR page
     option = webdriver.ChromeOptions()
     option.add_argument("headless")
     driver = webdriver.Chrome(options=option, executable_path=chromedriver_path)
-    retreive = globals()['retrieve_from_' + conference]
+    retreive = globals()['retrieve_from_' + args.conf]
     year = 2021
     for conference_url in icml_url_list:
         driver.get(conference_url)
