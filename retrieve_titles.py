@@ -1,7 +1,7 @@
 from os import path
 from selenium import webdriver
 cur_path = path.dirname(path.abspath(__file__))
-chromedriver_path = cur_path + "\chromedriver.exe"
+chromedriver_path = cur_path + "/chromedriver"
 
 # def retrieve_from_siggraph(driver):
 #     pdfurllist =  []

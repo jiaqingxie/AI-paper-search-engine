@@ -29,8 +29,8 @@ aaai_url_list = [
 
 ]
 
-chromedriver_path = cur_path + "\chromedriver.exe"
-root = cur_path + "\Papers\ICML"
+chromedriver_path = cur_path + "//chromedriver"
+root = cur_path + "//Papers//ICML"
 os.makedirs(root, exist_ok=True)
 
 
@@ -51,5 +51,5 @@ if __name__ == "__main__":
                            'title': pdfnamelist,
                            'abstract': abslist
                            })
-        df.to_csv('%s\\icml_%s.csv' % (root, year), index=False)
+        df.to_csv('%s//icml_%s.csv' % (root, year), index=False)
         year -= 1
