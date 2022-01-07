@@ -84,9 +84,11 @@ def retrieve_from_icml(driver):
     option = webdriver.ChromeOptions()
     option.add_argument("headless")
     abslist = []
+    autlist = []
     pdfurllist = []
     pdfnamelist = []
     elementllist = driver.find_elements_by_class_name('title')
+    authorlist = driver.find_elements_by_class_name('authors')
     url_element_list = driver.find_elements_by_link_text('Download PDF')
     abs_element_list = driver.find_elements_by_link_text('abs')
     driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
@@ -94,9 +96,10 @@ def retrieve_from_icml(driver):
         driver2.get(abs_element_list[i].get_attribute('href'))
         abs_element = driver2.find_element_by_class_name('abstract')
         abslist.append(abs_element.text)
+        autlist.append(authorlist[i].text)
         pdfnamelist.append(elementllist[i].text)
         pdfurllist.append(url_element_list[i].get_attribute('href'))
-    return pdfurllist, pdfnamelist, abslist
+    return pdfurllist, pdfnamelist, abslist, autlist
 
 def retrieve_from_neurips(driver):
     pdfurllist = []
