@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69554d0d-0520-4c5d-9488-88050e0849fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Papers/ICML/icml_2013.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Papers/ICML/icml_2014.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Papers/ICML/icml_2015.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Papers/ICML/icml_2016.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Papers/ICML/icml_2017.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Papers/ICML/icml_2018.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Papers/ICML/icml_2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Papers/ICML/icml_2020.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Papers/ICML/icml_2021.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/retrieve_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/retrieve_conf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/retrieve_titles.py" beforeDir="false" afterPath="$PROJECT_DIR$/retrieve_titles.py" afterDir="false" />
     </list>
@@ -51,7 +42,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/retrieve_conf.py" />
-      <option name="PARAMETERS" value="--conf icml" />
+      <option name="PARAMETERS" value="--conf cvpr" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />

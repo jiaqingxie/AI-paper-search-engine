@@ -1,7 +1,11 @@
 from os import path
 from selenium import webdriver
+
 cur_path = path.dirname(path.abspath(__file__))
 chromedriver_path = cur_path + "/chromedriver"
+
+option = webdriver.ChromeOptions()
+option.add_argument("headless")
 
 # def retrieve_from_siggraph(driver):
 #     pdfurllist =  []
@@ -56,18 +60,6 @@ def retrieve_from_iclr(driver):
     return pdfurllist, pdfnamelist
 
 
-def retrieve_from_eccv(driver):
-    pdfurllist = []
-    pdfnamelist = []
-
-    elementllist = driver.find_elements_by_class_name('ptitle')
-    url_element_list = driver.find_elements_by_link_text('pdf')
-    for i, element in enumerate(url_element_list):
-        pdfnamelist.append(elementllist[i].text)
-        pdfurllist.append(url_element_list[i].get_attribute('href'))
-    return pdfurllist, pdfnamelist
-
-
 def retrieve_from_iccv(driver):
     pdfurllist = []
     pdfnamelist = []
@@ -79,10 +71,8 @@ def retrieve_from_iccv(driver):
         pdfurllist.append(url_element_list[i].get_attribute('href'))
     return pdfurllist, pdfnamelist
 
-# debug icml
-def retrieve_from_icml(driver):
-    option = webdriver.ChromeOptions()
-    option.add_argument("headless")
+
+def retrieve_from_icml(driver, year):
     abslist = []
     autlist = []
     pdfurllist = []
@@ -101,6 +91,8 @@ def retrieve_from_icml(driver):
         pdfurllist.append(url_element_list[i].get_attribute('href'))
     return pdfurllist, pdfnamelist, abslist, autlist
 
+
+# debug
 def retrieve_from_neurips(driver):
     pdfurllist = []
     pdfnamelist = []
@@ -109,20 +101,32 @@ def retrieve_from_neurips(driver):
         pdfnamelist.append(elementllist[i].find_elements_by_xpath('a')[0].text)
         pdfurllist.append(
             elementllist[i].find_elements_by_xpath('a')[0].get_attribute('href').replace('hash', 'file', 1). \
-            replace('Abstract.html', 'Paper.pdf', 1))
+                replace('Abstract.html', 'Paper.pdf', 1))
     return pdfurllist, pdfnamelist
 
 
-def retrieve_from_cvpr(driver):
+def retrieve_from_cvpr(driver, year):
     pdfurllist = []
     pdfnamelist = []
-    for day in range(3):
-        driver.find_elements_by_xpath('//body/div[3]/dl/dd/a')[day].click()
+    autlist = []
+    abslist = []
+    y_to_d = {2018: 3, 2019: 3, 2020: 3, 2021: 5}
+    loo = 1 if year <= 2018 else y_to_d[year]
+    driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
+    for day in range(loo):
+        if year >= 2018:
+            driver.find_elements_by_xpath('//body/div[3]/dl/dd/a')[day].click()
         title_element_list = driver.find_elements_by_class_name('ptitle')
         url_element_list = driver.find_elements_by_partial_link_text('pdf')
         for i, element in enumerate(url_element_list):
+            driver2.get(driver.find_element_by_link_text(title_element_list[i].text).get_attribute('href'))
+            rel_path = '//body/div[3]/dl/div[2]/b/i' if year == 2021 else '//body/div[3]/dl/dd/div[2]/b/i'
+            aut_element = driver2.find_element_by_xpath(rel_path)
+            autlist.append(aut_element.text)
+            abslist.append(driver2.find_element_by_id('abstract').text)
             pdfnamelist.append(title_element_list[i].text)
             pdfurllist.append(url_element_list[i].get_attribute('href'))
-        driver.back()
+        if year >= 2018:
+            driver.back()
 
-    return pdfurllist, pdfnamelist
+    return pdfurllist, pdfnamelist, abslist, autlist

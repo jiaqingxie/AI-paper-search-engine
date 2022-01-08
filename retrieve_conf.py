@@ -12,7 +12,14 @@ def parse():
 
 
 cur_path = path.dirname(path.abspath(__file__))
+
+cvpr_url_list = [
+	# collect papers from 2013 - 2021
+    "https://openaccess.thecvf.com/CVPR" + str(2021-i) for i in range(0, 9)
+]
+
 icml_url_list = [
+	# collect papers from 2013 - 2021
     "http://proceedings.mlr.press/v139/",  # ICML-21
     "https://proceedings.mlr.press/v119/",  # ICML-20
     "http://proceedings.mlr.press/v97/",  # ICML-19
@@ -28,10 +35,9 @@ aaai_url_list = [
     "https://aaai.org/Library/AAAI/aaai10contents.php"  # AAAI-10
 
 ]
-
 chromedriver_path = cur_path + "//chromedriver"
-root = cur_path + "//Papers//ICML"
-os.makedirs(root, exist_ok=True)
+
+
 
 if __name__ == "__main__":
     args = parse()
@@ -40,10 +46,19 @@ if __name__ == "__main__":
     option.add_argument("headless")
     driver = webdriver.Chrome(options=option, executable_path=chromedriver_path)
     retreive = globals()['retrieve_from_' + args.conf]
+    years = []
+    root = None
+    if args.conf == 'cvpr':
+        url_list = cvpr_url_list
+        root = cur_path  + "//Papers//CVPR"
+    elif args.conf == 'icml':
+        url_list = icml_url_list
+        root = cur_path  + "//Papers//ICML"
+    os.makedirs(root, exist_ok=True)
     year = 2021
-    for conference_url in icml_url_list:
+    for conference_url in url_list:
         driver.get(conference_url)
-        pdfurllist, pdfnamelist, abslist, autlist = retreive(driver)
+        pdfurllist, pdfnamelist, abslist, autlist = retreive(driver, year)
         conf = [args.conf for i in range(len(pdfurllist))]
         assert len(pdfurllist) == len(pdfnamelist)
         # write to excel
@@ -53,5 +68,5 @@ if __name__ == "__main__":
                            'authors': autlist,
                            'abstract': abslist
                            })
-        df.to_csv('%s//icml_%s.csv' % (root, year), index=False)
+        df.to_csv('%s//%s_%s.csv' % (root, args.conf, year), index=False)
         year -= 1
