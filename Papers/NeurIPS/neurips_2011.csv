@@ -1,0 +1,1059 @@
+conference,url,title,authors,abstract
+neurips,https://proceedings.neurips.cc/paper/2011/file/01386bd6d8e091c2ab4c7c7de644d37b-Paper.pdf,"Emergence of Multiplication in a Biophysical Model of a Wide-Field Visual Neuron for Computing Object Approaches: Dynamics, Peaks, & Fits",Matthias Keil,"Many species show avoidance reactions in response to looming object approaches. In locusts, the corresponding escape behavior correlates with the activity of the lobula giant movement detector (LGMD) neuron. During an object approach, its firing rate was reported to gradually increase until a peak is reached, and then it declines quickly. The
+η
+η
+-function predicts that the LGMD activity is a product between an exponential function of angular size
+exp
+(
+−
+Θ
+)
+exp
+and angular velocity
+˙
+Θ
+Θ
+, and that peak activity is reached before time-to-contact (ttc). The
+η
+η
+-function has become the prevailing LGMD model because it reproduces many experimental observations, and even experimental evidence for the multiplicative operation was reported. Several inconsistencies remain unresolved, though. Here we address these issues with a new model (
+ψ
+ψ
+-model), which explicitly connects
+Θ
+Θ
+and
+˙
+Θ
+Θ
+to biophysical quantities. The
+ψ
+ψ
+-model avoids biophysical problems associated with implementing
+exp
+(
+⋅
+)
+exp
+, implements the multiplicative operation of
+η
+η
+via divisive inhibition, and explains why activity peaks could occur after ttc. It consistently predicts response features of the LGMD, and provides excellent fits to published experimental data, with goodness of fit measures comparable to corresponding fits with the
+η
+η
+-function."
+neurips,https://proceedings.neurips.cc/paper/2011/file/013d407166ec4fa56eb1e1f8cbe183b9-Paper.pdf,Action-Gap Phenomenon in Reinforcement Learning,Amir-massoud Farahmand,
+neurips,https://proceedings.neurips.cc/paper/2011/file/0336dcbab05b9d5ad24f4333c7658a0e-Paper.pdf,Learning Higher-Order Graph Structure with Features by Structure Penalty,"Shilin Ding, Grace Wahba, Jerry Zhu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/03c6b06952c750899bb03d998e631860-Paper.pdf,Efficient Methods for Overlapping Group Lasso,"Lei Yuan, Jun Liu, Jieping Ye",
+neurips,https://proceedings.neurips.cc/paper/2011/file/043ab21fc5a1607b381ac3896176dac6-Paper.pdf,Priors over Recurrent Continuous Time Processes,"Ardavan Saeedi, Alexandre Bouchard-côté",
+neurips,https://proceedings.neurips.cc/paper/2011/file/04ecb1fa28506ccb6f72b12c0245ddbc-Paper.pdf,The Kernel Beta Process,"Lu Ren, Yingjian Wang, Lawrence Carin, David Dunson",
+neurips,https://proceedings.neurips.cc/paper/2011/file/051e4e127b92f5d98d3c79b195f2b291-Paper.pdf,Lower Bounds for Passive and Active Learning,"Maxim Raginsky, Alexander Rakhlin",
+neurips,https://proceedings.neurips.cc/paper/2011/file/05f971b5ec196b8c65b75d2ef8267331-Paper.pdf,k-NN Regression Adapts to Local Intrinsic Dimension,Samory Kpotufe,"Many nonparametric regressors were recently shown to converge at rates that depend only on the intrinsic dimension of data. These regressors thus escape the curse of dimension when high-dimensional data has low intrinsic dimension (e.g. a manifold). We show that
+k
+k
+-NN regression is also adaptive to intrinsic dimension. In particular our rates are local to a query
+x
+x
+and depend only on the way masses of balls centered at
+x
+x
+vary with radius. Furthermore, we show a simple way to choose
+k
+=
+k
+(
+x
+)
+k
+locally at any
+x
+x
+so as to nearly achieve the minimax rate at
+x
+x
+in terms of the unknown intrinsic dimension in the vicinity of
+x
+x
+. We also establish that the minimax rate does not depend on a particular choice of metric space or distribution, but rather that this minimax rate holds for any metric space and doubling measure."
+neurips,https://proceedings.neurips.cc/paper/2011/file/069059b7ef840f0c74a814ec9237b6ec-Paper.pdf,Variational Learning for Recurrent Spiking Networks,"Danilo Rezende, Daan Wierstra, Wulfram Gerstner",
+neurips,https://proceedings.neurips.cc/paper/2011/file/07042ac7d03d3b9911a00da43ce0079a-Paper.pdf,Rapid Deformable Object Detection using Dual-Tree Branch-and-Bound,Iasonas Kokkinos,
+neurips,https://proceedings.neurips.cc/paper/2011/file/07563a3fe3bbe7e3ba84431ad9d055af-Paper.pdf,Probabilistic Modeling of Dependencies Among Visual Short-Term Memory Representations,"Emin Orhan, Robert Jacobs",
+neurips,https://proceedings.neurips.cc/paper/2011/file/0768281a05da9f27df178b5c39a51263-Paper.pdf,Bayesian Bias Mitigation for Crowdsourcing,"Fabian L. Wauthier, Michael Jordan",
+neurips,https://proceedings.neurips.cc/paper/2011/file/07cdfd23373b17c6b337251c22b7ea57-Paper.pdf,Phase transition in the family of p-resistances,"Morteza Alamgir, Ulrike Luxburg",
+neurips,https://proceedings.neurips.cc/paper/2011/file/08b255a5d42b89b0585260b6f2360bdd-Paper.pdf,On the Analysis of Multi-Channel Neural Spike Data,"Bo Chen, David Carlson, Lawrence Carin",
+neurips,https://proceedings.neurips.cc/paper/2011/file/0a1bf96b7165e962e90cb14648c9462d-Paper.pdf,Hashing Algorithms for Large-Scale Learning,"Ping Li, Anshumali Shrivastava, Joshua Moore, Arnd König","Minwise hashing is a standard technique in the context of search for efficiently computing set similarities. The recent development of b-bit minwise hashing provides a substantial improvement by storing only the lowest b bits of each hashed value. In this paper, we demonstrate that b-bit minwise hashing can be naturally integrated with linear learning algorithms such as linear SVM and logistic regression, to solve large-scale and high-dimensional statistical learning tasks, especially when the data do not fit in memory. We compare
+b
+b
+-bit minwise hashing with the Count-Min (CM) and Vowpal Wabbit (VW) algorithms, which have essentially the same variances as random projections. Our theoretical and empirical comparisons illustrate that b-bit minwise hashing is significantly more accurate (at the same storage cost) than VW (and random projections) for binary data."
+neurips,https://proceedings.neurips.cc/paper/2011/file/0c048b3a434e49e655c1247efb389cec-Paper.pdf,Active learning of neural response functions with Gaussian processes,"Mijung Park, Greg Horwitz, Jonathan Pillow",
+neurips,https://proceedings.neurips.cc/paper/2011/file/0d7de1aca9299fe63f3e0041f02638a3-Paper.pdf,Nonstandard Interpretations of Probabilistic Programs for Efficient Inference,"David Wingate, Noah Goodman, Andreas Stuhlmueller, Jeffrey Siskind",
+neurips,https://proceedings.neurips.cc/paper/2011/file/0deb1c54814305ca9ad266f53bc82511-Paper.pdf,The Impact of Unlabeled Patterns in Rademacher Complexity Theory for Kernel Classifiers,"Luca Oneto, Davide Anguita, Alessandro Ghio, Sandro Ridella",
+neurips,https://proceedings.neurips.cc/paper/2011/file/0e9fa1f3e9e66792401a6972d477dcc3-Paper.pdf,Regularized Laplacian Estimation and Fast Eigenvector Approximation,"Patrick Perry, Michael W. Mahoney",
+neurips,https://proceedings.neurips.cc/paper/2011/file/0eec27c419d0fe24e53c90338cdc8bc6-Paper.pdf,The Doubly Correlated Nonparametric Topic Model,"Dae Kim, Erik Sudderth",
+neurips,https://proceedings.neurips.cc/paper/2011/file/0f28b5d49b3020afeecd95b4009adf4c-Paper.pdf,Generalized Lasso based Approximation of Sparse Coding for Visual Recognition,"Nobuyuki Morioka, Shin'ichi Satoh",
+neurips,https://proceedings.neurips.cc/paper/2011/file/0ff8033cf9437c213ee13937b1c4c455-Paper.pdf,SpaRCS: Recovering low-rank and sparse matrices from compressive measurements,"Andrew Waters, Aswin Sankaranarayanan, Richard Baraniuk","We consider the problem of recovering a matrix
+M
+M
+that is the sum of a low-rank matrix
+L
+L
+and a sparse matrix
+S
+S
+from a small set of linear measurements of the form
+y
+=
+A
+(
+M
+)
+=
+A
+(
+L
++
+S
+)
+y
+. This model subsumes three important classes of signal recovery problems: compressive sensing, affine rank minimization, and robust principal component analysis. We propose a natural optimization problem for signal recovery under this model and develop a new greedy algorithm called SpaRCS to solve it. SpaRCS inherits a number of desirable properties from the state-of-the-art CoSaMP and ADMiRA algorithms, including exponential convergence and efficient implementation. Simulation results with video compressive sensing, hyperspectral imaging, and robust matrix completion data sets demonstrate both the accuracy and efficacy of the algorithm."
+neurips,https://proceedings.neurips.cc/paper/2011/file/1019c8091693ef5c5f55970346633f92-Paper.pdf,Learning Patient-Specific Cancer Survival Distributions as a Sequence of Dependent Regressors,"Chun-Nam Yu, Russell Greiner, Hsiu-Chin Lin, Vickie Baracos",
+neurips,https://proceedings.neurips.cc/paper/2011/file/11b921ef080f7736089c757404650e40-Paper.pdf,Prediction strategies without loss,"Michael Kapralov, Rina Panigrahy","Consider a sequence of bits where we are trying to predict the next bit from the previous bits. Assume we are allowed to say
+p
+r
+e
+d
+i
+c
+t
+0
+'
+or
+p
+predict 1', and our payoff is
++
+1
++
+if the prediction is correct and
+−
+1
+−
+otherwise. We will say that at each point in time the loss of an algorithm is the number of wrong predictions minus the number of right predictions so far. In this paper we are interested in algorithms that have essentially zero (expected) loss over any string at any point in time and yet have small regret with respect to always predicting
+0
+0
+or always predicting
+1
+1
+. For a sequence of length
+T
+T
+our algorithm has regret
+14
+ϵ
+T
+14
+and loss
+2
+√
+T
+e
+−
+ϵ
+2
+T
+2
+in expectation for all strings. We show that the tradeoff between loss and regret is optimal up to constant factors. Our techniques extend to the general setting of
+N
+N
+experts, where the related problem of trading off regret to the best expert for regret to the 'special' expert has been studied by Even-Dar et al. (COLT'07). We obtain essentially zero loss with respect to the special expert and optimal loss/regret tradeoff, improving upon the results of Even-Dar et al (COLT'07) and settling the main question left open in their paper. The strong loss bounds of the algorithm have some surprising consequences. First, we obtain a parameter free algorithm for the experts problem that has optimal regret bounds with respect to
+k
+k
+-shifting optima, i.e. bounds with respect to the optimum that is allowed to change arms multiple times. Moreover, for {\em any window of size
+n
+n
+} the regret of our algorithm to any expert never exceeds
+O
+(
+√
+n
+(
+log
+N
++
+log
+T
+)
+)
+O
+, where
+N
+N
+is the number of experts and
+T
+T
+is the time horizon, while maintaining the essentially zero loss property."
+neurips,https://proceedings.neurips.cc/paper/2011/file/11d867796d85db8cad5280ac44cec7c1-Paper.pdf,Maximum Margin Multi-Instance Learning,"Hua Wang, Heng Huang, Farhad Kamangar, Feiping Nie, Chris Ding",
+neurips,https://proceedings.neurips.cc/paper/2011/file/120ca817ebe8caa71e92ac53049b2c6a-Paper.pdf,Anatomically Constrained Decoding of Finger Flexion from Electrocorticographic Signals,"Zuoguan Wang, Gerwin Schalk, Qiang Ji",
+neurips,https://proceedings.neurips.cc/paper/2011/file/12e59a33dea1bf0630f46edfe13d6ea2-Paper.pdf,Efficient coding of natural images with a population of noisy Linear-Nonlinear neurons,"Yan Karklin, Eero Simoncelli",
+neurips,https://proceedings.neurips.cc/paper/2011/file/1343777b8ead1cef5a79b78a1a48d805-Paper.pdf,Multilinear Subspace Regression: An Orthogonal Tensor Decomposition Approach,"Qibin Zhao, Cesar F. Caiafa, Danilo Mandic, Liqing Zhang, Tonio Ball, Andreas Schulze-bonhage, Andrzej Cichocki",
+neurips,https://proceedings.neurips.cc/paper/2011/file/142949df56ea8ae0be8b5306971900a4-Paper.pdf,Large-Scale Sparse Principal Component Analysis with Application to Text Data,"Youwei Zhang, Laurent Ghaoui",
+neurips,https://proceedings.neurips.cc/paper/2011/file/160c88652d47d0be60bfbfed25111412-Paper.pdf,Nearest Neighbor based Greedy Coordinate Descent,"Inderjit Dhillon, Pradeep Ravikumar, Ambuj Tewari",
+neurips,https://proceedings.neurips.cc/paper/2011/file/16a5cdae362b8d27a1d8f8c7b78b4330-Paper.pdf,Convergent Bounds on the Euclidean Distance,"Yoonho Hwang, Hee-kap Ahn",
+neurips,https://proceedings.neurips.cc/paper/2011/file/182be0c5cdcd5072bb1864cdee4d3d6e-Paper.pdf,Video Annotation and Tracking with Active Learning,"Carl Vondrick, Deva Ramanan",
+neurips,https://proceedings.neurips.cc/paper/2011/file/1896a3bf730516dd643ba67b4c447d36-Paper.pdf,PiCoDes: Learning a Compact Code for Novel-Category Recognition,"Alessandro Bergamo, Lorenzo Torresani, Andrew Fitzgibbon",
+neurips,https://proceedings.neurips.cc/paper/2011/file/18997733ec258a9fcaf239cc55d53363-Paper.pdf,Linearized Alternating Direction Method with Adaptive Penalty for Low-Rank Representation,"Zhouchen Lin, Risheng Liu, Zhixun Su","Many machine learning and signal processing problems can be formulated as linearly constrained convex programs, which could be efficiently solved by the alternating direction method (ADM). However, usually the subproblems in ADM are easily solvable only when the linear mappings in the constraints are identities. To address this issue, we propose a linearized ADM (LADM) method by linearizing the quadratic penalty term and adding a proximal term when solving the subproblems. For fast convergence, we also allow the penalty to change adaptively according a novel update rule. We prove the global convergence of LADM with adaptive penalty (LADMAP). As an example, we apply LADMAP to solve low-rank representation (LRR), which is an important subspace clustering technique yet suffers from high computation cost. By combining LADMAP with a skinny SVD representation technique, we are able to reduce the complexity
+O
+(
+n
+3
+)
+O
+of the original ADM based method to
+O
+(
+r
+n
+2
+)
+O
+, where
+r
+r
+and
+n
+n
+are the rank and size of the representation matrix, respectively, hence making LRR possible for large scale applications. Numerical experiments verify that for LRR our LADMAP based methods are much faster than state-of-the-art algorithms."
+neurips,https://proceedings.neurips.cc/paper/2011/file/192fc044e74dffea144f9ac5dc9f3395-Paper.pdf,Sparse Filtering,"Jiquan Ngiam, Zhenghao Chen, Sonia Bhaskar, Pang Koh, Andrew Ng",
+neurips,https://proceedings.neurips.cc/paper/2011/file/193002e668758ea9762904da1a22337c-Paper.pdf,Beyond Spectral Clustering - Tight Relaxations of Balanced Graph Cuts,"Matthias Hein, Simon Setzer",
+neurips,https://proceedings.neurips.cc/paper/2011/file/1be3bc32e6564055d5ca3e5a354acbef-Paper.pdf,Why The Brain Separates Face Recognition From Object Recognition,"Joel Z. Leibo, Jim Mutch, Tomaso Poggio",
+neurips,https://proceedings.neurips.cc/paper/2011/file/1c65cef3dfd1e00c0b03923a1c591db4-Paper.pdf,Analytical Results for the Error in Filtering of Gaussian Processes,"Alex K. Susemihl, Ron Meir, Manfred Opper",
+neurips,https://proceedings.neurips.cc/paper/2011/file/1e1d184167ca7676cf665225e236a3d2-Paper.pdf,Active Learning with a Drifting Distribution,Liu Yang,
+neurips,https://proceedings.neurips.cc/paper/2011/file/1e51e0f3b6b60070219ccb91bb619a6b-Paper.pdf,Evaluating the inverse decision-making approach to preference learning,"Alan Jern, Christopher Lucas, Charles Kemp",
+neurips,https://proceedings.neurips.cc/paper/2011/file/1e6e0a04d20f50967c64dac2d639a577-Paper.pdf,Policy Gradient Coagent Networks,Philip S. Thomas,
+neurips,https://proceedings.neurips.cc/paper/2011/file/1f3202d820180a39f736f20fce790de8-Paper.pdf,Periodic Finite State Controllers for Efficient POMDP and DEC-POMDP Planning,"Joni Pajarinen, Jaakko Peltonen",
+neurips,https://proceedings.neurips.cc/paper/2011/file/208e43f0e45c4c78cafadb83d2888cb6-Paper.pdf,Spectral Methods for Learning Multivariate Latent Tree Structure,"Animashree Anandkumar, Kamalika Chaudhuri, Daniel J. Hsu, Sham M. Kakade, Le Song, Tong Zhang",
+neurips,https://proceedings.neurips.cc/paper/2011/file/215a71a12769b056c3c32e7299f1c5ed-Paper.pdf,Query-Aware MCMC,"Michael Wick, Andrew McCallum",
+neurips,https://proceedings.neurips.cc/paper/2011/file/218a0aefd1d1a4be65601cc6ddc1520e-Paper.pdf,Hogwild!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent,"Benjamin Recht, Christopher Re, Stephen Wright, Feng Niu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/233509073ed3432027d48b1a83f5fbd2-Paper.pdf,ICA with Reconstruction Cost for Efficient Overcomplete Feature Learning,"Quoc Le, Alexandre Karpenko, Jiquan Ngiam, Andrew Ng",
+neurips,https://proceedings.neurips.cc/paper/2011/file/2387337ba1e0b0249ba90f55b2ba2521-Paper.pdf,Sparse Recovery with Brownian Sensing,"Alexandra Carpentier, Odalric-ambrym Maillard, Rémi Munos",
+neurips,https://proceedings.neurips.cc/paper/2011/file/23ce1851341ec1fa9e0c259de10bf87c-Paper.pdf,Learning Anchor Planes for Classification,"Ziming Zhang, Lubor Ladicky, Philip Torr, Amir Saffari",
+neurips,https://proceedings.neurips.cc/paper/2011/file/24146db4eb48c718b84cae0a0799dcfc-Paper.pdf,Ranking annotators for crowdsourced labeling tasks,"Vikas C. Raykar, Shipeng Yu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/24681928425f5a9133504de568f5f6df-Paper.pdf,Metric Learning with Multiple Kernels,"Jun Wang, Huyen T., Adam Woznica, Alexandros Kalousis",
+neurips,https://proceedings.neurips.cc/paper/2011/file/25df35de87aa441b88f22a6c2a830a17-Paper.pdf,A Brain-Machine Interface Operating with a Real-Time Spiking Neural Network Control Algorithm,"Julie Dethier, Paul Nuyujukian, Chris Eliasmith, Terrence Stewart, Shauki Elasaad, Krishna V. Shenoy, Kwabena A. Boahen",
+neurips,https://proceedings.neurips.cc/paper/2011/file/286674e3082feb7e5afb92777e48821f-Paper.pdf,Understanding the Intrinsic Memorability of Images,"Phillip Isola, Devi Parikh, Antonio Torralba, Aude Oliva",
+neurips,https://proceedings.neurips.cc/paper/2011/file/288cc0ff022877bd3df94bc9360b9c5d-Paper.pdf,Two is better than one: distinct roles for familiarity and recollection in retrieving palimpsest memories,"Cristina Savin, Peter Dayan, Máté Lengyel",
+neurips,https://proceedings.neurips.cc/paper/2011/file/28fc2782ea7ef51c1104ccf7b9bea13d-Paper.pdf,Automated Refinement of Bayes Networks' Parameters based on Test Ordering Constraints,"Omar Khan, Pascal Poupart, John-mark Agosta",
+neurips,https://proceedings.neurips.cc/paper/2011/file/291597a100aadd814d197af4f4bab3a7-Paper.pdf,Structure Learning for Optimization,"Shulin Yang, Ali Rahimi",
+neurips,https://proceedings.neurips.cc/paper/2011/file/2ac2406e835bd49c70469acae337d292-Paper.pdf,Multiclass Boosting: Theory and Algorithms,"Mohammad Saberian, Nuno Vasconcelos",
+neurips,https://proceedings.neurips.cc/paper/2011/file/2afe4567e1bf64d32a5527244d104cea-Paper.pdf,Composite Multiclass Losses,"Elodie Vernet, Mark D. Reid, Robert C. Williamson",
+neurips,https://proceedings.neurips.cc/paper/2011/file/2b6d65b9a9445c4271ab9076ead5605a-Paper.pdf,Scalable Training of Mixture Models via Coresets,"Dan Feldman, Matthew Faulkner, Andreas Krause","How can we train a statistical mixture model on a massive data set? In this paper, we show how to construct coresets for mixtures of Gaussians and natural generalizations. A coreset is a weighted subset of the data, which guarantees that models fitting the coreset will also provide a good fit for the original data set. We show that, perhaps surprisingly, Gaussian mixtures admit coresets of size independent of the size of the data set. More precisely, we prove that a weighted set of
+O
+(
+d
+k
+3
+/
+\eps
+2
+)
+O
+data points suffices for computing a
+(
+1
++
+\eps
+)
+(
+-approximation for the optimal model on the original
+n
+n
+data points. Moreover, such coresets can be efficiently constructed in a map-reduce style computation, as well as in a streaming setting. Our results rely on a novel reduction of statistical estimation to problems in computational geometry, as well as new complexity results about mixtures of Gaussians. We empirically evaluate our algorithms on several real data sets, including a density estimation problem in the context of earthquake detection using accelerometers in mobile phones."
+neurips,https://proceedings.neurips.cc/paper/2011/file/2b8a61594b1f4c4db0902a8a395ced93-Paper.pdf,Recovering Intrinsic Images with a Global Sparsity Prior on Reflectance,"Carsten Rother, Martin Kiefel, Lumin Zhang, Bernhard Schölkopf, Peter Gehler",
+neurips,https://proceedings.neurips.cc/paper/2011/file/2ba8698b79439589fdd2b0f7218d8b07-Paper.pdf,Sparse Inverse Covariance Matrix Estimation Using Quadratic Approximation,"Cho-jui Hsieh, Inderjit Dhillon, Pradeep Ravikumar, Mátyás Sustik",
+neurips,https://proceedings.neurips.cc/paper/2011/file/2c89109d42178de8a367c0228f169bf8-Paper.pdf,Testing a Bayesian Measure of Representativeness Using a Large Image Database,"Joshua T. Abbott, Katherine A. Heller, Zoubin Ghahramani, Thomas Griffiths",
+neurips,https://proceedings.neurips.cc/paper/2011/file/2d6cc4b2d139a53512fb8cbb3086ae2e-Paper.pdf,Dynamical segmentation of single trials from population neural data,"Biljana Petreska, Byron M. Yu, John P. Cunningham, Gopal Santhanam, Stephen Ryu, Krishna V. Shenoy, Maneesh Sahani",
+neurips,https://proceedings.neurips.cc/paper/2011/file/2f37d10131f2a483a8dd005b3d14b0d9-Paper.pdf,Approximating Semidefinite Programs in Sublinear Time,"Dan Garber, Elad Hazan",
+neurips,https://proceedings.neurips.cc/paper/2011/file/303ed4c69846ab36c2904d3ba8573050-Paper.pdf,Active Classification based on Value of Classifier,"Tianshi Gao, Daphne Koller",
+neurips,https://proceedings.neurips.cc/paper/2011/file/30bb3825e8f631cc6075c0f87bb4978c-Paper.pdf,Efficient Learning of Generalized Linear and Single Index Models with Isotonic Regression,"Sham M. Kakade, Varun Kanade, Ohad Shamir, Adam Kalai","Generalized Linear Models (GLMs) and Single Index Models (SIMs) provide powerful generalizations of linear regression, where the target variable is assumed to be a (possibly unknown) 1-dimensional function of a linear predictor. In general, these problems entail non-convex estimation procedures, and, in practice, iterative local search heuristics are often used. Kalai and Sastry (2009) provided the first provably efficient method, the \emph{Isotron} algorithm, for learning SIMs and GLMs, under the assumption that the data is in fact generated under a GLM and under certain monotonicity and Lipschitz (bounded slope) constraints. The Isotron algorithm interleaves steps of perceptron-like updates with isotonic regression (fitting a one-dimensional non-decreasing function). However, to obtain provable performance, the method requires a fresh sample every iteration. In this paper, we provide algorithms for learning GLMs and SIMs, which are both computationally and statistically efficient. We modify the isotonic regression step in Isotron to fit a Lipschitz monotonic function, and also provide an efficient
+O
+(
+n
+log
+(
+n
+)
+)
+O
+algorithm for this step, improving upon the previous
+O
+(
+n
+2
+)
+O
+algorithm. We provide a brief empirical study, demonstrating the feasibility of our algorithms in practice."
+neurips,https://proceedings.neurips.cc/paper/2011/file/31839b036f63806cba3f47b93af8ccb5-Paper.pdf,Co-regularized Multi-view Spectral Clustering,"Abhishek Kumar, Piyush Rai, Hal Daume",
+neurips,https://proceedings.neurips.cc/paper/2011/file/31857b449c407203749ae32dd0e7d64a-Paper.pdf,A concave regularization technique for sparse mixture models,"Martin Larsson, Johan Ugander",
+neurips,https://proceedings.neurips.cc/paper/2011/file/32bb90e8976aab5298d5da10fe66f21d-Paper.pdf,Image Parsing with Stochastic Scene Grammar,"Yibiao Zhao, Song-chun Zhu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3335881e06d4d23091389226225e17c7-Paper.pdf,Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection,"Richard Socher, Eric Huang, Jeffrey Pennin, Christopher D. Manning, Andrew Ng",
+neurips,https://proceedings.neurips.cc/paper/2011/file/33ceb07bf4eeb3da587e268d663aba1a-Paper.pdf,Trace Lasso: a trace norm regularization for correlated designs,"Edouard Grave, Guillaume R. Obozinski, Francis Bach","Using the
+ℓ
+1
+ℓ
+-norm to regularize the estimation of the parameter vector of a linear model leads to an unstable estimator when covariates are highly correlated. In this paper, we introduce a new penalty function which takes into account the correlation of the design matrix to stabilize the estimation. This norm, called the trace Lasso, uses the trace norm of the selected covariates, which is a convex surrogate of their rank, as the criterion of model complexity. We analyze the properties of our norm, describe an optimization algorithm based on reweighted least-squares, and illustrate the behavior of this norm on synthetic data, showing that it is more adapted to strong correlations than competing methods such as the elastic net."
+neurips,https://proceedings.neurips.cc/paper/2011/file/33ebd5b07dc7e407752fe773eed20635-Paper.pdf,Linear Submodular Bandits and their Application to Diversified Retrieval,"Yisong Yue, Carlos Guestrin",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3493894fa4ea036cfc6433c3e2ee63b0-Paper.pdf,Learning Eigenvectors for Free,"Wouter M. Koolen, Wojciech Kotlowski, Manfred K. K. Warmuth","We extend the classical problem of predicting a sequence of outcomes from a finite alphabet to the matrix domain. In this extension, the alphabet of
+n
+n
+outcomes is replaced by the set of all dyads, i.e. outer products
+\u
+\u
+⊤
+\u
+where
+\u
+\u
+is a vector in
+\R
+n
+\R
+of unit length. Whereas in the classical case the goal is to learn (i.e. sequentially predict as well as) the best multinomial distribution, in the matrix case we desire to learn the density matrix that best explains the observed sequence of dyads. We show how popular online algorithms for learning a multinomial distribution can be extended to learn density matrices. Intuitively, learning the
+n
+2
+n
+parameters of a density matrix is much harder than learning the
+n
+n
+parameters of a multinomial distribution. Completely surprisingly, we prove that the worst-case regrets of certain classical algorithms and their matrix generalizations are identical. The reason is that the worst-case sequence of dyads share a common eigensystem, i.e. the worst case regret is achieved in the classical case. So these matrix algorithms learn the eigenvectors without any regret."
+neurips,https://proceedings.neurips.cc/paper/2011/file/359f38463d487e9e29bd20e24f0c050a-Paper.pdf,Neural Reconstruction with Approximate Message Passing (NeuRAMP),"Alyson K. Fletcher, Sundeep Rangan, Lav R. Varshney, Aniruddha Bhargava",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3621f1454cacf995530ea53652ddf8fb-Paper.pdf,Bayesian Partitioning of Large-Scale Distance Data,"David Adametz, Volker Roth",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3644a684f98ea8fe223c713b77189a77-Paper.pdf,Dimensionality Reduction Using the Sparse Linear Model,"Ioannis Gkioulekas, Todd Zickler",
+neurips,https://proceedings.neurips.cc/paper/2011/file/37bc2f75bf1bcfe8450a1a41c200364c-Paper.pdf,RTRMC: A Riemannian trust-region method for low-rank matrix completion,"Nicolas Boumal, Pierre-antoine Absil",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3871bd64012152bfb53fdf04b401193f-Paper.pdf,Complexity of Inference in Latent Dirichlet Allocation,"David Sontag, Dan Roy",
+neurips,https://proceedings.neurips.cc/paper/2011/file/38db3aed920cf82ab059bfccbd02be6a-Paper.pdf,A Denoising View of Matrix Completion,"Weiran Wang, Miguel Carreira-Perpiñán, Zhengdong Lu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3a029f04d76d32e79367c4b3255dda4d-Paper.pdf,Generalization Bounds and Consistency for Latent Structural Probit and Ramp Loss,"Joseph Keshet, David McAllester",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3a066bda8c96b9478bb0512f0a43028c-Paper.pdf,Budgeted Optimization with Concurrent Stochastic-Duration Experiments,"Javad Azimi, Alan Fern, Xiaoli Fern",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3a0772443a0739141292a5429b952fe6-Paper.pdf,Data Skeletonization via Reeb Graphs,"Xiaoyin Ge, Issam Safa, Mikhail Belkin, Yusu Wang",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3a15c7d0bbe60300a39f76f8a5ba6896-Paper.pdf,MAP Inference for Bayesian Inverse Reinforcement Learning,"Jaedeug Choi, Kee-eung Kim",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3ce3bd7d63a2c9c81983cc8e9bd02ae5-Paper.pdf,Learning Sparse Representations of High Dimensional Data on Large Scale Dictionaries,"Zhen Xiang, Hao Xu, Peter J. Ramadge",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3cec07e9ba5f5bb252d13f5f431e4bbb-Paper.pdf,Efficient Online Learning via Randomized Rounding,"Nicolò Cesa-bianchi, Ohad Shamir",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3d8e28caf901313a554cebc7d32e67e5-Paper.pdf,Spatial distance dependent Chinese restaurant processes for image segmentation,"Soumya Ghosh, Andrei Ungureanu, Erik Sudderth, David Blei",
+neurips,https://proceedings.neurips.cc/paper/2011/file/3fe94a002317b5f9259f82690aeea4cd-Paper.pdf,History distribution matching method for predicting effectiveness of HIV combination therapies,Jasmina Bogojeska,
+neurips,https://proceedings.neurips.cc/paper/2011/file/40008b9a5380fcacce3976bf7c08af5b-Paper.pdf,Non-Asymptotic Analysis of Stochastic Approximation Algorithms for Machine Learning,"Eric Moulines, Francis Bach",
+neurips,https://proceedings.neurips.cc/paper/2011/file/4311359ed4969e8401880e3c1836fbe1-Paper.pdf,A Non-Parametric Approach to Dynamic Programming,"Oliver Kroemer, Jan Peters",
+neurips,https://proceedings.neurips.cc/paper/2011/file/45fbc6d3e05ebd93369ce542e8f2322d-Paper.pdf,Extracting Speaker-Specific Information with a Regularized Siamese Deep Network,"Ke Chen, Ahmad Salman",
+neurips,https://proceedings.neurips.cc/paper/2011/file/46072631582fc240dd2674a7d063b040-Paper.pdf,Variance Penalizing AdaBoost,"Pannagadatta Shivaswamy, Tony Jebara",
+neurips,https://proceedings.neurips.cc/paper/2011/file/4671aeaf49c792689533b00664a5c3ef-Paper.pdf,Autonomous Learning of Action Models for Planning,"Neville Mehta, Prasad Tadepalli, Alan Fern",
+neurips,https://proceedings.neurips.cc/paper/2011/file/489d0396e6826eb0c1e611d82ca8b215-Paper.pdf,Hierarchically Supervised Latent Dirichlet Allocation,"Adler Perotte, Frank Wood, Noemie Elhadad, Nicholas Bartlett",
+neurips,https://proceedings.neurips.cc/paper/2011/file/4b6538a44a1dfdc2b83477cd76dee98e-Paper.pdf,Agnostic Selective Classification,"Yair Wiener, Ran El-Yaniv","For a learning problem whose associated excess loss class is
+(
+β
+,
+B
+)
+(
+-Bernstein, we show that it is theoretically possible to track the same classification performance of the best (unknown) hypothesis in our class, provided that we are free to abstain from prediction in some region of our choice. The (probabilistic) volume of this rejected region of the domain is shown to be diminishing at rate
+O
+(
+B
+θ
+(
+√
+1
+/
+m
+)
+)
+β
+)
+O
+, where
+θ
+θ
+is Hanneke's disagreement coefficient. The strategy achieving this performance has computational barriers because it requires empirical error minimization in an agnostic setting. Nevertheless, we heuristically approximate this strategy and develop a novel selective classification algorithm using constrained SVMs. We show empirically that the resulting algorithm consistently outperforms the traditional rejection mechanism based on distance from decision boundary."
+neurips,https://proceedings.neurips.cc/paper/2011/file/4c5bde74a8f110656874902f07378009-Paper.pdf,Additive Gaussian Processes,"David K. Duvenaud, Hannes Nickisch, Carl Rasmussen",
+neurips,https://proceedings.neurips.cc/paper/2011/file/4edaa105d5f53590338791951e38c3ad-Paper.pdf,A Collaborative Mechanism for Crowdsourcing Prediction Problems,"Jacob D. Abernethy, Rafael Frongillo",
+neurips,https://proceedings.neurips.cc/paper/2011/file/4fac9ba115140ac4f1c22da82aa0bc7f-Paper.pdf,Sparse Bayesian Multi-Task Learning,"Shengbo Guo, Onno Zoeter, Cédric Archambeau",
+neurips,https://proceedings.neurips.cc/paper/2011/file/500e75a036dc2d7d2fec5da1b71d36cc-Paper.pdf,Orthogonal Matching Pursuit with Replacement,"Prateek Jain, Ambuj Tewari, Inderjit Dhillon",
+neurips,https://proceedings.neurips.cc/paper/2011/file/5055cbf43fac3f7e2336b27310f0b9ef-Paper.pdf,High-Dimensional Graphical Model Selection: Tractable Graph Families and Necessary Conditions,"Animashree Anandkumar, Vincent Tan, Alan Willsky",
+neurips,https://proceedings.neurips.cc/paper/2011/file/51ef186e18dc00c2d31982567235c559-Paper.pdf,Optimal learning rates for least squares SVMs using Gaussian kernels,"Mona Eberts, Ingo Steinwart",
+neurips,https://proceedings.neurips.cc/paper/2011/file/52c670999cdef4b09eb656850da777c4-Paper.pdf,Fast and Accurate k-means For Large Datasets,"Michael Shindler, Alex Wong, Adam Meyerson",
+neurips,https://proceedings.neurips.cc/paper/2011/file/53e3a7161e428b65688f14b84d61c610-Paper.pdf,Message-Passing for Approximate MAP Inference with Latent Variables,"Jiarong Jiang, Piyush Rai, Hal Daume",
+neurips,https://proceedings.neurips.cc/paper/2011/file/5487315b1286f907165907aa8fc96619-Paper.pdf,A More Powerful Two-Sample Test in High Dimensions using Random Projection,"Miles Lopes, Laurent Jacob, Martin J. Wainwright",
+neurips,https://proceedings.neurips.cc/paper/2011/file/54a367d629152b720749e187b3eaa11b-Paper.pdf,Kernel Bayes' Rule,"Kenji Fukumizu, Le Song, Arthur Gretton",
+neurips,https://proceedings.neurips.cc/paper/2011/file/556f391937dfd4398cbac35e050a2177-Paper.pdf,ShareBoost: Efficient multiclass learning with feature sharing,"Shai Shalev-shwartz, Yonatan Wexler, Amnon Shashua",
+neurips,https://proceedings.neurips.cc/paper/2011/file/577bcc914f9e55d5e4e4f82f9f00e7d4-Paper.pdf,Heavy-tailed Distances for Gradient Based Image Descriptors,"Yangqing Jia, Trevor Darrell",
+neurips,https://proceedings.neurips.cc/paper/2011/file/58c54802a9fb9526cd0923353a34a7ae-Paper.pdf,An Application of Tree-Structured Expectation Propagation for Channel Decoding,"Pablo Olmos, Luis Salamanca, Juan Fuentes, Fernando Pérez-Cruz",
+neurips,https://proceedings.neurips.cc/paper/2011/file/58e4d44e550d0f7ee0a23d6b02d9b0db-Paper.pdf,PAC-Bayesian Analysis of Contextual Bandits,"Yevgeny Seldin, Peter Auer, John Shawe-taylor, Ronald Ortner, François Laviolette","We derive an instantaneous (per-round) data-dependent regret bound for stochastic multiarmed bandits with side information (also known as contextual bandits). The scaling of our regret bound with the number of states (contexts)
+N
+N
+goes as
+√
+N
+I
+ρ
+t
+(
+S
+;
+A
+)
+N
+, where
+I
+ρ
+t
+(
+S
+;
+A
+)
+I
+is the mutual information between states and actions (the side information) used by the algorithm at round
+t
+t
+. If the algorithm uses all the side information, the regret bound scales as
+√
+N
+ln
+K
+N
+, where
+K
+K
+is the number of actions (arms). However, if the side information
+I
+ρ
+t
+(
+S
+;
+A
+)
+I
+is not fully used, the regret bound is significantly tighter. In the extreme case, when
+I
+ρ
+t
+(
+S
+;
+A
+)
+=
+0
+I
+, the dependence on the number of states reduces from linear to logarithmic. Our analysis allows to provide the algorithm large amount of side information, let the algorithm to decide which side information is relevant for the task, and penalize the algorithm only for the side information that it is using de facto. We also present an algorithm for multiarmed bandits with side information with computational complexity that is a linear in the number of actions."
+neurips,https://proceedings.neurips.cc/paper/2011/file/5a4b25aaed25c2ee1b74de72dc03c14e-Paper.pdf,Fast and Balanced: Efficient Label Tree Learning for Large Scale Object Recognition,"Jia Deng, Sanjeev Satheesh, Alexander Berg, Fei Li",
+neurips,https://proceedings.neurips.cc/paper/2011/file/5c04925674920eb58467fb52ce4ef728-Paper.pdf,Divide-and-Conquer Matrix Factorization,"Lester Mackey, Michael Jordan, Ameet Talwalkar",
+neurips,https://proceedings.neurips.cc/paper/2011/file/5c936263f3428a40227908d5a3847c0b-Paper.pdf,Non-conjugate Variational Message Passing for Multinomial and Binary Regression,"David Knowles, Tom Minka",
+neurips,https://proceedings.neurips.cc/paper/2011/file/5dd9db5e033da9c6fb5ba83c7a7ebea9-Paper.pdf,Im2Text: Describing Images Using 1 Million Captioned Photographs,"Vicente Ordonez, Girish Kulkarni, Tamara Berg",
+neurips,https://proceedings.neurips.cc/paper/2011/file/5e388103a391daabe3de1d76a6739ccd-Paper.pdf,Modelling Genetic Variations using Fragmentation-Coagulation Processes,"Yee Teh, Charles Blundell, Lloyd Elliott",
+neurips,https://proceedings.neurips.cc/paper/2011/file/5ec91aac30eae62f4140325d09b9afd0-Paper.pdf,Uniqueness of Belief Propagation on Signed Graphs,Yusuke Watanabe,
+neurips,https://proceedings.neurips.cc/paper/2011/file/5ef698cd9fe650923ea331c15af3b160-Paper.pdf,Improving Topic Coherence with Regularized Topic Models,"David Newman, Edwin V. Bonilla, Wray Buntine",
+neurips,https://proceedings.neurips.cc/paper/2011/file/5f2c22cb4a5380af7ca75622a6426917-Paper.pdf,Beating SGD: Learning SVMs in Sublinear Time,"Elad Hazan, Tomer Koren, Nati Srebro",
+neurips,https://proceedings.neurips.cc/paper/2011/file/602d1305678a8d5fdb372271e980da6a-Paper.pdf,Inferring spike-timing-dependent plasticity from spike train data,"Ian Stevenson, Konrad Koerding",
+neurips,https://proceedings.neurips.cc/paper/2011/file/6395ebd0f4b478145ecfbaf939454fa4-Paper.pdf,Bayesian Spike-Triggered Covariance Analysis,"Il Memming Park, Jonathan Pillow",
+neurips,https://proceedings.neurips.cc/paper/2011/file/64223ccf70bbb65a3a4aceac37e21016-Paper.pdf,Adaptive Hedge,"Tim Erven, Wouter M. Koolen, Steven Rooij, Peter Grünwald",
+neurips,https://proceedings.neurips.cc/paper/2011/file/65a99bb7a3115fdede20da98b08a370f-Paper.pdf,Matrix Completion for Multi-label Image Classification,"Ricardo Cabral, Fernando Torre, Joao P. Costeira, Alexandre Bernardino",
+neurips,https://proceedings.neurips.cc/paper/2011/file/674bfc5f6b72706fb769f5e93667bd23-Paper.pdf,Continuous-Time Regression Models for Longitudinal Networks,"Duy Vu, David Hunter, Padhraic Smyth, Arthur Asuncion",
+neurips,https://proceedings.neurips.cc/paper/2011/file/67e103b0761e60683e83c559be18d40c-Paper.pdf,Stochastic convex optimization with bandit feedback,"Alekh Agarwal, Dean P. Foster, Daniel J. Hsu, Sham M. Kakade, Alexander Rakhlin","This paper addresses the problem of minimizing a convex, Lipschitz function
+f
+f
+over a convex, compact set
+X
+X
+under a stochastic bandit feedback model. In this model, the algorithm is allowed to observe noisy realizations of the function value
+f
+(
+x
+)
+f
+at any query point
+x
+∈
+X
+x
+. We demonstrate a generalization of the ellipsoid algorithm that incurs
+O
+(
+\poly
+(
+d
+)
+√
+T
+)
+O
+regret. Since any algorithm has regret at least
+Ω
+(
+√
+T
+)
+Ω
+on this problem, our algorithm is optimal in terms of the scaling with
+T
+T
+."
+neurips,https://proceedings.neurips.cc/paper/2011/file/692f93be8c7a41525c0baf2076aecfb4-Paper.pdf,"Online Learning: Stochastic, Constrained, and Smoothed Adversaries","Alexander Rakhlin, Karthik Sridharan, Ambuj Tewari",
+neurips,https://proceedings.neurips.cc/paper/2011/file/69a5b5995110b36a9a347898d97a610e-Paper.pdf,Similarity-based Learning via Data Driven Embeddings,"Purushottam Kar, Prateek Jain",
+neurips,https://proceedings.neurips.cc/paper/2011/file/69adc1e107f7f7d035d7baf04342e1ca-Paper.pdf,Maximum Margin Multi-Label Structured Prediction,Christoph H. Lampert,
+neurips,https://proceedings.neurips.cc/paper/2011/file/6c14da109e294d1e8155be8aa4b1ce8e-Paper.pdf,Active Ranking using Pairwise Comparisons,"Kevin G. Jamieson, Robert Nowak","This paper examines the problem of ranking a collection of objects using pairwise comparisons (rankings of two objects). In general, the ranking of
+n
+n
+objects can be identified by standard sorting methods using
+n
+log
+2
+n
+n
+pairwise comparisons. We are interested in natural situations in which relationships among the objects may allow for ranking using far fewer pairwise comparisons. {Specifically, we assume that the objects can be embedded into a
+d
+d
+-dimensional Euclidean space and that the rankings reflect their relative distances from a common reference point in
+\R
+d
+\R
+. We show that under this assumption the number of possible rankings grows like
+n
+2
+d
+n
+and demonstrate an algorithm that can identify a randomly selected ranking using just slightly more than
+d
+log
+n
+d
+adaptively selected pairwise comparisons, on average.} If instead the comparisons are chosen at random, then almost all pairwise comparisons must be made in order to identify any ranking. In addition, we propose a robust, error-tolerant algorithm that only requires that the pairwise comparisons are probably correct. Experimental studies with synthetic and real datasets support the conclusions of our theoretical analysis."
+neurips,https://proceedings.neurips.cc/paper/2011/file/6c1da886822c67822bcf3679d04369fa-Paper.pdf,Selecting Receptive Fields in Deep Networks,"Adam Coates, Andrew Ng",
+neurips,https://proceedings.neurips.cc/paper/2011/file/6c3cf77d52820cd0fe646d38bc2145ca-Paper.pdf,Learning Auto-regressive Models from Sequence and Non-sequence Data,"Tzu-kuo Huang, Jeff Schneider",
+neurips,https://proceedings.neurips.cc/paper/2011/file/6c4b761a28b734fe93831e3fb400ce87-Paper.pdf,Multi-View Learning of Word Embeddings via CCA,"Paramveer Dhillon, Dean P. Foster, Lyle Ungar",
+neurips,https://proceedings.neurips.cc/paper/2011/file/6c524f9d5d7027454a783c841250ba71-Paper.pdf,Projection onto A Nonnegative Max-Heap,"Jun Liu, Liang Sun, Jieping Ye","We consider the problem of computing the Euclidean projection of a vector of length
+p
+p
+onto a non-negative max-heap---an ordered tree where the values of the nodes are all nonnegative and the value of any parent node is no less than the value(s) of its child node(s). This Euclidean projection plays a building block role in the optimization problem with a non-negative max-heap constraint. Such a constraint is desirable when the features follow an ordered tree structure, that is, a given feature is selected for the given regression/classification task only if its parent node is selected. In this paper, we show that such Euclidean projection problem admits an analytical solution and we develop a top-down algorithm where the key operation is to find the so-called \emph{maximal root-tree} of the subtree rooted at each node. A naive approach for finding the maximal root-tree is to enumerate all the possible root-trees, which, however, does not scale well. We reveal several important properties of the maximal root-tree, based on which we design a bottom-up algorithm with merge for efficiently finding the maximal root-tree. The proposed algorithm has a (worst-case) linear time complexity for a sequential list, and
+O
+(
+p
+2
+)
+O
+for a general tree. We report simulation results showing the effectiveness of the max-heap for regression with an ordered tree structure. Empirical results show that the proposed algorithm has an expected linear time complexity for many special cases including a sequential list, a full binary tree, and a tree with depth 1."
+neurips,https://proceedings.neurips.cc/paper/2011/file/6e7d2da6d3953058db75714ac400b584-Paper.pdf,Learning to Learn with Compound HD Models,"Antonio Torralba, Joshua Tenenbaum, Russ R. Salakhutdinov",
+neurips,https://proceedings.neurips.cc/paper/2011/file/6faa8040da20ef399b63a72d0e4ab575-Paper.pdf,Object Detection with Grammar Models,"Ross Girshick, Pedro Felzenszwalb, David McAllester",
+neurips,https://proceedings.neurips.cc/paper/2011/file/705f2172834666788607efbfca35afb3-Paper.pdf,Inductive reasoning about chimeric creatures,Charles Kemp,
+neurips,https://proceedings.neurips.cc/paper/2011/file/7143d7fbadfa4693b9eec507d9d37443-Paper.pdf,Empirical models of spiking in neural populations,"Jakob H. Macke, Lars Buesing, John P. Cunningham, Byron M. Yu, Krishna V. Shenoy, Maneesh Sahani",
+neurips,https://proceedings.neurips.cc/paper/2011/file/71ad16ad2c4d81f348082ff6c4b20768-Paper.pdf,An Exact Algorithm for F-Measure Maximization,"Krzysztof Dembczynski, Willem Waegeman, Weiwei Cheng, Eyke Hüllermeier",
+neurips,https://proceedings.neurips.cc/paper/2011/file/729c68884bd359ade15d5f163166738a-Paper.pdf,Exploiting spatial overlap to efficiently compute appearance distances between image windows,"Bogdan Alexe, Viviana Petrescu, Vittorio Ferrari",
+neurips,https://proceedings.neurips.cc/paper/2011/file/74071a673307ca7459bcf75fbd024e09-Paper.pdf,Signal Estimation Under Random Time-Warpings and Nonlinear Signal Alignment,"Sebastian Kurtek, Anuj Srivastava, Wei Wu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/7634ea65a4e6d9041cfd3f7de18e334a-Paper.pdf,Multi-armed bandits on implicit metric spaces,Aleksandrs Slivkins,
+neurips,https://proceedings.neurips.cc/paper/2011/file/78b9cab19959e4af8ff46156ee460c74-Paper.pdf,Predicting response time and error rates in visual search,"Bo Chen, Vidhya Navalpakkam, Pietro Perona",
+neurips,https://proceedings.neurips.cc/paper/2011/file/795c7a7a5ec6b460ec00c5841019b9e9-Paper.pdf,Sequence learning with hidden units in spiking neural networks,"Johanni Brea, Walter Senn, Jean-pascal Pfister",
+neurips,https://proceedings.neurips.cc/paper/2011/file/79a49b3e3762632813f9e35f4ba53d6c-Paper.pdf,Convergent Fitted Value Iteration with Linear Function Approximation,Daniel Lizotte,
+neurips,https://proceedings.neurips.cc/paper/2011/file/7b13b2203029ed80337f27127a9f1d28-Paper.pdf,Learning in Hilbert vs. Banach Spaces: A Measure Embedding Viewpoint,"Kenji Fukumizu, Gert Lanckriet, Bharath K. Sriperumbudur",
+neurips,https://proceedings.neurips.cc/paper/2011/file/7c9d0b1f96aebd7b5eca8c3edaa19ebb-Paper.pdf,Predicting Dynamic Difficulty,"Olana Missura, Thomas Gärtner","Motivated by applications in electronic games as well as teaching systems, we investigate the problem of dynamic difficulty adjustment. The task here is to repeatedly find a game difficulty setting that is neither
+→
+o
+e
+a
+s
+y
+'
+and
+b
+or
+e
+s
+t
+h
+e
+p
+l
+a
+y
+e
+r
+,
+n
+or
+→
+too difficult' and overburdens the player. The contributions of this paper are (
+i
+i
+) formulation of difficulty adjustment as an online learning problem on partially ordered sets, (
+i
+i
+i
+) an exponential update algorithm for dynamic difficulty adjustment, (
+i
+i
+i
+i
+) a bound on the number of wrong difficulty settings relative to the best static setting chosen in hindsight, and (
+i
+v
+i
+) an empirical investigation of the algorithm when playing against adversaries."
+neurips,https://proceedings.neurips.cc/paper/2011/file/7e889fb76e0e07c11733550f2a6c7a5a-Paper.pdf,Optimistic Optimization of a Deterministic Function without the Knowledge of its Smoothness,Rémi Munos,
+neurips,https://proceedings.neurips.cc/paper/2011/file/7eabe3a1649ffa2b3ff8c02ebfd5659f-Paper.pdf,Robust Multi-Class Gaussian Process Classification,"Daniel Hernández-lobato, Jose Hernández-lobato, Pierre Dupont",
+neurips,https://proceedings.neurips.cc/paper/2011/file/7eb3c8be3d411e8ebfab08eba5f49632-Paper.pdf,Practical Variational Inference for Neural Networks,Alex Graves,
+neurips,https://proceedings.neurips.cc/paper/2011/file/7f39f8317fbdb1988ef4c628eba02591-Paper.pdf,Penalty Decomposition Methods for Rank Minimization,"Yong Zhang, Zhaosong Lu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/7fb8ceb3bd59c7956b1df66729296a4c-Paper.pdf,Accelerated Adaptive Markov Chain for Partition Function Computation,"Stefano Ermon, Carla P. Gomes, Ashish Sabharwal, Bart Selman",
+neurips,https://proceedings.neurips.cc/paper/2011/file/812b4ba287f5ee0bc9d43bbf5bbe87fb-Paper.pdf,On Strategy Stitching in Large Extensive Form Multiplayer Games,"Richard Gibson, Duane Szafron",
+neurips,https://proceedings.neurips.cc/paper/2011/file/81448138f5f163ccdba4acc69819f280-Paper.pdf,Active Learning Ranking from Pairwise Preferences with Almost Optimal Query Complexity,Nir Ailon,"Given a set
+V
+V
+of
+n
+n
+elements we wish to linearly order them using pairwise preference labels which may be non-transitive (due to irrationality or arbitrary noise). The goal is to linearly order the elements while disagreeing with as few pairwise preference labels as possible. Our performance is measured by two parameters: The number of disagreements (loss) and the query complexity (number of pairwise preference labels). Our algorithm adaptively queries at most
+O
+(
+n
+\poly
+(
+log
+n
+,
+\eps
+−
+1
+)
+)
+O
+preference labels for a regret of
+\eps
+\eps
+times the optimal loss. This is strictly better, and often significantly better than what non-adaptive sampling could achieve. Our main result helps settle an open problem posed by learning-to-rank (from pairwise information) theoreticians and practitioners: What is a provably correct way to sample preference labels?"
+neurips,https://proceedings.neurips.cc/paper/2011/file/81dc9bdb52d04dc20036dbd8313ed055-Paper.pdf,Nonnegative dictionary learning in the exponential noise model for adaptive music signal representation,"Onur Dikmen, Cédric Févotte",
+neurips,https://proceedings.neurips.cc/paper/2011/file/82489c9737cc245530c7a6ebef3753ec-Paper.pdf,From Stochastic Nonlinear Integrate-and-Fire to Generalized Linear Models,"Skander Mensi, Richard Naud, Wulfram Gerstner",
+neurips,https://proceedings.neurips.cc/paper/2011/file/82c2559140b95ccda9c6ca4a8b981f1e-Paper.pdf,Generalised Coupled Tensor Factorisation,"Kenan Yılmaz, Ali Cemgil, Umut Simsekli","We derive algorithms for generalised tensor factorisation (GTF) by building upon the well-established theory of Generalised Linear Models. Our algorithms are general in the sense that we can compute arbitrary factorisations in a message passing framework, derived for a broad class of exponential family distributions including special cases such as Tweedie's distributions corresponding to
+β
+β
+-divergences. By bounding the step size of the Fisher Scoring iteration of the GLM, we obtain general updates for real data and multiplicative updates for non-negative data. The GTF framework is, then extended easily to address the problems when multiple observed tensors are factorised simultaneously. We illustrate our coupled factorisation approach on synthetic data as well as on a musical audio restoration problem."
+neurips,https://proceedings.neurips.cc/paper/2011/file/83f97f4825290be4cb794ec6a234595f-Paper.pdf,Prismatic Algorithm for Discrete D.C. Programming Problem,"Yoshinobu Kawahara, Takashi Washio",
+neurips,https://proceedings.neurips.cc/paper/2011/file/846c260d715e5b854ffad5f70a516c88-Paper.pdf,On the Completeness of First-Order Knowledge Compilation for Lifted Probabilistic Inference,Guy Broeck,
+neurips,https://proceedings.neurips.cc/paper/2011/file/85d8ce590ad8981ca2c8286f79f59954-Paper.pdf,Analysis and Improvement of Policy Gradient Estimation,"Tingting Zhao, Hirotaka Hachiya, Gang Niu, Masashi Sugiyama",
+neurips,https://proceedings.neurips.cc/paper/2011/file/861dc9bd7f4e7dd3cccd534d0ae2a2e9-Paper.pdf,On Tracking The Partition Function,"Guillaume Desjardins, Yoshua Bengio, Aaron C. Courville","Markov Random Fields (MRFs) have proven very powerful both as density estimators and feature extractors for classification. However, their use is often limited by an inability to estimate the partition function
+Z
+Z
+. In this paper, we exploit the gradient descent training procedure of restricted Boltzmann machines (a type of MRF) to {\bf track} the log partition function during learning. Our method relies on two distinct sources of information: (1) estimating the change
+Δ
+Z
+Δ
+incurred by each gradient update, (2) estimating the difference in
+Z
+Z
+over a small set of tempered distributions using bridge sampling. The two sources of information are then combined using an inference procedure similar to Kalman filtering. Learning MRFs through Tempered Stochastic Maximum Likelihood, we can estimate
+Z
+Z
+using no more temperatures than are required for learning. Comparing to both exact values and estimates using annealed importance sampling (AIS), we show on several datasets that our method is able to accurately track the log partition function. In contrast to AIS, our method provides this estimate at each time-step, at a computational cost similar to that required for training alone."
+neurips,https://proceedings.neurips.cc/paper/2011/file/86b122d4358357d834a87ce618a55de0-Paper.pdf,Portmanteau Vocabularies for Multi-Cue Image Representation,"Fahad Khan, Joost Weijer, Andrew Bagdanov, Maria Vanrell",
+neurips,https://proceedings.neurips.cc/paper/2011/file/86e8f7ab32cfd12577bc2619bc635690-Paper.pdf,Algorithms for Hyper-Parameter Optimization,"James Bergstra, Rémi Bardenet, Yoshua Bengio, Balázs Kégl",
+neurips,https://proceedings.neurips.cc/paper/2011/file/872488f88d1b2db54d55bc8bba2fad1b-Paper.pdf,Finite Time Analysis of Stratified Sampling for Monte Carlo,"Alexandra Carpentier, Rémi Munos",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8757150decbd89b0f5442ca3db4d0e0e-Paper.pdf,"Online Submodular Set Cover, Ranking, and Repeated Active Learning","Andrew Guillory, Jeff A. Bilmes",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8b5040a8a5baf3e0e67386c2e3a9b903-Paper.pdf,The Fast Convergence of Boosting,Matus Telgarsky,
+neurips,https://proceedings.neurips.cc/paper/2011/file/8b6dd7db9af49e67306feb59a8bdc52c-Paper.pdf,See the Tree Through the Lines: The Shazoo Algorithm,"Fabio Vitale, Nicolò Cesa-bianchi, Claudio Gentile, Giovanni Zappella",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8c235f89a8143a28a1d6067e959dd858-Paper.pdf,t-divergence Based Approximate Inference,"Nan Ding, Yuan Qi, S.v.n. Vishwanathan",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8c6744c9d42ec2cb9e8885b54ff744d0-Paper.pdf,Boosting with Maximum Adaptive Sampling,"Charles Dubout, Francois Fleuret",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8c7bbbba95c1025975e548cee86dfadc-Paper.pdf,Inverting Grice's Maxims to Learn Rules from Natural Language Extractions,"Mohammad Sorower, Janardhan Doppa, Walker Orr, Prasad Tadepalli, Thomas Dietterich, Xiaoli Fern",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8dd48d6a2e2cad213179a3992c0be53c-Paper.pdf,Efficient anomaly detection using bipartite k-NN graphs,"Kumar Sricharan, Alfred Hero",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8e6b42f1644ecb1327dc03ab345e618b-Paper.pdf,Shallow vs. Deep Sum-Product Networks,"Olivier Delalleau, Yoshua Bengio",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8e98d81f8217304975ccb23337bb5761-Paper.pdf,Expressive Power and Approximation Errors of Restricted Boltzmann Machines,"Guido F. Montufar, Johannes Rauh, Nihat Ay",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8ebda540cbcc4d7336496819a46a1b68-Paper.pdf,Directed Graph Embedding: an Algorithm based on Continuous Limits of Laplacian-type Operators,"Dominique Perrault-joncas, Marina Meila",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8eefcfdf5990e441f0fb6f3fad709e21-Paper.pdf,Information Rates and Optimal Decoding in Large Neural Populations,"Kamiar Rad, Liam Paninski",
+neurips,https://proceedings.neurips.cc/paper/2011/file/8f7d807e1f53eff5f9efbe5cb81090fb-Paper.pdf,Convergence Rates of Inexact Proximal-Gradient Methods for Convex Optimization,"Mark Schmidt, Nicolas Roux, Francis Bach",
+neurips,https://proceedings.neurips.cc/paper/2011/file/93fb9d4b16aa750c7475b6d601c35c2c-Paper.pdf,Co-Training for Domain Adaptation,"Minmin Chen, Kilian Q. Weinberger, John Blitzer",
+neurips,https://proceedings.neurips.cc/paper/2011/file/941e1aaaba585b952b62c14a3a175a61-Paper.pdf,Learning to Agglomerate Superpixel Hierarchies,"Viren Jain, Srinivas C. Turaga, K Briggman, Moritz Helmstaedter, Winfried Denk, H. Seung",
+neurips,https://proceedings.neurips.cc/paper/2011/file/959a557f5f6beb411fd954f3f34b21c3-Paper.pdf,Structured Learning for Cell Tracking,"Xinghua Lou, Fred A. Hamprecht",
+neurips,https://proceedings.neurips.cc/paper/2011/file/96b9bff013acedfb1d140579e2fbeb63-Paper.pdf,Hierarchical Topic Modeling for Analysis of Time-Evolving Personal Choices,"Xianxing Zhang, Lawrence Carin, David Dunson",
+neurips,https://proceedings.neurips.cc/paper/2011/file/970af30e481057c48f87e101b61e6994-Paper.pdf,Selecting the State-Representation in Reinforcement Learning,"Odalric-ambrym Maillard, Daniil Ryabko, Rémi Munos",
+neurips,https://proceedings.neurips.cc/paper/2011/file/9778d5d219c5080b9a6a17bef029331c-Paper.pdf,A Reinforcement Learning Theory for Homeostatic Regulation,"Mehdi Keramati, Boris Gutkin",
+neurips,https://proceedings.neurips.cc/paper/2011/file/9872ed9fc22fc182d371c3e9ed316094-Paper.pdf,Semantic Labeling of 3D Point Clouds for Indoor Scenes,"Hema Koppula, Abhishek Anand, Thorsten Joachims, Ashutosh Saxena",
+neurips,https://proceedings.neurips.cc/paper/2011/file/98d6f58ab0dafbb86b083a001561bb34-Paper.pdf,Higher-Order Correlation Clustering for Image Segmentation,"Sungwoong Kim, Sebastian Nowozin, Pushmeet Kohli, Chang Yoo",
+neurips,https://proceedings.neurips.cc/paper/2011/file/98dce83da57b0395e163467c9dae521b-Paper.pdf,Learning large-margin halfspaces with more malicious noise,"Phil Long, Rocco Servedio",
+neurips,https://proceedings.neurips.cc/paper/2011/file/996009f2374006606f4c0b0fda878af1-Paper.pdf,The Local Rademacher Complexity of Lp-Norm Multiple Kernel Learning,"Marius Kloft, Gilles Blanchard","We derive an upper bound on the local Rademacher complexity of Lp-norm multiple kernel learning, which yields a tighter excess risk bound than global approaches. Previous local approaches analyzed the case p=1 only while our analysis covers all cases
+1
+≤
+p
+≤
+∞
+1
+, assuming the different feature mappings corresponding to the different kernels to be uncorrelated. We also show a lower bound that shows that the bound is tight, and derive consequences regarding excess loss, namely fast convergence rates of the order
+O
+(
+n
+−
+α
+1
++
+α
+)
+O
+, where
+α
+α
+is the minimum eigenvalue decay rate of the individual kernels."
+neurips,https://proceedings.neurips.cc/paper/2011/file/9b8619251a19057cff70779273e95aa6-Paper.pdf,A Global Structural EM Algorithm for a Model of Cancer Progression,"Ali Tofigh, Erik Sj̦lund, Mattias H̦glund, Jens Lagergren",
+neurips,https://proceedings.neurips.cc/paper/2011/file/9f53d83ec0691550f7d2507d57f4f5a2-Paper.pdf,Infinite Latent SVM for Classification and Multi-task Learning,"Jun Zhu, Ning Chen, Eric Xing",
+neurips,https://proceedings.neurips.cc/paper/2011/file/a1d0c6e83f027327d8461063f4ac58a6-Paper.pdf,On U-processes and clustering performance,Stéphan Clémençcon,
+neurips,https://proceedings.neurips.cc/paper/2011/file/a2137a2ae8e39b5002a3f8909ecb88fe-Paper.pdf,Robust Lasso with missing and grossly corrupted observations,"Nasser Nasrabadi, Trac Tran, Nam Nguyen","This paper studies the problem of accurately recovering a sparse vector
+β
+⋆
+β
+from highly corrupted linear measurements
+y
+=
+X
+β
+⋆
++
+e
+⋆
++
+w
+y
+where
+e
+⋆
+e
+is a sparse error vector whose nonzero entries may be unbounded and
+w
+w
+is a bounded noise. We propose a so-called extended Lasso optimization which takes into consideration sparse prior information of both
+β
+⋆
+β
+and
+e
+⋆
+e
+. Our first result shows that the extended Lasso can faithfully recover both the regression and the corruption vectors. Our analysis is relied on a notion of extended restricted eigenvalue for the design matrix
+X
+X
+. Our second set of results applies to a general class of Gaussian design matrix
+X
+X
+with i.i.d rows
+\oper
+N
+(
+0
+,
+Σ
+)
+\oper
+, for which we provide a surprising phenomenon: the extended Lasso can recover exact signed supports of both
+β
+⋆
+β
+and
+e
+⋆
+e
+from only
+Ω
+(
+k
+log
+p
+log
+n
+)
+Ω
+observations, even the fraction of corruption is arbitrarily close to one. Our analysis also shows that this amount of observations required to achieve exact signed support is optimal."
+neurips,https://proceedings.neurips.cc/paper/2011/file/a3f390d88e4c41f2747bfa2f1b5f87db-Paper.pdf,Unifying Non-Maximum Likelihood Learning Objectives with Minimum KL Contraction,Siwei Lyu,
+neurips,https://proceedings.neurips.cc/paper/2011/file/a424ed4bd3a7d6aea720b86d4a360f75-Paper.pdf,Select and Sample - A Model of Efficient Neural Inference and Learning,"Jacquelyn Shelton, Abdul Sheikh, Pietro Berkes, Joerg Bornschein, Jörg Lücke",
+neurips,https://proceedings.neurips.cc/paper/2011/file/a516a87cfcaef229b342c437fe2b95f7-Paper.pdf,Clustered Multi-Task Learning Via Alternating Structure Optimization,"Jiayu Zhou, Jianhui Chen, Jieping Ye",
+neurips,https://proceedings.neurips.cc/paper/2011/file/a5e0ff62be0b08456fc7f1e88812af3d-Paper.pdf,On Learning Discrete Graphical Models using Greedy Methods,"Ali Jalali, Christopher Johnson, Pradeep Ravikumar",
+neurips,https://proceedings.neurips.cc/paper/2011/file/a67f096809415ca1c9f112d96d27689b-Paper.pdf,Learning person-object interactions for action recognition in still images,"Vincent Delaitre, Josef Sivic, Ivan Laptev",
+neurips,https://proceedings.neurips.cc/paper/2011/file/a732804c8566fc8f498947ea59a841f8-Paper.pdf,Efficient inference in matrix-variate Gaussian models with \iid observation noise,"Oliver Stegle, Christoph Lippert, Joris M. Mooij, Neil Lawrence, Karsten Borgwardt",
+neurips,https://proceedings.neurips.cc/paper/2011/file/a7d8ae4569120b5bec12e7b6e9648b86-Paper.pdf,Confidence Sets for Network Structure,"David Choi, Patrick Wolfe, Edo M. Airoldi",
+neurips,https://proceedings.neurips.cc/paper/2011/file/a89cf525e1d9f04d16ce31165e139a4b-Paper.pdf,Structural equations and divisive normalization for energy-dependent component analysis,"Jun-ichiro Hirayama, Aapo Hyvärinen",
+neurips,https://proceedings.neurips.cc/paper/2011/file/a8e864d04c95572d1aece099af852d0a-Paper.pdf,Gaussian Process Training with Input Noise,"Andrew Mchutchon, Carl Rasmussen",
+neurips,https://proceedings.neurips.cc/paper/2011/file/a8f8f60264024dca151f164729b76c0b-Paper.pdf,On the Universality of Online Mirror Descent,"Nati Srebro, Karthik Sridharan, Ambuj Tewari",
+neurips,https://proceedings.neurips.cc/paper/2011/file/aa169b49b583a2b5af89203c2b78c67c-Paper.pdf,Unifying Framework for Fast Learning Rate of Non-Sparse Multiple Kernel Learning,Taiji Suzuki,
+neurips,https://proceedings.neurips.cc/paper/2011/file/ab1a4d0dd4d48a2ba1077c4494791306-Paper.pdf,Speedy Q-Learning,"Mohammad Ghavamzadeh, Hilbert Kappen, Mohammad Azar, Rémi Munos",
+neurips,https://proceedings.neurips.cc/paper/2011/file/ab541d874c7bc19ab77642849e02b89f-Paper.pdf,High-dimensional regression with noisy and missing data: Provable guarantees with non-convexity,"Po-ling Loh, Martin J. Wainwright",
+neurips,https://proceedings.neurips.cc/paper/2011/file/aba3b6fd5d186d28e06ff97135cade7f-Paper.pdf,Greedy Model Averaging,"Dong Dai, Tong Zhang","This paper considers the problem of combining multiple models to achieve a prediction accuracy not much worse than that of the best single model for least squares regression. It is known that if the models are mis-specified, model averaging is superior to model selection. Specifically, let
+n
+n
+be the sample size, then the worst case regret of the former decays at the rate of
+O
+(
+1
+/
+n
+)
+O
+while the worst case regret of the latter decays at the rate of
+O
+(
+1
+/
+√
+n
+)
+O
+. In the literature, the most important and widely studied model averaging method that achieves the optimal
+O
+(
+1
+/
+n
+)
+O
+average regret is the exponential weighted model averaging (EWMA) algorithm. However this method suffers from several limitations. The purpose of this paper is to present a new greedy model averaging procedure that improves EWMA. We prove strong theoretical guarantees for the new procedure and illustrate our theoretical results with empirical examples."
+neurips,https://proceedings.neurips.cc/paper/2011/file/ac796a52db3f16bbdb6557d3d89d1c5a-Paper.pdf,Hierarchical Multitask Structured Output Learning for Large-scale Sequence Segmentation,"Nico Goernitz, Christian Widmer, Georg Zeller, Andre Kahles, Gunnar Rätsch, Sören Sonnenburg",
+neurips,https://proceedings.neurips.cc/paper/2011/file/ad972f10e0800b49d76fed33a21f6698-Paper.pdf,Generalized Beta Mixtures of Gaussians,"Artin Armagan, Merlise Clyde, David Dunson",
+neurips,https://proceedings.neurips.cc/paper/2011/file/af4732711661056eadbf798ba191272a-Paper.pdf,Variational Gaussian Process Dynamical Systems,"Andreas Damianou, Michalis Titsias, Neil Lawrence",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b24d516bb65a5a58079f0f3526c87c57-Paper.pdf,Statistical Tests for Optimization Efficiency,"Levi Boyles, Anoop Korattikara, Deva Ramanan, Max Welling",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b2eeb7362ef83deff5c7813a67e14f0a-Paper.pdf,Statistical Performance of Convex Tensor Decomposition,"Ryota Tomioka, Taiji Suzuki, Kohei Hayashi, Hisashi Kashima",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b337e84de8752b27eda3a12363109e80-Paper.pdf,A Machine Learning Approach to Predict Chemical Reactions,"Matthew Kayala, Pierre Baldi",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b3ba8f1bee1238a2f37603d90b58898d-Paper.pdf,Sparse Features for PCA-Like Linear Regression,"Christos Boutsidis, Petros Drineas, Malik Magdon-Ismail","Principal Components Analysis~(PCA) is often used as a feature extraction procedure. Given a matrix
+X
+∈
+R
+n
+×
+d
+X
+, whose rows represent
+n
+n
+data points with respect to
+d
+d
+features, the top
+k
+k
+right singular vectors of
+X
+X
+(the so-called \textit{eigenfeatures}), are arbitrary linear combinations of all available features. The eigenfeatures are very useful in data analysis, including the regularization of linear regression. Enforcing sparsity on the eigenfeatures, i.e., forcing them to be linear combinations of only a \textit{small} number of actual features (as opposed to all available features), can promote better generalization error and improve the interpretability of the eigenfeatures. We present deterministic and randomized algorithms that construct such sparse eigenfeatures while \emph{provably} achieving in-sample performance comparable to regularized linear regression. Our algorithms are relatively simple and practically efficient, and we demonstrate their performance on several data sets."
+neurips,https://proceedings.neurips.cc/paper/2011/file/b495ce63ede0f4efc9eec62cb947c162-Paper.pdf,Spike and Slab Variational Inference for Multi-Task and Multiple Kernel Learning,"Michalis Titsias, Miguel Lázaro-Gredilla",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b51a15f382ac914391a58850ab343b00-Paper.pdf,Neuronal Adaptation for Sampling-Based Probabilistic Inference in Perceptual Bistability,"David Reichert, Peggy Series, Amos J. Storkey",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b534ba68236ba543ae44b22bd110a1d6-Paper.pdf,Reinforcement Learning using Kernel-Based Stochastic Factorization,"Andre Barreto, Doina Precup, Joelle Pineau",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b55ec28c52d5f6205684a473a2193564-Paper.pdf,Better Mini-Batch Algorithms via Accelerated Gradient Methods,"Andrew Cotter, Ohad Shamir, Nati Srebro, Karthik Sridharan",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b571ecea16a9824023ee1af16897a582-Paper.pdf,Generalizing from Several Related Classification Tasks to a New Unlabeled Sample,"Gilles Blanchard, Gyemin Lee, Clayton Scott",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b6a1085a27ab7bff7550f8a3bd017df8-Paper.pdf,Energetically Optimal Action Potentials,"Martin Stemmler, Biswa Sengupta, Simon Laughlin, Jeremy Niven",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b73ce398c39f506af761d2277d853a92-Paper.pdf,Global Solution of Fully-Observed Variational Bayesian Matrix Factorization is Column-Wise Independent,"Shinichi Nakajima, Masashi Sugiyama, S. Babacan",
+neurips,https://proceedings.neurips.cc/paper/2011/file/b7ee6f5f9aa5cd17ca1aea43ce848496-Paper.pdf,Algorithms and hardness results for parallel large margin learning,"Phil Long, Rocco Servedio",
+neurips,https://proceedings.neurips.cc/paper/2011/file/bc6dc48b743dc5d013b1abaebd2faed2-Paper.pdf,Semi-supervised Regression via Parallel Field Regularization,"Binbin Lin, Chiyuan Zhang, Xiaofei He",
+neurips,https://proceedings.neurips.cc/paper/2011/file/bcbe3365e6ac95ea2c0343a2395834dd-Paper.pdf,Thinning Measurement Models and Questionnaire Design,Ricardo Silva,
+neurips,https://proceedings.neurips.cc/paper/2011/file/beda24c1e1b46055dff2c39c98fd6fc1-Paper.pdf,Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials,"Philipp Krähenbühl, Vladlen Koltun",
+neurips,https://proceedings.neurips.cc/paper/2011/file/beed13602b9b0e6ecb5b568ff5058f07-Paper.pdf,Simultaneous Sampling and Multi-Structure Fitting with Adaptive Reversible Jump MCMC,"Trung Pham, Tat-jun Chin, Jin Yu, David Suter",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c06d06da9666a219db15cf575aff2824-Paper.pdf,Active dendrites: adaptation to spike-based communication,"Balazs Ujfalussy, Máté Lengyel",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c20ad4d76fe97759aa27a0c99bff6710-Paper.pdf,Shaping Level Sets with Submodular Functions,Francis Bach,
+neurips,https://proceedings.neurips.cc/paper/2011/file/c3992e9a68c5ae12bd18488bc579b30d-Paper.pdf,Probabilistic amplitude and frequency demodulation,"Richard Turner, Maneesh Sahani",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c4851e8e264415c4094e4e85b0baa7cc-Paper.pdf,Multi-Bandit Best Arm Identification,"Victor Gabillon, Mohammad Ghavamzadeh, Alessandro Lazaric, Sébastien Bubeck",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c51ce410c124a10e0db5e4b97fc2af39-Paper.pdf,Nonlinear Inverse Reinforcement Learning with Gaussian Processes,"Sergey Levine, Zoran Popovic, Vladlen Koltun",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c5cc17e395d3049b03e0f1ccebb02b4d-Paper.pdf,EigenNet: A Bayesian hybrid of generative and conditional models for sparse learning,"Feng Yan, Yuan Qi",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c667d53acd899a97a85de0c201ba99be-Paper.pdf,Iterative Learning for Reliable Crowdsourcing Systems,"David Karger, Sewoong Oh, Devavrat Shah",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c6e19e830859f2cb9f7c8f8cacb8d2a6-Paper.pdf,Minimax Localization of Structural Information in Large Noisy Matrices,"Mladen Kolar, Sivaraman Balakrishnan, Alessandro Rinaldo, Aarti Singh",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c86a7ee3d8ef0b551ed58e354a836f2b-Paper.pdf,Crowdclustering,"Ryan Gomes, Peter Welinder, Andreas Krause, Pietro Perona",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c8c41c4a18675a74e01c8a20e8a0f662-Paper.pdf,Comparative Analysis of Viterbi Training and Maximum Likelihood Estimation for HMMs,"Armen Allahverdyan, Aram Galstyan",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c9e1074f5b3f9fc8ea15d152add07294-Paper.pdf,Environmental statistics and the trade-off between model-based and TD learning in humans,"Dylan Simon, Nathaniel Daw",
+neurips,https://proceedings.neurips.cc/paper/2011/file/c9f95a0a5af052bffce5c89917335f67-Paper.pdf,A Model for Temporal Dependencies in Event Streams,"Asela Gunawardana, Christopher Meek, Puyang Xu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/cedebb6e872f539bef8c3f919874e9d7-Paper.pdf,Inferring Interaction Networks using the IBP applied to microRNA Target Prediction,"Hai-son Le, Ziv Bar-joseph",
+neurips,https://proceedings.neurips.cc/paper/2011/file/cee631121c2ec9232f3a2f028ad5c89b-Paper.pdf,Learning unbelievable probabilities,"Zachary Pitkow, Yashar Ahmadian, Ken Miller",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d1f255a373a3cef72e03aa9d980c7eca-Paper.pdf,Relative Density-Ratio Estimation for Robust Distribution Comparison,"Makoto Yamada, Taiji Suzuki, Takafumi Kanamori, Hirotaka Hachiya, Masashi Sugiyama",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d1f44e2f09dc172978a4d3151d11d63e-Paper.pdf,The Manifold Tangent Classifier,"Salah Rifai, Yann N. Dauphin, Pascal Vincent, Yoshua Bengio, Xavier Muller",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d1f491a404d6854880943e5c3cd9ca25-Paper.pdf,Manifold Precis: An Annealing Technique for Diverse Sampling of Manifolds,"Nitesh Shroff, Pavan Turaga, Rama Chellappa",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d2ed45a52bc0edfa11c2064e9edee8bf-Paper.pdf,Facial Expression Transfer with Input-Output Temporal Restricted Boltzmann Machines,"Matthew Zeiler, Graham W. Taylor, Leonid Sigal, Iain Matthews, Rob Fergus",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d56b9fc4b0f1be8871f5e1c40c0067e7-Paper.pdf,Committing Bandits,"Loc Bui, Ramesh Johari, Shie Mannor","We consider a multi-armed bandit problem where there are two phases. The first phase is an experimentation phase where the decision maker is free to explore multiple options. In the second phase the decision maker has to commit to one of the arms and stick with it. Cost is incurred during both phases with a higher cost during the experimentation phase. We analyze the regret in this setup, and both propose algorithms and provide upper and lower bounds that depend on the ratio of the duration of the experimentation phase to the duration of the commitment phase. Our analysis reveals that if given the choice, it is optimal to experiment
+Θ
+(
+ln
+T
+)
+Θ
+steps and then commit, where
+T
+T
+is the time horizon."
+neurips,https://proceedings.neurips.cc/paper/2011/file/d5cfead94f5350c12c322b5b664544c1-Paper.pdf,Large-Scale Category Structure Aware Image Categorization,"Bin Zhao, Fei Li, Eric Xing",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d61e4bbd6393c9111e6526ea173a7c8b-Paper.pdf,On Causal Discovery with Cyclic Additive Noise Models,"Joris M. Mooij, Dominik Janzing, Tom Heskes, Bernhard Schölkopf",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d6723e7cd6735df68d1ce4c704c29a04-Paper.pdf,Sparse recovery by thresholded non-negative least squares,"Martin Slawski, Matthias Hein",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d709f38ef758b5066ef31b18039b8ce5-Paper.pdf,A Two-Stage Weighting Framework for Multi-Source Domain Adaptation,"Qian Sun, Rita Chattopadhyay, Sethuraman Panchanathan, Jieping Ye",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d736bb10d83a904aefc1d6ce93dc54b8-Paper.pdf,Variance Reduction in Monte-Carlo Tree Search,"Joel Veness, Marc Lanctot, Michael Bowling",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d79aac075930c83c2f1e369a511148fe-Paper.pdf,Advice Refinement in Knowledge-Based SVMs,"Gautam Kunapuli, Richard Maclin, Jude Shavlik",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d81f9c1be2e08964bf9f24b15f0e4900-Paper.pdf,On fast approximate submodular minimization,"Stefanie Jegelka, Hui Lin, Jeff A. Bilmes",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d947bf06a885db0d477d707121934ff8-Paper.pdf,Multiple Instance Filtering,"Kamil Wnuk, Stefano Soatto",
+neurips,https://proceedings.neurips.cc/paper/2011/file/d9731321ef4e063ebbee79298fa36f56-Paper.pdf,A reinterpretation of the policy oscillation phenomenon in approximate policy iteration,Paul Wagner,
+neurips,https://proceedings.neurips.cc/paper/2011/file/d9fc5b73a8d78fad3d6dffe419384e70-Paper.pdf,"θ
+θ
+-MRF: Capturing Spatial and Semantic Structure in the Parameters for Scene Understanding","Congcong Li, Ashutosh Saxena, Tsuhan Chen",
+neurips,https://proceedings.neurips.cc/paper/2011/file/daca41214b39c5dc66674d09081940f0-Paper.pdf,Maximum Covariance Unfolding : Manifold Learning for Bimodal Data,"Vijay Mahadevan, Chi Wong, Jose Pereira, Tom Liu, Nuno Vasconcelos, Lawrence Saul",
+neurips,https://proceedings.neurips.cc/paper/2011/file/dbe272bab69f8e13f14b405e038deb64-Paper.pdf,Noise Thresholds for Spectral Clustering,"Sivaraman Balakrishnan, Min Xu, Akshay Krishnamurthy, Aarti Singh",
+neurips,https://proceedings.neurips.cc/paper/2011/file/dc09c97fd73d7a324bdbfe7c79525f64-Paper.pdf,Kernel Embeddings of Latent Tree Graphical Models,"Le Song, Eric Xing, Ankur Parikh",
+neurips,https://proceedings.neurips.cc/paper/2011/file/dc58e3a306451c9d670adcd37004f48f-Paper.pdf,Learning a Distance Metric from a Network,"Blake Shaw, Bert Huang, Tony Jebara",
+neurips,https://proceedings.neurips.cc/paper/2011/file/dd458505749b2941217ddd59394240e8-Paper.pdf,Selective Prediction of Financial Trends with Hidden Markov Models,"Dmitry Pidan, Ran El-Yaniv",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e034fb6b66aacc1d48f445ddfb08da98-Paper.pdf,Blending Autonomous Exploration and Apprenticeship Learning,"Thomas Walsh, Daniel Hewlett, Clayton Morrison",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e0eacd983971634327ae1819ea8b6214-Paper.pdf,Transfer Learning by Borrowing Examples for Multiclass Object Detection,"Joseph J. Lim, Russ R. Salakhutdinov, Antonio Torralba",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e0ec453e28e061cc58ac43f91dc2f3f0-Paper.pdf,A blind sparse deconvolution method for neural spike identification,"Chaitanya Ekanadham, Daniel Tranchina, Eero Simoncelli",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e17184bcb70dcf3942c54e0b537ffc6d-Paper.pdf,Clustering via Dirichlet Process Mixture Models for Portable Skill Discovery,"Scott Niekum, Andrew Barto",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e19347e1c3ca0c0b97de5fb3b690855a-Paper.pdf,Unsupervised learning models of primary cortical receptive fields and receptive field plasticity,"Maneesh Bhand, Ritvik Mudur, Bipin Suresh, Andrew Saxe, Andrew Ng",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e1d5be1c7f2f456670de3d53c7b54f4a-Paper.pdf,Improved Algorithms for Linear Stochastic Bandits,"Yasin Abbasi-yadkori, Dávid Pál, Csaba Szepesvári",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e1e32e235eee1f970470a3a6658dfdd5-Paper.pdf,From Bandits to Experts: On the Value of Side-Observations,"Shie Mannor, Ohad Shamir",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e4a6222cdb5b34375400904f03d8e6a5-Paper.pdf,Optimal Reinforcement Learning for Gaussian Systems,Philipp Hennig,
+neurips,https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf,An Empirical Evaluation of Thompson Sampling,"Olivier Chapelle, Lihong Li",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e5e63da79fcd2bebbd7cb8bf1c1d0274-Paper.pdf,Efficient Offline Communication Policies for Factored Multiagent POMDPs,"João Messias, Matthijs Spaan, Pedro Lima",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e6b4b2a746ed40e1af829d1fa82daa10-Paper.pdf,Maximal Cliques that Satisfy Hard Constraints with Application to Deformable Object Model Learning,"Xinggang Wang, Xiang Bai, Xingwei Yang, Wenyu Liu, Longin Latecki",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e702e51da2c0f5be4dd354bb3e295d37-Paper.pdf,Quasi-Newton Methods for Markov Chain Monte Carlo,"Yichuan Zhang, Charles Sutton",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e816c635cad85a60fabd6b97b03cbcc9-Paper.pdf,Inference in continuous-time change-point models,"Florian Stimberg, Manfred Opper, Guido Sanguinetti, Andreas Ruttor",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e820a45f1dfc7b95282d10b6087e11c0-Paper.pdf,Universal low-rank matrix recovery from Pauli measurements,Yi-kai Liu,
+neurips,https://proceedings.neurips.cc/paper/2011/file/e836d813fd184325132fca8edcdfb40e-Paper.pdf,A Convergence Analysis of Log-Linear Training,"Simon Wiesler, Hermann Ney",
+neurips,https://proceedings.neurips.cc/paper/2011/file/e995f98d56967d946471af29d7bf99f1-Paper.pdf,On the accuracy of l1-filtering of signals with block-sparse structure,"Fatma Karzan, Arkadi S. Nemirovski, Boris Polyak, Anatoli Juditsky",
+neurips,https://proceedings.neurips.cc/paper/2011/file/eaae339c4d89fc102edd9dbdb6a28915-Paper.pdf,Group Anomaly Detection using Flexible Genre Models,"Liang Xiong, Barnabás Póczos, Jeff Schneider",
+neurips,https://proceedings.neurips.cc/paper/2011/file/eb86d510361fc23b59f18c1bc9802cc6-Paper.pdf,Randomized Algorithms for Comparison-based Search,"Dominique Tschopp, Suhas Diggavi, Payam Delgosha, Soheil Mohajer","This paper addresses the problem of finding the nearest neighbor (or one of the
+R
+R
+-nearest neighbors) of a query object
+q
+q
+in a database of
+n
+n
+objects, when we can only use a comparison oracle. The comparison oracle, given two reference objects and a query object, returns the reference object most similar to the query object. The main problem we study is how to search the database for the nearest neighbor (NN) of a query, while minimizing the questions. The difficulty of this problem depends on properties of the underlying database. We show the importance of a characterization: \emph{combinatorial disorder}
+D
+D
+which defines approximate triangle inequalities on ranks. We present a lower bound of
+Ω
+(
+D
+log
+n
+D
++
+D
+2
+)
+Ω
+average number of questions in the search phase for any randomized algorithm, which demonstrates the fundamental role of
+D
+D
+for worst case behavior. We develop a randomized scheme for NN retrieval in
+O
+(
+D
+3
+log
+2
+n
++
+D
+log
+2
+n
+log
+log
+n
+D
+3
+)
+O
+questions. The learning requires asking
+O
+(
+n
+D
+3
+log
+2
+n
++
+D
+log
+2
+n
+log
+log
+n
+D
+3
+)
+O
+questions and
+O
+(
+n
+log
+2
+n
+/
+log
+(
+2
+D
+)
+)
+O
+bits to store."
+neurips,https://proceedings.neurips.cc/paper/2011/file/ec5decca5ed3d6b8079e2e7e7bacc9f2-Paper.pdf,Multiple Instance Learning on Structured Data,"Dan Zhang, Yan Liu, Luo Si, Jian Zhang, Richard Lawrence",
+neurips,https://proceedings.neurips.cc/paper/2011/file/eddb904a6db773755d2857aacadb1cb0-Paper.pdf,Probabilistic Joint Image Segmentation and Labeling,"Adrian Ion, Joao Carreira, Cristian Sminchisescu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/eeb69a3cb92300456b6a5f4162093851-Paper.pdf,Learning to Search Efficiently in High Dimensions,"Zhen Li, Huazhong Ning, Liangliang Cao, Tong Zhang, Yihong Gong, Thomas S. Huang",
+neurips,https://proceedings.neurips.cc/paper/2011/file/eed5af6add95a9a6f1252739b1ad8c24-Paper.pdf,Learning a Tree of Metrics with Disjoint Visual Features,"Kristen Grauman, Fei Sha, Sung Hwang",
+neurips,https://proceedings.neurips.cc/paper/2011/file/eefc9e10ebdc4a2333b42b2dbb8f27b6-Paper.pdf,Monte Carlo Value Iteration with Macro-Actions,"Zhan Lim, Lee Sun, David Hsu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/effc299a1addb07e7089f9b269c31f2f-Paper.pdf,Non-parametric Group Orthogonal Matching Pursuit for Sparse Learning with Multiple Kernels,"Vikas Sindhwani, Aurelie C. Lozano",
+neurips,https://proceedings.neurips.cc/paper/2011/file/f0e52b27a7a5d6a1a87373dffa53dbe5-Paper.pdf,Distributed Delayed Stochastic Optimization,"Alekh Agarwal, John C. Duchi","We analyze the convergence of gradient-based optimization algorithms whose updates depend on delayed stochastic gradient information. The main application of our results is to the development of distributed minimization algorithms where a master node performs parameter updates while worker nodes compute stochastic gradients based on local information in parallel, which may give rise to delays due to asynchrony. Our main contribution is to show that for smooth stochastic problems, the delays are asymptotically negligible. In application to distributed optimization, we show
+n
+n
+-node architectures whose optimization error in stochastic problems---in spite of asynchronous delays---scales asymptotically as
+\order
+(
+1
+/
+√
+n
+T
+)
+\order
+, which is known to be optimal even in the absence of delays."
+neurips,https://proceedings.neurips.cc/paper/2011/file/f33ba15effa5c10e873bf3842afb46a6-Paper.pdf,An Unsupervised Decontamination Procedure For Improving The Reliability Of Human Judgments,"Michael C. Mozer, Benjamin Link, Harold Pashler",
+neurips,https://proceedings.neurips.cc/paper/2011/file/f3f1b7fc5a8779a9e618e1f23a7b7860-Paper.pdf,Contextual Gaussian Process Bandit Optimization,"Andreas Krause, Cheng Ong",
+neurips,https://proceedings.neurips.cc/paper/2011/file/f47330643ae134ca204bf6b2481fec47-Paper.pdf,Learning with the weighted trace-norm under arbitrary sampling distributions,"Rina Foygel, Ohad Shamir, Nati Srebro, Russ R. Salakhutdinov",
+neurips,https://proceedings.neurips.cc/paper/2011/file/f4a331b7a22d1b237565d8813a34d8ac-Paper.pdf,Demixed Principal Component Analysis,"Wieland Brendel, Ranulfo Romo, Christian K. Machens",
+neurips,https://proceedings.neurips.cc/paper/2011/file/f4be00279ee2e0a53eafdaa94a151e2c-Paper.pdf,Reconstructing Patterns of Information Diffusion from Incomplete Observations,"Flavio Chierichetti, David Liben-nowell, Jon Kleinberg",
+neurips,https://proceedings.neurips.cc/paper/2011/file/f718499c1c8cef6730f9fd03c8125cab-Paper.pdf,Differentially Private M-Estimators,Jing Lei,
+neurips,https://proceedings.neurips.cc/paper/2011/file/f73b76ce8949fe29bf2a537cfa420e8f-Paper.pdf,Target Neighbor Consistent Feature Weighting for Nearest Neighbor Classification,"Ichiro Takeuchi, Masashi Sugiyama",
+neurips,https://proceedings.neurips.cc/paper/2011/file/f8151fdd6026f82036ab63052b97505b-Paper.pdf,Hierarchical Matching Pursuit for Image Classification: Architecture and Fast Algorithms,"Liefeng Bo, Xiaofeng Ren, Dieter Fox",
+neurips,https://proceedings.neurips.cc/paper/2011/file/f85454e8279be180185cac7d243c5eb3-Paper.pdf,Solving Decision Problems with Limited Information,"Denis D. Maua, Cassio Campos","We present a new algorithm for exactly solving decision-making problems represented as an influence diagram. We do not require the usual assumptions of no forgetting and regularity, which allows us to solve problems with limited information. The algorithm, which implements a sophisticated variable elimination procedure, is empirically shown to outperform a state-of-the-art algorithm in randomly generated problems of up to 150 variables and
+10
+64
+10
+strategies."
+neurips,https://proceedings.neurips.cc/paper/2011/file/f9028faec74be6ec9b852b0a542e2f39-Paper.pdf,How Do Humans Teach: On Curriculum Learning and Teaching Dimension,"Faisal Khan, Bilge Mutlu, Jerry Zhu",
+neurips,https://proceedings.neurips.cc/paper/2011/file/f91e24dfe80012e2a7984afa4480a6d6-Paper.pdf,A rational model of causal inference with continuous causes,"Thomas Griffiths, Michael James",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fa3a3c407f82377f55c19c5d403335c7-Paper.pdf,Identifying Alzheimer's Disease-Related Brain Regions from Multi-Modality Neuroimaging Data using Sparse Composite Linear Discrimination Analysis,"Shuai Huang, Jing Li, Jieping Ye, Teresa Wu, Kewei Chen, Adam Fleisher, Eric Reiman",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fae0b27c451c728867a567e8c1bb4e53-Paper.pdf,Structured sparse coding via lateral inhibition,"Arthur Szlam, Karol Gregor, Yann Cun",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fb60d411a5c5b72b2e7d3527cfc84fd0-Paper.pdf,TD_gamma: Re-evaluating Complex Backups in Temporal Difference Learning,"George Konidaris, Scott Niekum, Philip S. Thomas",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fc221309746013ac554571fbd180e1c8-Paper.pdf,Estimating time-varying input signals and ion channel states from a single voltage trace of a neuron,"Ryota Kobayashi, Yasuhiro Tsubo, Petr Lansky, Shigeru Shinomoto",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fc3cf452d3da8402bebb765225ce8c0e-Paper.pdf,Joint 3D Estimation of Objects and Scene Layout,"Andreas Geiger, Christian Wojek, Raquel Urtasun",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fc490ca45c00b1249bbe3554a4fdf6fb-Paper.pdf,Sparse Manifold Clustering and Embedding,"Ehsan Elhamifar, René Vidal",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fc49306d97602c8ed1be1dfbf0835ead-Paper.pdf,Submodular Multi-Label Learning,"James Petterson, Tibério Caetano",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fc8001f834f6a5f0561080d134d53d29-Paper.pdf,Learning Probabilistic Non-Linear Latent Variable Models for Tracking Complex Activities,"Angela Yao, Juergen Gall, Luc V. Gool, Raquel Urtasun",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fccb3cdc9acc14a6e70a12f74560c026-Paper.pdf,Collective Graphical Models,"Daniel R. Sheldon, Thomas Dietterich",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fd2c5e4680d9a01dba3aada5ece22270-Paper.pdf,Sparse Estimation with Structured Dictionaries,David Wipf,"In the vast majority of recent work on sparse estimation algorithms, performance has been evaluated using ideal or quasi-ideal dictionaries (e.g., random Gaussian or Fourier) characterized by unit
+ℓ
+2
+ℓ
+norm, incoherent columns or features. But in reality, these types of dictionaries represent only a subset of the dictionaries that are actually used in practice (largely restricted to idealized compressive sensing applications). In contrast, herein sparse estimation is considered in the context of structured dictionaries possibly exhibiting high coherence between arbitrary groups of columns and/or rows. Sparse penalized regression models are analyzed with the purpose of finding, to the extent possible, regimes of dictionary invariant performance. In particular, a Type II Bayesian estimator with a dictionary-dependent sparsity penalty is shown to have a number of desirable invariance properties leading to provable advantages over more conventional penalties such as the
+ℓ
+1
+ℓ
+norm, especially in areas where existing theoretical recovery guarantees no longer hold. This can translate into improved performance in applications such as model selection with correlated features, source localization, and compressive sensing with constrained measurement directions."
+neurips,https://proceedings.neurips.cc/paper/2011/file/fde9264cf376fffe2ee4ddf4a988880d-Paper.pdf,Newtron: an Efficient Bandit algorithm for Online Multiclass Prediction,"Elad Hazan, Satyen Kale",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fe2d010308a6b3799a3d9c728ee74244-Paper.pdf,The Fixed Points of Off-Policy TD,J. Kolter,
+neurips,https://proceedings.neurips.cc/paper/2011/file/fe7ee8fc1959cc7214fa21c4840dff0a-Paper.pdf,Transfer from Multiple MDPs,"Alessandro Lazaric, Marcello Restelli",
+neurips,https://proceedings.neurips.cc/paper/2011/file/fe8c15fed5f808006ce95eddb7366e35-Paper.pdf,Pylon Model for Semantic Segmentation,"Victor Lempitsky, Andrea Vedaldi, Andrew Zisserman",
+neurips,https://proceedings.neurips.cc/paper/2011/file/feab05aa91085b7a8012516bc3533958-Paper.pdf,How biased are maximum entropy models?,"Jakob H. Macke, Iain Murray, Peter Latham",
+neurips,https://proceedings.neurips.cc/paper/2011/file/ff49cc40a8890e6a60f40ff3026d2730-Paper.pdf,Gaussian process modulated renewal processes,"Yee Teh, Vinayak Rao",
+neurips,https://proceedings.neurips.cc/paper/2011/file/ffd52f3c7e12435a724a8f30fddadd9c-Paper.pdf,An ideal observer model for identifying the reference frame of objects,"Joseph Austerweil, Abram L. Friesen, Thomas Griffiths","The object people perceive in an image can depend on its orientation relative to the scene it is in (its reference frame). For example, the images of the symbols
+×
+×
+and
++
++
+differ by a 45 degree rotation. Although real scenes have multiple images and reference frames, psychologists have focused on scenes with only one reference frame. We propose an ideal observer model based on nonparametric Bayesian statistics for inferring the number of reference frames in a scene and their parameters. When an ambiguous image could be assigned to two conflicting reference frames, the model predicts two factors should influence the reference frame inferred for the image: The image should be more likely to share the reference frame of the closer object ({\em proximity}) and it should be more likely to share the reference frame containing the most objects ({\em alignment}). We confirm people use both cues using a novel methodology that allows for easy testing of human reference frame inference."
+neurips,https://proceedings.neurips.cc/paper/2011/file/ffeabd223de0d4eacb9a3e6e53e5448d-Paper.pdf,Greedy Algorithms for Structurally Constrained High Dimensional Problems,"Ambuj Tewari, Pradeep Ravikumar, Inderjit Dhillon",
