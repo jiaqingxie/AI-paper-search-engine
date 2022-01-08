@@ -13,9 +13,18 @@ def parse():
 
 cur_path = path.dirname(path.abspath(__file__))
 
+neurips_url_list = [
+    # collect papers from 2010 - 2021
+    "https://proceedings.neurips.cc/paper/" + str(2021-i) for i in range(0, 12)
+]
+
 cvpr_url_list = [
 	# collect papers from 2013 - 2021
     "https://openaccess.thecvf.com/CVPR" + str(2021-i) for i in range(0, 9)
+]
+
+iccv_url_list = [
+    "https://openaccess.thecvf.com/ICCV" + str(2021-i) for i in range(0, 9, 2)
 ]
 
 icml_url_list = [
@@ -47,6 +56,7 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(options=option, executable_path=chromedriver_path)
     retreive = globals()['retrieve_from_' + args.conf]
     years = []
+    
     root = None
     if args.conf == 'cvpr':
         url_list = cvpr_url_list
@@ -54,7 +64,14 @@ if __name__ == "__main__":
     elif args.conf == 'icml':
         url_list = icml_url_list
         root = cur_path  + "//Papers//ICML"
+    elif args.conf == 'iccv':
+        url_list = iccv_url_list
+        root = cur_path  + "//Papers//ICCV"
+    elif args.conf == 'neurips':
+        url_list = neurips_url_list
+        root = cur_path  + "//Papers//NeurIPS"       
     os.makedirs(root, exist_ok=True)
+    
     year = 2021
     for conference_url in url_list:
         driver.get(conference_url)
@@ -69,4 +86,7 @@ if __name__ == "__main__":
                            'abstract': abslist
                            })
         df.to_csv('%s//%s_%s.csv' % (root, args.conf, year), index=False)
-        year -= 1
+        if args.conf != "iccv":
+            year -= 1
+        else:
+            year -= 2

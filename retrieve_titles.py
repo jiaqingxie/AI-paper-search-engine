@@ -7,24 +7,6 @@ chromedriver_path = cur_path + "/chromedriver"
 option = webdriver.ChromeOptions()
 option.add_argument("headless")
 
-# def retrieve_from_siggraph(driver):
-#     pdfurllist =  []
-#     pdfnamelist = []
-#     import time
-#     elementllist =  driver.find_elements_by_class_name('toc__section')[1:-2]
-#     for i, section in enumerate(elementllist):
-#         section.find_element_by_partial_link_text('SESSION').click()
-#         time.sleep(3)
-#         # print(session_name)
-#         for j, paper_element in enumerate(section.find_elements_by_class_name('issue-item__content')):
-#             paper_name = paper_element.find_element_by_xpath('div/h5').text
-#             pdf_url = paper_element.find_element_by_class_name('red').get_attribute('href')
-
-#             pdfnamelist.append(paper_name)
-#             pdfurllist.append(pdf_url)
-
-#     return pdfurllist, pdfnamelist
-
 
 def retrieve_from_siggraph(driver):
     pdfurllist = []
@@ -45,6 +27,7 @@ def retrieve_from_siggraph(driver):
     return pdfurllist, pdfnamelist
 
 
+#debug
 def retrieve_from_iclr(driver):
     pdfurllist = []
     pdfnamelist = []
@@ -60,16 +43,31 @@ def retrieve_from_iclr(driver):
     return pdfurllist, pdfnamelist
 
 
-def retrieve_from_iccv(driver):
+def retrieve_from_iccv(driver, year):
     pdfurllist = []
     pdfnamelist = []
+    autlist = []
+    abslist = []
+    y_to_d = {2019: 4, 2021: 2}
+    loo = 1 if year <= 2018 else y_to_d[year]
+    driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
+    for day in range(loo):
+        if year >= 2018:
+            driver.find_elements_by_xpath('//body/div[3]/dl/dd/a')[day].click()
+        title_element_list = driver.find_elements_by_class_name('ptitle')
+        url_element_list = driver.find_elements_by_partial_link_text('pdf')
+        for i, element in enumerate(url_element_list):
+            driver2.get(driver.find_element_by_link_text(title_element_list[i].text).get_attribute('href'))
+            rel_path = '//body/div[3]/dl/div[2]/b/i' if year == 2021 else '//body/div[3]/dl/dd/div[2]/b/i'
+            aut_element = driver2.find_element_by_xpath(rel_path)
+            autlist.append(aut_element.text)
+            abslist.append(driver2.find_element_by_id('abstract').text)
+            pdfnamelist.append(title_element_list[i].text)
+            pdfurllist.append(url_element_list[i].get_attribute('href'))
+        if year >= 2018:
+            driver.back()
 
-    title_element_list = driver.find_elements_by_class_name('ptitle')
-    url_element_list = driver.find_elements_by_partial_link_text('pdf')
-    for i, element in enumerate(url_element_list):
-        pdfnamelist.append(title_element_list[i].text)
-        pdfurllist.append(url_element_list[i].get_attribute('href'))
-    return pdfurllist, pdfnamelist
+    return pdfurllist, pdfnamelist, abslist, autlist
 
 
 def retrieve_from_icml(driver, year):
@@ -93,16 +91,29 @@ def retrieve_from_icml(driver, year):
 
 
 # debug
-def retrieve_from_neurips(driver):
+def retrieve_from_neurips(driver, year):
     pdfurllist = []
     pdfnamelist = []
+    autlist = []
+    abslist = []
     elementllist = driver.find_elements_by_tag_name('li')[2:]
+    driver2 = webdriver.Chrome(options = option, executable_path=chromedriver_path)
     for i, element in enumerate(elementllist):
+        driver2.get(driver.find_element_by_link_text(elementllist[i].find_elements_by_xpath('a')[0].text).get_attribute('href'))
+        driver2.implicitly_wait(10)
+        autlist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[3]/i').text)
+        try:
+            abslist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[5]').text)
+        except:
+            abslist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[4]').text)
         pdfnamelist.append(elementllist[i].find_elements_by_xpath('a')[0].text)
+        print(elementllist[i].find_elements_by_xpath('a')[0].text)
         pdfurllist.append(
             elementllist[i].find_elements_by_xpath('a')[0].get_attribute('href').replace('hash', 'file', 1). \
                 replace('Abstract.html', 'Paper.pdf', 1))
-    return pdfurllist, pdfnamelist
+        driver2.back()
+        
+    return pdfurllist, pdfnamelist, abslist, autlist
 
 
 def retrieve_from_cvpr(driver, year):
