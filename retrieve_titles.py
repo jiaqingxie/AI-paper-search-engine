@@ -101,18 +101,18 @@ def retrieve_from_neurips(driver, year):
     for i, element in enumerate(elementllist):
         driver2.get(driver.find_element_by_link_text(elementllist[i].find_elements_by_xpath('a')[0].text).get_attribute('href'))
         driver2.implicitly_wait(0.5)
-        try:
-            autlist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[3]/i').text)
-        except:
-            autlist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[2]/i').text)
-            
-        try:
+        if year != 2021:
+            autlist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[2]').text)
+            try:
+                abslist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[4]').text)
+            except:
+                abslist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[3]').text)
+        else:
+            autlist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[3]').text)
             try:
                 abslist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[5]').text)
             except:
                 abslist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[4]').text)
-        except:
-            abslist.append(driver2.find_element_by_xpath('//body/div[2]/div/p[3]').text)
         pdfnamelist.append(elementllist[i].find_elements_by_xpath('a')[0].text)
         print(elementllist[i].find_elements_by_xpath('a')[0].text)
         pdfurllist.append(
