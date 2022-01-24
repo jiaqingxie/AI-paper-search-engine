@@ -89,8 +89,7 @@ def retrieve_from_icml(driver, year):
         autlist.append(authorlist[i].text)
         pdfnamelist.append(elementllist[i].text)
         pdfurllist.append(url_element_list[i].get_attribute('href'))
-    return pdfurllist, pdfnamelist, abslist, autlist
-
+    return pdfurllist, pdfnamelist, abslist, autlist  
 
 # debug
 def retrieve_from_neurips(driver):
@@ -103,7 +102,6 @@ def retrieve_from_neurips(driver):
             elementllist[i].find_elements_by_xpath('a')[0].get_attribute('href').replace('hash', 'file', 1). \
                 replace('Abstract.html', 'Paper.pdf', 1))
     return pdfurllist, pdfnamelist
-
 
 def retrieve_from_cvpr(driver, year):
     pdfurllist = []
@@ -130,3 +128,19 @@ def retrieve_from_cvpr(driver, year):
             driver.back()
 
     return pdfurllist, pdfnamelist, abslist, autlist
+
+def retrieve_from_kdd(driver, year):
+    pdfurllist = []
+    pdfnamelist = []
+    abslist = []
+    autlist = []
+    if year > 2020:
+        element_list = driver.find_elements_by_xpath("//div[@class='media-body']")
+    else:
+        element_list = driver.find_elements_by_xpath("//span[@class='d-block u-link-v5 g-font-weight-600 g-mb-3']/a")
+    print(element_list)
+    # return pdfurllist, pdfnamelist, abslist, autlist
+    
+
+#def retrieve_from_www():
+    

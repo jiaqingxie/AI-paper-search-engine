@@ -13,6 +13,10 @@ def parse():
 
 cur_path = path.dirname(path.abspath(__file__))
 
+kdd_url_list = ["https://www.kdd.org/kdd"+str(i)+"/accepted-papers" for i in range(2013,2022)]
+
+www_url_list = ["https://www"+str(i)+".thewebconf.org/program/papers/" for i in range(2013,2022)]
+
 cvpr_url_list = [
 	# collect papers from 2013 - 2021
     "https://openaccess.thecvf.com/CVPR" + str(2021-i) for i in range(0, 9)
@@ -45,20 +49,32 @@ if __name__ == "__main__":
     option = webdriver.ChromeOptions()
     option.add_argument("headless")
     driver = webdriver.Chrome(options=option, executable_path=chromedriver_path)
-    retreive = globals()['retrieve_from_' + args.conf]
+    retreive = globals()['retrieve_from_' + args.conf.lower()]
     years = []
     root = None
+    # if args.conf == 'aaai'
     if args.conf == 'cvpr':
         url_list = cvpr_url_list
         root = cur_path  + "//Papers//CVPR"
+    elif args.conf == 'kdd':   
+        url_list = icml_url_list
+        root = cur_path  + "//Papers//KDD"     
+    # elif args.conf == 'www':
+    #     url_list = icml_url_list
+    #     root = cur_path  + "//Papers//ICML"
     elif args.conf == 'icml':
         url_list = icml_url_list
         root = cur_path  + "//Papers//ICML"
+        
     os.makedirs(root, exist_ok=True)
     year = 2021
     for conference_url in url_list:
-        driver.get(conference_url)
+        driver.get(conference_url) 
         pdfurllist, pdfnamelist, abslist, autlist = retreive(driver, year)
+        print("pdfurllist:",pdfurllist)
+        print("pdfnamelist:",pdfnamelist)
+        print("abslist:",abslist)
+        print("autlist:",autlist)
         conf = [args.conf for i in range(len(pdfurllist))]
         assert len(pdfurllist) == len(pdfnamelist)
         # write to excel
