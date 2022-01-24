@@ -32,15 +32,19 @@ def retrieve_from_siggraph(driver):
     import time
     elementllist = driver.find_elements_by_class_name('accordion-tabbed')[1].find_elements_by_class_name('toc__section')
     for i, section in enumerate(elementllist):
-        section.click()
+        driver.execute_script("arguments[0].click();", section)
+        # section.click()
         time.sleep(3)
-        print('\n', section.text)
+        # print('\n', section.text)
         for j, paper_element in enumerate(section.find_elements_by_class_name('issue-item__content')):
-            paper_name = paper_element.find_element_by_xpath('div/h5').text
-            pdf_url = paper_element.find_element_by_class_name('red').get_attribute('href')
-            print('\t', paper_name)
-            pdfnamelist.append(paper_name)
-            pdfurllist.append(pdf_url)
+            try:
+                paper_name = paper_element.find_element_by_xpath('div/h5').text
+                pdf_url = paper_element.find_element_by_class_name('red').get_attribute('href')
+                # print('\t', paper_name)
+                pdfnamelist.append(paper_name)
+                pdfurllist.append(pdf_url)
+            except Exception as e:
+                print(e)
 
     return pdfurllist, pdfnamelist
 
