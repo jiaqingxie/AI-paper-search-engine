@@ -1,0 +1,75 @@
+diff --git a/__pycache__/demo.cpython-39.pyc b/__pycache__/demo.cpython-39.pyc
+new file mode 100644
+index 0000000..84625ae
+Binary files /dev/null and b/__pycache__/demo.cpython-39.pyc differ
+diff --git a/__pycache__/retrieve_titles.cpython-39.pyc b/__pycache__/retrieve_titles.cpython-39.pyc
+index 73eb714..39b3e6b 100644
+Binary files a/__pycache__/retrieve_titles.cpython-39.pyc and b/__pycache__/retrieve_titles.cpython-39.pyc differ
+diff --git a/check_siggraph.py b/check_siggraph.py
+new file mode 100644
+index 0000000..d299c0c
+--- /dev/null
++++ b/check_siggraph.py
+@@ -0,0 +1,19 @@
++from retrieve_titles import retrieve_from_siggraph
++from selenium import webdriver
++from os import path
++from msedge.selenium_tools import Edge, EdgeOptions
++
++if __name__ == "__main__":
++    # define selenium web crawler
++    cur_path = path.dirname(path.abspath(__file__))
++    # print(cur_path)
++    chromedriver_path = cur_path + "/chromedriver_mac_97"
++    microsoftdriver_path = cur_path + "/msedgedriver"
++    option = webdriver.ChromeOptions()
++    option.add_argument("headless")
++    # driver = webdriver.Chrome(options=option, executable_path=chromedriver_path)
++    desired_cap = {}
++    driver = webdriver.Edge(microsoftdriver_path, capabilities=desired_cap)
++    web = "https://dl.acm.org/toc/tog/2020/39/4" # Siggraph example paper website
++    driver.get(web)
++    print(retrieve_from_siggraph(driver))
+\ No newline at end of file
+diff --git a/chromedriver b/chromedriver
+index fc04477..b97d479 100755
+Binary files a/chromedriver and b/chromedriver differ
+diff --git a/chromedriver_mac_97 b/chromedriver_mac_97
+new file mode 100755
+index 0000000..b97d479
+Binary files /dev/null and b/chromedriver_mac_97 differ
+diff --git a/msedgedriver b/msedgedriver
+new file mode 100755
+index 0000000..361ed20
+Binary files /dev/null and b/msedgedriver differ
+diff --git a/retrieve_titles.py b/retrieve_titles.py
+index 2fa8457..8b6f8a8 100644
+--- a/retrieve_titles.py
++++ b/retrieve_titles.py
+@@ -14,15 +14,19 @@ def retrieve_from_siggraph(driver):
+     import time
+     elementllist = driver.find_elements_by_class_name('accordion-tabbed')[1].find_elements_by_class_name('toc__section')
+     for i, section in enumerate(elementllist):
+-        section.click()
++        driver.execute_script("arguments[0].click();", section)
++        # section.click()
+         time.sleep(3)
+-        print('\n', section.text)
++        # print('\n', section.text)
+         for j, paper_element in enumerate(section.find_elements_by_class_name('issue-item__content')):
+-            paper_name = paper_element.find_element_by_xpath('div/h5').text
+-            pdf_url = paper_element.find_element_by_class_name('red').get_attribute('href')
+-            print('\t', paper_name)
+-            pdfnamelist.append(paper_name)
+-            pdfurllist.append(pdf_url)
++            try:
++                paper_name = paper_element.find_element_by_xpath('div/h5').text
++                pdf_url = paper_element.find_element_by_class_name('red').get_attribute('href')
++                # print('\t', paper_name)
++                pdfnamelist.append(paper_name)
++                pdfurllist.append(pdf_url)
++            except Exception as e:
++                print(e)
+ 
+     return pdfurllist, pdfnamelist
+ 
