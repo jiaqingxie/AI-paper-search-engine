@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="69554d0d-0520-4c5d-9488-88050e0849fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/retrieve_conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/retrieve_conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retrieve_titles.py" beforeDir="false" afterPath="$PROJECT_DIR$/retrieve_titles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +26,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo.py" />
   </component>
   <component name="RunManager">
-    <configuration name="retrieve_conf" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AI-paper-search-engine" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -41,8 +41,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/retrieve_conf.py" />
-      <option name="PARAMETERS" value="--conf cvpr" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />

@@ -1,5 +1,6 @@
 from os import path
 from selenium import webdriver
+import time
 
 cur_path = path.dirname(path.abspath(__file__))
 chromedriver_path = cur_path + "/chromedriver"
@@ -7,6 +8,49 @@ chromedriver_path = cur_path + "/chromedriver"
 option = webdriver.ChromeOptions()
 option.add_argument("headless")
 
+
+def retrieve_from_kdd(driver, year):
+    driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
+    pub_list = driver.find_elements_by_class_name("publ-list")[1:]
+    abslist = []
+    autlist = []
+    pdfnamelist = []
+    pdfurllist = []
+    for num_sec, pub_sec in enumerate(pub_list):
+        pubs = pub_sec.find_elements_by_class_name("entry")
+        for pub in pubs:
+            link = pub.find_element_by_xpath('nav/ul/li[1]/div[1]/a')
+            url = link.get_attribute('href')
+            driver2.get(url)
+            # authors
+            authors = driver2.find_elements_by_class_name('loa__item')
+            authors_ = ''
+            for author in authors:
+                tmp = ''
+                try:
+                    tmp = author.find_element_by_xpath('a/span/div/span/span').text
+                    driver2.implicitly_wait(5)
+                except:
+                    tmp = ''
+       
+                authors_ = authors_ + tmp + ', '
+
+            # abstract
+            try:
+                abstract = driver2.find_element_by_class_name('abstractSection')
+                abstract_ = abstract.find_element_by_xpath('p').text
+            # title
+                title = driver2.find_element_by_class_name('citation__title')
+                print(title.text)
+                pdfnamelist.append(title.text)
+                autlist.append(authors_)
+                abslist.append(abstract_)
+                pdfurllist.append("None")
+            except:
+                continue
+             
+                
+    return pdfurllist, pdfnamelist, abslist, autlist
 
 def retrieve_from_siggraph(driver):
     pdfurllist = []

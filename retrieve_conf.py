@@ -13,13 +13,24 @@ def parse():
 
 cur_path = path.dirname(path.abspath(__file__))
 
+###  KDD URL 2010 - 2021  ###
+kdd_url_list = [
+    "https://dblp.org/db/conf/kdd/kdd"+ str(2021-i) +".html" for i in range(7,12)
+]
+
+###  ICLR URL 2017 - 2021  ###
+iclr_url_list = [
+    "https://openreview.net/group?id=ICLR.cc/"+ str(2021-i) + "/Conference" for i in range(0,4)
+]
+iclr_url_list.append("https://openreview.net/group?id=ICLR.cc/2017/conference")
+
+###  NeurIPS URL 2010 - 2021  ###
 neurips_url_list = [
-    # collect papers from 2010 - 2021
     "https://proceedings.neurips.cc/paper/" + str(2021-i) for i in range(0, 12)
 ]
 
+###  CVPR URL 2013 - 2021  ###
 cvpr_url_list = [
-	# collect papers from 2013 - 2021
     "https://openaccess.thecvf.com/CVPR" + str(2021-i) for i in range(0, 9)
 ]
 
@@ -69,10 +80,13 @@ if __name__ == "__main__":
         root = cur_path  + "//Papers//ICCV"
     elif args.conf == 'neurips':
         url_list = neurips_url_list
-        root = cur_path  + "//Papers//NeurIPS"       
+        root = cur_path  + "//Papers//NeurIPS" 
+    elif args.conf == 'kdd':
+        url_list = kdd_url_list
+        root = cur_path + "//Papers//KDD"      
     os.makedirs(root, exist_ok=True)
     
-    year = 2021
+    year = 2014
     for conference_url in url_list:
         driver.get(conference_url)
         pdfurllist, pdfnamelist, abslist, autlist = retreive(driver, year)
