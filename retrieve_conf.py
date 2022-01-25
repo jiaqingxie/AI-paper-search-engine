@@ -15,7 +15,7 @@ cur_path = path.dirname(path.abspath(__file__))
 
 ###  KDD URL 2010 - 2021  ###
 kdd_url_list = [
-    "https://dblp.org/db/conf/kdd/kdd"+ str(2021-i) +".html" for i in range(7,12)
+    "https://dblp.org/db/conf/kdd/kdd"+ str(2021-i) +".html" for i in range(0,12)
 ]
 
 ###  ICLR URL 2017 - 2021  ###
@@ -86,7 +86,7 @@ if __name__ == "__main__":
         root = cur_path + "//Papers//KDD"      
     os.makedirs(root, exist_ok=True)
     
-    year = 2014
+    year = 2021
     for conference_url in url_list:
         driver.get(conference_url)
         pdfurllist, pdfnamelist, abslist, autlist = retreive(driver, year)
