@@ -13,6 +13,18 @@ def parse():
 
 cur_path = path.dirname(path.abspath(__file__))
 
+
+### SIGIR URL 2010 - 2021 ###
+sigir_url_list = [
+    "https://dblp.org/db/conf/sigir/sigir"+ str(2021-i) +".html" for i in range(0,12)
+]
+
+###  WWW URL 2010 - 2021  ###
+www_url_list = [
+    "https://dblp.org/db/conf/www/www"+ str(2021-i) +".html" for i in range(0,12)
+]
+
+
 ###  KDD URL 2010 - 2021  ###
 kdd_url_list = [
     "https://dblp.org/db/conf/kdd/kdd"+ str(2021-i) +".html" for i in range(0,12)
@@ -84,6 +96,12 @@ if __name__ == "__main__":
     elif args.conf == 'kdd':
         url_list = kdd_url_list
         root = cur_path + "//Papers//KDD"      
+    elif args.conf == 'www':
+        url_list = www_url_list
+        root = cur_path + "//Papers//WWW" 
+    elif args.conf == 'sigir':
+        url_list = sigir_url_list
+        root = cur_path + "//Papers//SIGIR" 
     os.makedirs(root, exist_ok=True)
     
     year = 2021

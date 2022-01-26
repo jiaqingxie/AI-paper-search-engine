@@ -9,6 +9,50 @@ option = webdriver.ChromeOptions()
 option.add_argument("headless")
 
 
+
+def retrieve_from_www(driver, year):
+    driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
+    pub_list = driver.find_elements_by_class_name("publ-list")[1:]
+    abslist = []
+    autlist = []
+    pdfnamelist = []
+    pdfurllist = []
+    for num_sec, pub_sec in enumerate(pub_list):
+        pubs = pub_sec.find_elements_by_class_name("entry")
+        for pub in pubs:
+            link = pub.find_element_by_xpath('nav/ul/li[1]/div[1]/a')
+            url = link.get_attribute('href')
+            driver2.get(url)
+            # authors
+            authors = driver2.find_elements_by_class_name('loa__item')
+            authors_ = ''
+            for author in authors:
+                tmp = ''
+                try:
+                    tmp = author.find_element_by_xpath('a/span/div/span/span').text
+                    driver2.implicitly_wait(5)
+                except:
+                    tmp = ''
+       
+                authors_ = authors_ + tmp + ', '
+
+            # abstract
+            try:
+                abstract = driver2.find_element_by_class_name('abstractSection')
+                abstract_ = abstract.find_element_by_xpath('p').text
+            # title
+                title = driver2.find_element_by_class_name('citation__title')
+                print(title.text)
+                pdfnamelist.append(title.text)
+                autlist.append(authors_)
+                abslist.append(abstract_)
+                pdfurllist.append("None")
+            except:
+                continue
+             
+    return pdfurllist, pdfnamelist, abslist, autlist
+    
+    
 def retrieve_from_kdd(driver, year):
     driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
     pub_list = driver.find_elements_by_class_name("publ-list")[1:]
@@ -52,24 +96,48 @@ def retrieve_from_kdd(driver, year):
                 
     return pdfurllist, pdfnamelist, abslist, autlist
 
-def retrieve_from_siggraph(driver):
-    pdfurllist = []
+
+def retrieve_from_sigir(driver, year):
+    driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
+    pub_list = driver.find_elements_by_class_name("publ-list")[1:]
+    abslist = []
+    autlist = []
     pdfnamelist = []
-    import time
-    elementllist = driver.find_elements_by_class_name('accordion-tabbed')[1].find_elements_by_class_name('toc__section')
-    for i, section in enumerate(elementllist):
-        section.click()
-        time.sleep(3)
-        print('\n', section.text)
-        for j, paper_element in enumerate(section.find_elements_by_class_name('issue-item__content')):
-            paper_name = paper_element.find_element_by_xpath('div/h5').text
-            pdf_url = paper_element.find_element_by_class_name('red').get_attribute('href')
-            print('\t', paper_name)
-            pdfnamelist.append(paper_name)
-            pdfurllist.append(pdf_url)
+    pdfurllist = []
+    for num_sec, pub_sec in enumerate(pub_list):
+        pubs = pub_sec.find_elements_by_class_name("entry")
+        for pub in pubs:
+            link = pub.find_element_by_xpath('nav/ul/li[1]/div[1]/a')
+            url = link.get_attribute('href')
+            driver2.get(url)
+            # authors
+            authors = driver2.find_elements_by_class_name('loa__item')
+            authors_ = ''
+            for author in authors:
+                tmp = ''
+                try:
+                    tmp = author.find_element_by_xpath('a/span/div/span/span').text
+                    driver2.implicitly_wait(5)
+                except:
+                    tmp = ''
+       
+                authors_ = authors_ + tmp + ', '
 
-    return pdfurllist, pdfnamelist
-
+            # abstract
+            try:
+                abstract = driver2.find_element_by_class_name('abstractSection')
+                abstract_ = abstract.find_element_by_xpath('p').text
+            # title
+                title = driver2.find_element_by_class_name('citation__title')
+                print(title.text)
+                pdfnamelist.append(title.text)
+                autlist.append(authors_)
+                abslist.append(abstract_)
+                pdfurllist.append("None")
+            except:
+                continue
+             
+    return pdfurllist, pdfnamelist, abslist, autlist
 
 #debug
 def retrieve_from_iclr(driver):

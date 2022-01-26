@@ -13,6 +13,7 @@ driver = webdriver.Chrome(options=option, executable_path=chromedriver_path)
 driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
 
 if __name__ == "__main__":
+"""
     driver.get(a) # get kdd pub from dblp
    
     pub_list = driver.find_elements_by_class_name("publ-list")[1:]
@@ -39,6 +40,8 @@ if __name__ == "__main__":
             abslist.append(abstract_)
             pdfurllist.append("None")
             print("Yes")
-            
+"""
+    driver.get(a)
+    
     #return pdfurllist, pdfnamelist, abslist, autlist
             
