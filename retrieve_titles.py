@@ -39,14 +39,17 @@ def retrieve_from_www(driver, year):
             # abstract
             try:
                 abstract = driver2.find_element_by_class_name('abstractSection')
+                driver2.implicitly_wait(2)
                 abstract_ = abstract.find_element_by_xpath('p').text
-            # title
+                driver2.implicitly_wait(2)
+                pdfurl = driver2.find_element_by_class_name('pdf-file').find_element_by_xpath('a').get_attribute('href')
+                driver2.implicitly_wait(2)
                 title = driver2.find_element_by_class_name('citation__title')
-                print(title.text)
+                driver2.implicitly_wait(2)
                 pdfnamelist.append(title.text)
                 autlist.append(authors_)
                 abslist.append(abstract_)
-                pdfurllist.append("None")
+                pdfurllist.append(pdfurl)
             except:
                 continue
              
@@ -82,14 +85,18 @@ def retrieve_from_kdd(driver, year):
             # abstract
             try:
                 abstract = driver2.find_element_by_class_name('abstractSection')
+                driver2.implicitly_wait(2)
                 abstract_ = abstract.find_element_by_xpath('p').text
-            # title
+                driver2.implicitly_wait(2)
+                pdfurl = driver2.find_element_by_class_name('pdf-file').find_element_by_xpath('a').get_attribute('href')
+                driver2.implicitly_wait(2)
                 title = driver2.find_element_by_class_name('citation__title')
-                print(title.text)
+                driver2.implicitly_wait(2)
                 pdfnamelist.append(title.text)
                 autlist.append(authors_)
                 abslist.append(abstract_)
-                pdfurllist.append("None")
+                
+                pdfurllist.append(pdfurl)
             except:
                 continue
              
@@ -126,14 +133,20 @@ def retrieve_from_sigir(driver, year):
             # abstract
             try:
                 abstract = driver2.find_element_by_class_name('abstractSection')
+                driver2.implicitly_wait(5)
                 abstract_ = abstract.find_element_by_xpath('p').text
-            # title
+                driver2.implicitly_wait(5)
+                pdfurl = driver2.find_element_by_class_name('pdf-file').find_element_by_xpath('a').get_attribute('href')
+                driver2.implicitly_wait(5)
                 title = driver2.find_element_by_class_name('citation__title')
-                print(title.text)
+                driver2.implicitly_wait(5)
+                #print(title.text)
                 pdfnamelist.append(title.text)
                 autlist.append(authors_)
                 abslist.append(abstract_)
-                pdfurllist.append("None")
+                
+                pdfurllist.append(pdfurl)
+                #print(pdfurl)
             except:
                 continue
              
