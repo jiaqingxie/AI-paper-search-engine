@@ -40,6 +40,7 @@ def retrieve_from_www(driver, year):
             try:
                 abstract = driver2.find_element_by_class_name('abstractSection')
                 driver2.implicitly_wait(2)
+                
                 abstract_ = abstract.find_element_by_xpath('p').text
                 driver2.implicitly_wait(2)
                 pdfurl = driver2.find_element_by_class_name('pdf-file').find_element_by_xpath('a').get_attribute('href')
@@ -82,27 +83,31 @@ def retrieve_from_kdd(driver, year):
        
                 authors_ = authors_ + tmp + ', '
 
-            # abstract
+            
             try:
-                abstract = driver2.find_element_by_class_name('abstractSection')
-                driver2.implicitly_wait(2)
-                abstract_ = abstract.find_element_by_xpath('p').text
-                driver2.implicitly_wait(2)
-                pdfurl = driver2.find_element_by_class_name('pdf-file').find_element_by_xpath('a').get_attribute('href')
-                driver2.implicitly_wait(2)
                 title = driver2.find_element_by_class_name('citation__title')
-                driver2.implicitly_wait(2)
                 pdfnamelist.append(title.text)
-                autlist.append(authors_)
-                abslist.append(abstract_)
-                
-                pdfurllist.append(pdfurl)
             except:
                 continue
-             
                 
+            try:
+                abstract = driver2.find_element_by_class_name('abstractSection')
+                abstract_ = abstract.find_element_by_xpath('p').text
+                abslist.append(abstract_)
+            except:
+                abslist.append("None")
+            
+            try: 
+                pdfurl = driver2.find_element_by_class_name('pdf-file').find_element_by_xpath('a').get_attribute('href')
+                driver2.implicitly_wait(5)
+                pdfurllist.append(pdfurl)
+            except:
+                pdfurllist.append("None")
+                
+            autlist.append(authors_)
+                
+             
     return pdfurllist, pdfnamelist, abslist, autlist
-
 
 def retrieve_from_sigir(driver, year):
     driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
@@ -130,25 +135,29 @@ def retrieve_from_sigir(driver, year):
        
                 authors_ = authors_ + tmp + ', '
 
-            # abstract
+            
             try:
-                abstract = driver2.find_element_by_class_name('abstractSection')
-                driver2.implicitly_wait(5)
-                abstract_ = abstract.find_element_by_xpath('p').text
-                driver2.implicitly_wait(5)
-                pdfurl = driver2.find_element_by_class_name('pdf-file').find_element_by_xpath('a').get_attribute('href')
-                driver2.implicitly_wait(5)
                 title = driver2.find_element_by_class_name('citation__title')
-                driver2.implicitly_wait(5)
-                #print(title.text)
                 pdfnamelist.append(title.text)
-                autlist.append(authors_)
-                abslist.append(abstract_)
-                
-                pdfurllist.append(pdfurl)
-                #print(pdfurl)
             except:
                 continue
+                
+            try:
+                abstract = driver2.find_element_by_class_name('abstractSection')
+                abstract_ = abstract.find_element_by_xpath('p').text
+                abslist.append(abstract_)
+            except:
+                abslist.append("None")
+            
+            try: 
+                pdfurl = driver2.find_element_by_class_name('pdf-file').find_element_by_xpath('a').get_attribute('href')
+                driver2.implicitly_wait(5)
+                pdfurllist.append(pdfurl)
+            except:
+                pdfurllist.append("None")
+                
+            autlist.append(authors_)
+                
              
     return pdfurllist, pdfnamelist, abslist, autlist
 
