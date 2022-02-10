@@ -69,7 +69,7 @@ icra_url_list = [
 ]
 
 aaai_url_list = [
-    "https://aaai.org/Library/AAAI/aaai10contents.php"  # AAAI-10
+    "https://dblp.org/db/conf/aaai/aaai"+ str(2021-i) +".html" for i in range(0,12) 
 
 ]
 
@@ -118,11 +118,19 @@ if __name__ == "__main__":
     elif args.conf == 'iclr':
         url_list = iclr_url_list
         root = cur_path + "//Papers//ICLR"
+    elif args.conf == 'aaai':
+        url_list = aaai_url_list
+        root = cur_path + "//Papers//AAAI"
     os.makedirs(root, exist_ok=True)
     
     year = 2021 if args.conf != 'iclr' else 2016
     
     for conference_url in url_list:
+        
+        if args.conf == 'aaai' and year == 2018:
+            year = year - 1
+            continue
+        
         driver.get(conference_url)
         pdfurllist, pdfnamelist, abslist, autlist = retreive(driver, year)
         conf = [args.conf for i in range(len(pdfurllist))]

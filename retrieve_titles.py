@@ -10,8 +10,48 @@ option.add_argument("headless")
 
 
 def retrieve_from_aaai(driver, year):
-    pass
-
+    driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
+    pub_list = driver.find_elements_by_class_name("publ-list")[1:]
+    
+    abslist = []
+    autlist = []
+    pdfnamelist = []
+    pdfurllist = []
+    
+    for num_sec, pub_sec in enumerate(pub_list):
+        pubs = pub_sec.find_elements_by_xpath('li')
+        for pub in pubs[:len(pubs)-1]:
+            authors = ""  
+            link = pub.find_element_by_xpath('nav/ul/li[1]/div[1]/a')
+            url = link.get_attribute('href')
+            driver2.get(url)
+            if year > 2017:
+                authors = ""
+                obj = driver2.find_element_by_class_name('obj_article_details')
+                title = obj.find_element_by_xpath('h1').text
+                
+                auts = obj.find_element_by_class_name('row').find_elements_by_xpath('div/section[1]/ul/li')
+                for aut in auts:
+                    authors = authors + aut.find_element_by_class_name('name').text + ", "
+                
+                abstract = obj.find_element_by_class_name('row').find_element_by_xpath('div/section[3]/p').text
+                urllink = obj.find_element_by_class_name('obj_galley_link').get_attribute('href')
+               
+            else:
+               driver2.switch_to.frame(0)
+               title = driver2.find_element_by_id('title').text
+               authors = driver2.find_element_by_id('author').text
+               abstract = driver2.find_element_by_id('abstract').find_element_by_xpath('div').text
+               urllink = driver2.find_element_by_id('paper').find_element_by_xpath('a').get_attribute('href')
+               
+            pdfnamelist.append(title)
+            autlist.append(authors)
+            abslist.append(abstract)
+            pdfurllist.append(urllink)
+               
+    return pdfurllist, pdfnamelist, abslist, autlist
+    
+    
 def retrieve_from_iclr(driver, year):
     driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
     pub_list = driver.find_elements_by_class_name("publ-list")[1:]
@@ -93,10 +133,7 @@ def retrieve_from_icra(driver, year):
                 pdfurllist.append("None")
     return pdfurllist, pdfnamelist, abslist, autlist_
         
-                
-               
-
-
+                      
 def retrieve_from_www(driver, year):
     driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
     pub_list = driver.find_elements_by_class_name("publ-list")[1:]
