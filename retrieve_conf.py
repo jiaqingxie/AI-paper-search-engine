@@ -72,6 +72,11 @@ aaai_url_list = [
     "https://aaai.org/Library/AAAI/aaai10contents.php"  # AAAI-10
 
 ]
+
+iclr_url_list = [
+    "https://dblp.org/db/conf/iclr/iclr"+ str(2021-i) +".html" for i in range(5,9) 
+]
+
 chromedriver_path = cur_path + "//chromedriver"
 
 
@@ -110,9 +115,13 @@ if __name__ == "__main__":
     elif args.conf == 'icra':
         url_list = icra_url_list
         root = cur_path + "//Papers//ICRA"
+    elif args.conf == 'iclr':
+        url_list = iclr_url_list
+        root = cur_path + "//Papers//ICLR"
     os.makedirs(root, exist_ok=True)
     
-    year = 2021
+    year = 2021 if args.conf != 'iclr' else 2016
+    
     for conference_url in url_list:
         driver.get(conference_url)
         pdfurllist, pdfnamelist, abslist, autlist = retreive(driver, year)

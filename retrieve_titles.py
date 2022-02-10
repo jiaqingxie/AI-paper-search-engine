@@ -13,7 +13,39 @@ def retrieve_from_aaai(driver, year):
     pass
 
 def retrieve_from_iclr(driver, year):
-    pass
+    driver2 = webdriver.Chrome(options=option, executable_path=chromedriver_path)
+    pub_list = driver.find_elements_by_class_name("publ-list")[1:]
+    
+    abslist = []
+    autlist = []
+    pdfnamelist = []
+    pdfurllist = []
+    
+    for num_sec, pub_sec in enumerate(pub_list):
+        pubs = pub_sec.find_elements_by_xpath('li')
+        for pub in pubs[:len(pubs)-1]:
+            authors = ""  
+            link = pub.find_element_by_xpath('nav/ul/li[1]/div[1]/a')
+            url = link.get_attribute('href')
+            driver2.get(url)
+            
+            content = driver2.find_element_by_id('content-inner')
+            title = content.find_element_by_xpath('div/h1').text
+            pdfnamelist.append(title)
+
+            author = content.find_element_by_class_name('authors').find_elements_by_xpath('a')
+            for aut in author:
+                authors = authors + aut.text + ','
+            autlist.append(authors)
+            
+            abstract = content.find_element_by_class_name('abstract').text
+            abslist.append(abstract)
+            
+            urllink = driver2.find_element_by_xpath('//*[@id="abs-outer"]/div[2]/div[1]/ul/li[1]/a').get_attribute('href')
+            pdfurllist.append(urllink)
+            
+    return pdfurllist, pdfnamelist, abslist, autlist
+            
 
 
 def retrieve_from_icra(driver, year):
@@ -216,20 +248,7 @@ def retrieve_from_sigir(driver, year):
              
     return pdfurllist, pdfnamelist, abslist, autlist
 
-#debug
-def retrieve_from_iclr(driver):
-    pdfurllist = []
-    pdfnamelist = []
 
-    # three sections: oral, spotlight, poster
-    for num_section, section in enumerate(['Oral', 'Spotlight', 'Poster']):
-        driver.find_element_by_partial_link_text(section).click()
-        elementllist = driver.find_elements_by_tag_name('h4')[1:]
-        for i, element in enumerate(elementllist):
-            pdfnamelist.append(elementllist[i].text)
-            pdfurllist.append(elementllist[i].find_elements_by_xpath('a')[1].get_attribute('href'))
-
-    return pdfurllist, pdfnamelist
 
 
 def retrieve_from_iccv(driver, year):
