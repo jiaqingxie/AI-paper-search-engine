@@ -27,23 +27,37 @@ def retrieve_from_aaai(driver, year):
             driver2.get(url)
             if year > 2017:
                 authors = ""
-                obj = driver2.find_element_by_class_name('obj_article_details')
+                try:
+                    obj = driver2.find_element_by_class_name('obj_article_details')
+                except:
+                    continue
                 title = obj.find_element_by_xpath('h1').text
                 
                 auts = obj.find_element_by_class_name('row').find_elements_by_xpath('div/section[1]/ul/li')
                 for aut in auts:
                     authors = authors + aut.find_element_by_class_name('name').text + ", "
-                
-                abstract = obj.find_element_by_class_name('row').find_element_by_xpath('div/section[3]/p').text
+                try:
+                    abstract = obj.find_element_by_class_name('row').find_element_by_xpath('div/section[3]/p').text
+                except:
+                    try:
+                       abstract = obj.find_element_by_class_name('row').find_element_by_xpath('div/section[3]').text
+                    except:
+                       abstract = obj.find_element_by_class_name('row').find_element_by_xpath('div/section[2]').text
                 urllink = obj.find_element_by_class_name('obj_galley_link').get_attribute('href')
                
             else:
-               driver2.switch_to.frame(0)
+               try:
+                   driver2.switch_to.frame(0)
+               except:
+                   continue
                title = driver2.find_element_by_id('title').text
                authors = driver2.find_element_by_id('author').text
                abstract = driver2.find_element_by_id('abstract').find_element_by_xpath('div').text
-               urllink = driver2.find_element_by_id('paper').find_element_by_xpath('a').get_attribute('href')
-               
+               try:
+                   urllink = driver2.find_element_by_id('paper').find_element_by_xpath('a').get_attribute('href')
+               except:
+                   urllink = "None"
+            print(title)
             pdfnamelist.append(title)
             autlist.append(authors)
             abslist.append(abstract)
