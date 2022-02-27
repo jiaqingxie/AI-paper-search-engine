@@ -89,7 +89,10 @@ class Extended:
                 
     def write2csv(self, conf, year):
         """ write the current extended data to a new csv file"""
-        self.cur_data.to_csv(cur_path + '/Papers/%s/%s_%s_extended.csv' % (conf.upper(), conf, year), index=False)
+        if conf != "neurips":
+            self.cur_data.to_csv(cur_path + '/Papers/%s/%s_%s_extended.csv' % (conf.upper(), conf, year), index=False)
+        else:
+            self.cur_data.to_csv(cur_path + '/Papers/NeurIPS/%s_%s_extended.csv' % (conf, year), index=False)
 
 
 if __name__ == "__main__":
@@ -117,9 +120,9 @@ if __name__ == "__main__":
     elif arg.conf == "icml":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022)]
     elif arg.conf == "neurips":
-        org_csv_file_names = ["NeurIPS" + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022)]
+        org_csv_file_names = ["NeurIPS" + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2010, 2022)]
     
-        
+    print(org_csv_file_names)    
      
     
     year = 2013 if arg.conf == "iccv" or arg.conf == "cvpr" or arg.conf == "iclr" or arg.conf == "icml" else 2010
