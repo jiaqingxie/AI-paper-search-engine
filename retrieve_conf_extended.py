@@ -16,11 +16,11 @@ chromedriver_path = cur_path + "/chromedriver"
 chrome_options = uc.ChromeOptions()
 chrome_options.headless = False
 
-chrome_options2 = uc.ChromeOptions()
-chrome_options2.headless = False
+#chrome_options2 = uc.ChromeOptions()
+#chrome_options2.headless = False
 
 driver = uc.Chrome(options=chrome_options)
-driver2 = uc.Chrome(options=chrome_options2)
+#driver2 = uc.Chrome(options=chrome_options2)
 
 
 def parse():
@@ -59,9 +59,9 @@ class Extended:
                     citations.append(0)
             except:
                 citations.append(0)
-            
+            """ 
             cur_areas = {}
-                
+             
             try:
                 authors_link = driver.find_elements(by = By.XPATH, value = '//*[@id="gs_res_ccl_mid"]/div/div[2]/div[1]/a')
                 
@@ -83,8 +83,9 @@ class Extended:
                     
             except:
                 areas.append(cur_areas)
+            """
         self.cur_data['citations'] = citations
-        self.cur_data['research_areas'] = areas
+        #self.cur_data['research_areas'] = areas
                 
     def write2csv(self, conf, year):
         """ write the current extended data to a new csv file"""
@@ -97,13 +98,26 @@ if __name__ == "__main__":
     
     if arg.conf == "aaai":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2010,2022)]
+    elif arg.conf == "emnlp" or "acl":
+        org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2010,2022)]
+    elif arg.conf == "iclr":
+        org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2017)]
+    elif arg.conf == "sigir" or arg.conf == "kdd" or arg.conf == "www":
+        org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2010, 2022)]
     
-    year = 2010
+        
+     
+    
+    year = 2013 if arg.conf == "iccv" or arg.conf == "cvpr" or arg.conf == "iclr" else 2010
     for item in org_csv_file_names:
-        extend.read_file("/Papers/{}".format(item))
-        extend.add_extra()
-        extend.write2csv(arg.conf, year)
-        year += 1
+        if (year == 2018 or year == 2019) and arg.conf == "aaai":
+            year += 1
+            continue
+        else:
+            extend.read_file("/Papers/{}".format(item))
+            extend.add_extra()
+            extend.write2csv(arg.conf, year)
+            year += 1
     
 
 
