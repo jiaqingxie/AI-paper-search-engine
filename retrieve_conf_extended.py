@@ -98,17 +98,20 @@ if __name__ == "__main__":
     
     if arg.conf == "aaai":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2010,2022)]
-    elif arg.conf == "emnlp" or "acl":
+    elif arg.conf == "emnlp":
+        org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2010,2022)]
+    elif arg.conf == "acl":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2010,2022)]
     elif arg.conf == "iclr":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2017)]
+    """
     elif arg.conf == "sigir" or arg.conf == "kdd" or arg.conf == "www":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2010, 2022)]
     elif arg.conf == "iccv":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022, 2)]
     elif arg.conf == "cvpr":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022)]
-    
+    """
     
     
         
@@ -116,6 +119,7 @@ if __name__ == "__main__":
     
     year = 2013 if arg.conf == "iccv" or arg.conf == "cvpr" or arg.conf == "iclr" else 2010
     for item in org_csv_file_names:
+        print(item)
         if (year == 2018 or year == 2019) and arg.conf == "aaai":
             year += 1
             continue
