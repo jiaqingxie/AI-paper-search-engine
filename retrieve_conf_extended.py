@@ -130,7 +130,10 @@ if __name__ == "__main__":
             extend.read_file("/Papers/{}".format(item))
             extend.add_extra()
             extend.write2csv(arg.conf, year)
-            year += 1
+            if arg.conf == 'iccv':
+                year += 2
+            else:
+                year += 1
     
 
 
