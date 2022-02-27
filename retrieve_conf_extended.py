@@ -114,13 +114,14 @@ if __name__ == "__main__":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022, 2)]
     elif arg.conf == "cvpr":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022)]
-    
+    elif arg.conf == "icml":
+        org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022)]
     
     
         
      
     
-    year = 2013 if arg.conf == "iccv" or arg.conf == "cvpr" or arg.conf == "iclr" else 2010
+    year = 2013 if arg.conf == "iccv" or arg.conf == "cvpr" or arg.conf == "iclr" or arg.conf == "icml" else 2010
     for item in org_csv_file_names:
         print(item)
         if (year == 2018 or year == 2019) and arg.conf == "aaai":
