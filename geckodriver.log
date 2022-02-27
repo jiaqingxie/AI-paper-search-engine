@@ -1,0 +1,57 @@
+1645905420591	geckodriver	INFO	Listening on 127.0.0.1:54771
+1645905420595	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileOc9QM4"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1645905422167	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOc9QM4/search.json.mozlz4", (void 0)))
+1645905423787	Marionette	INFO	Listening on port 43801
+1645905423910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://accounts.google.com/Login?hl=en&continue=https://scholar.google.com/scholar%3Fhl%3Den%26as_sdt%3D0%252C5%26q%3DA%2520New%2520Algorithm%2520for%2520Weighted%2520Partial%2520MaxSAT%26btnG%3D line 1 > eval line 1804 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://accounts.google.com/Login?hl=en&continue=https://scholar.google.com/scholar%3Fhl%3Den%26as_sdt%3D0%252C5%26q%3DA%2520New%2520Algorithm%2520for%2520Weighted%2520Partial%2520MaxSAT%26btnG%3D line 1 > eval line 6260 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://accounts.google.com/ServiceLogin?hl=en&continue=https%3A%2F%2Fscholar.google.com%2Fscholar%3Fhl%3Den%26as_sdt%3D0%252C5%26q%3DA%2520New%2520Algorithm%2520for%2520Weighted%2520Partial%2520MaxSAT%26btnG%3D&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 4112 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://scholar.google.com"
+1645905581902	geckodriver	INFO	Listening on 127.0.0.1:52311
+1645905581906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileLZ2E5H"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1645905583078	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLZ2E5H/search.json.mozlz4", (void 0)))
+1645905584377	Marionette	INFO	Listening on port 35515
+1645905584501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645905596140	Marionette	INFO	Stopped listening on port 43801
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://scholar.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://accounts.google.com/Login?hl=en&continue=https://scholar.google.com/scholar%3Fhl%3Den%26as_sdt%3D0%252C5%26q%3Djiaq%26btnG%3D line 1 > eval line 7452 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Couldn't sanitize RENDERER device: SVGA3D; build: RELEASE;  LLVM;
+1645905603615	Marionette	INFO	Stopped listening on port 35515
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645905676429	geckodriver	INFO	Listening on 127.0.0.1:36071
+1645905676433	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilei2yCTe"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1645905677549	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilei2yCTe/search.json.mozlz4", (void 0)))
+1645905679360	Marionette	INFO	Listening on port 37395
+1645905679466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645905683205	Marionette	INFO	Stopped listening on port 37395
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
