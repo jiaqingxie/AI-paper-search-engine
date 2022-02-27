@@ -116,7 +116,8 @@ if __name__ == "__main__":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022)]
     elif arg.conf == "icml":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022)]
-    
+    elif arg.conf == "neurips":
+        org_csv_file_names = ["NeurIPS" + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022)]
     
         
      
