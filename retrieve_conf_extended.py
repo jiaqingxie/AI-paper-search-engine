@@ -104,6 +104,12 @@ if __name__ == "__main__":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2017)]
     elif arg.conf == "sigir" or arg.conf == "kdd" or arg.conf == "www":
         org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2010, 2022)]
+    elif arg.conf == "iccv":
+        org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022, 2)]
+    elif arg.conf == "cvpr":
+        org_csv_file_names = [arg.conf.upper() + "/" + arg.conf + "_{}".format(str(i))+ ".csv" for i in range(2013, 2022)]
+    
+    
     
         
      

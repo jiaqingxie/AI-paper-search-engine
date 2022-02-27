@@ -1,0 +1,126 @@
+conference,url,title,authors,abstract,citations
+emnlp,https://aclanthology.org/D10-1001.pdf,On Dual Decomposition and Linear Programming Relaxations for Natural Language Processing,"Alexander M. Rush,David Sontag,Michael Collins,Tommi Jaakkola",None,209
+emnlp,https://aclanthology.org/D10-1002.pdf,Self-Training with Products of Latent Variable Grammars,"Zhongqiang Huang,Mary Harper,Slav Petrov",None,47
+emnlp,https://aclanthology.org/D10-1003.pdf,Utilizing Extra-Sentential Context for Parsing,"Jackie Chi Kit Cheung,Gerald Penn",None,4
+emnlp,https://aclanthology.org/D10-1004.pdf,Turbo Parsers: Dependency Parsing by Approximate Variational Inference,"André Martins,Noah Smith,Eric Xing,Pedro Aguiar,Mário Figueiredo",None,152
+emnlp,https://aclanthology.org/D10-1005.pdf,Holistic Sentiment Analysis Across Languages: Multilingual Supervised Latent Dirichlet Allocation,"Jordan Boyd-Graber,Philip Resnik",None,151
+emnlp,https://aclanthology.org/D10-1006.pdf,Jointly Modeling Aspects and Opinions with a MaxEnt-LDA Hybrid,"Xin Zhao,Jing Jiang,Hongfei Yan,Xiaoming Li",None,505
+emnlp,https://aclanthology.org/D10-1007.pdf,Summarizing Contrastive Viewpoints in Opinionated Text,"Michael Paul,ChengXiang Zhai,Roxana Girju",None,176
+emnlp,https://aclanthology.org/D10-1008.pdf,Automatically Producing Plot Unit Representations for Narrative Text,"Amit Goyal,Ellen Riloff,Hal Daumé III",None,117
+emnlp,https://aclanthology.org/D10-1009.pdf,Handling Noisy Queries in Cross Language FAQ Retrieval,"Danish Contractor,Govind Kothari,Tanveer Faruquie,L. V. Subramaniam,Sumit Negi",None,26
+emnlp,https://aclanthology.org/D10-1010.pdf,Learning the Relative Usefulness of Questions in Community QA,"Razvan Bunescu,Yunfeng Huang",None,17
+emnlp,https://aclanthology.org/D10-1011.pdf,Positional Language Models for Clinical Information Retrieval,"Florian Boudin,Jian-Yun Nie,Martin Dawes",None,24
+emnlp,https://aclanthology.org/D10-1012.pdf,Inducing Word Senses to Improve Web Search Result Clustering,"Roberto Navigli,Giuseppe Crisafulli",None,140
+emnlp,https://aclanthology.org/D10-1013.pdf,Improving Translation via Targeted Paraphrasing,"Philip Resnik,Olivia Buzek,Chang Hu,Yakov Kronrod,Alex Quinn,Benjamin B. Bederson",None,47
+emnlp,https://aclanthology.org/D10-1014.pdf,Soft Syntactic Constraints for Hierarchical Phrase-Based Translation Using Latent Syntactic Distributions,"Zhongqiang Huang,Martin Čmejrek,Bowen Zhou",None,33
+emnlp,https://aclanthology.org/D10-1015.pdf,A Hybrid Morpheme-Word Representation for Machine Translation of Morphologically Rich Languages,"Minh-Thang Luong,Preslav Nakov,Min-Yen Kan",None,54
+emnlp,https://aclanthology.org/D10-1016.pdf,“Poetic” Statistical Machine Translation: Rhyme and Meter,"Dmitriy Genzel,Jakob Uszkoreit,Franz Och",None,70
+emnlp,https://aclanthology.org/D10-1017.pdf,Efficient Graph-Based Semi-Supervised Learning of Structured Tagging Models,"Amarnag Subramanya,Slav Petrov,Fernando Pereira",None,133
+emnlp,https://aclanthology.org/D10-1018.pdf,Better Punctuation Prediction with Dynamic Conditional Random Fields,"Wei Lu,Hwee Tou Ng",None,135
+emnlp,https://aclanthology.org/D10-1019.pdf,Joint Training and Decoding Using Virtual Nodes for Cascaded Segmentation and Tagging Tasks,"Xian Qian,Qi Zhang,Yaqian Zhou,Xuanjing Huang,Lide Wu",None,10
+emnlp,https://aclanthology.org/D10-1020.pdf,"Crouching Dirichlet, Hidden Markov Model: Unsupervised POS Tagging with Context Local Tag Generation","Taesun Moon,Katrin Erk,Jason Baldridge",None,21
+emnlp,https://aclanthology.org/D10-1021.pdf,Improving Gender Classification of Blog Authors,"Arjun Mukherjee,Bing Liu",None,299
+emnlp,https://aclanthology.org/D10-1022.pdf,Negative Training Data Can be Harmful to Text Classification,"Xiao-Li Li,Bing Liu,See-Kiong Ng",None,67
+emnlp,https://aclanthology.org/D10-1023.pdf,Modeling Organization in Student Essays,"Isaac Persing,Alan Davis,Vincent Ng",None,83
+emnlp,https://aclanthology.org/D10-1024.pdf,Evaluating Models of Latent Document Semantics in the Presence of OCR Errors,"Daniel Walker,William B. Lund,Eric K. Ringger",None,37
+emnlp,https://aclanthology.org/D10-1025.pdf,Translingual Document Representations from Discriminative Projections,"John Platt,Kristina Toutanova,Wen-tau Yih",None,120
+emnlp,https://aclanthology.org/D10-1026.pdf,Storing the Web in Memory: Space Efficient Language Models with Constant Time Retrieval,"David Guthrie,Mark Hepple",None,37
+emnlp,https://aclanthology.org/D10-1027.pdf,Efficient Incremental Decoding for Tree-to-String Translation,"Liang Huang,Haitao Mi",None,53
+emnlp,https://aclanthology.org/D10-1028.pdf,Modeling Perspective Using Adaptor Grammars,"Eric Hardisty,Jordan Boyd-Graber,Philip Resnik",None,44
+emnlp,https://aclanthology.org/D10-1029.pdf,Predicting the Semantic Compositionality of Prefix Verbs,"Shane Bergsma,Aditya Bhargava,Hua He,Grzegorz Kondrak",None,11
+emnlp,https://aclanthology.org/D10-1030.pdf,Joint Inference for Bilingual Semantic Role Labeling,"Tao Zhuang,Chengqing Zong",None,28
+emnlp,https://aclanthology.org/D10-1031.pdf,Automatic Discovery of Manner Relations and its Applications,"Eduardo Blanco,Dan Moldovan",None,4
+emnlp,https://aclanthology.org/D10-1032.pdf,Tense Sense Disambiguation: A New Syntactic Polysemy Task,"Roi Reichart,Ari Rappoport",None,15
+emnlp,https://aclanthology.org/D10-1033.pdf,Improving Mention Detection Robustness to Noisy Input,"Radu Florian,John Pitrelli,Salim Roukos,Imed Zitouni",None,34
+emnlp,https://aclanthology.org/D10-1034.pdf,Clustering-Based Stratified Seed Sampling for Semi-Supervised Relation Classification,"Longhua Qian,Guodong Zhou",None,15
+emnlp,https://aclanthology.org/D10-1035.pdf,Unsupervised Discovery of Negative Categories in Lexicon Bootstrapping,Tara McIntosh,None,42
+emnlp,https://aclanthology.org/D10-1036.pdf,Automatic Keyphrase Extraction via Topic Decomposition,"Zhiyuan Liu,Wenyi Huang,Yabin Zheng,Maosong Sun",None,407
+emnlp,https://aclanthology.org/D10-1037.pdf,Incorporating Content Structure into Text Analysis Applications,"Christina Sauper,Aria Haghighi,Regina Barzilay",None,47
+emnlp,https://aclanthology.org/D10-1038.pdf,Exploiting Conversation Structure in Unsupervised Topic Segmentation for Emails,"Shafiq Joty,Giuseppe Carenini,Gabriel Murray,Raymond T. Ng",None,26
+emnlp,https://aclanthology.org/D10-1039.pdf,A Semi-Supervised Approach to Improve Classification of Infrequent Discourse Relations Using Feature Vector Extension,"Hugo Hernault,Danushka Bollegala,Mitsuru Ishizuka",None,50
+emnlp,https://aclanthology.org/D10-1040.pdf,A Game-Theoretic Approach to Generating Spatial Descriptions,"Dave Golland,Percy Liang,Dan Klein",None,155
+emnlp,https://aclanthology.org/D10-1041.pdf,Facilitating Translation Using Source Language Paraphrase Lattices,"Jinhua Du,Jie Jiang,Andy Way",None,47
+emnlp,https://aclanthology.org/D10-1042.pdf,Mining Name Translations from Entity Graph Mapping,"Gae-won You,Seung-won Hwang,Young-In Song,Long Jiang,Zaiqing Nie",None,24
+emnlp,https://aclanthology.org/D10-1043.pdf,Non-Isomorphic Forest Pair Translation,"Hui Zhang,Min Zhang,Haizhou Li,Eng Siong Chng",None,4
+emnlp,https://aclanthology.org/D10-1044.pdf,Discriminative Instance Weighting for Domain Adaptation in Statistical Machine Translation,"George Foster,Cyril Goutte,Roland Kuhn",None,227
+emnlp,https://aclanthology.org/D10-1045.pdf,NLP on Spoken Documents Without ASR,"Mark Dredze,Aren Jansen,Glen Coppersmith,Ken Church",None,79
+emnlp,https://aclanthology.org/D10-1046.pdf,Fusing Eye Gaze with Speech Recognition Hypotheses to Resolve Exophoric References in Situated Dialogue,"Zahar Prasov,Joyce Y. Chai",None,33
+emnlp,https://aclanthology.org/D10-1047.pdf,Multi-Document Summarization Using A* Search and Discriminative Learning,"Ahmet Aker,Trevor Cohn,Robert Gaizauskas",None,55
+emnlp,https://aclanthology.org/D10-1048.pdf,A Multi-Pass Sieve for Coreference Resolution,"Karthik Raghunathan,Heeyoung Lee,Sudarshan Rangarajan,Nathanael Chambers,Mihai Surdeanu,Dan Jurafsky,Christopher Manning",None,490
+emnlp,https://aclanthology.org/D10-1049.pdf,A Simple Domain-Independent Probabilistic Approach to Generation,"Gabor Angeli,Percy Liang,Dan Klein",None,210
+emnlp,https://aclanthology.org/D10-1050.pdf,Title Generation with Quasi-Synchronous Grammar,"Kristian Woodsend,Yansong Feng,Mirella Lapata",None,67
+emnlp,https://aclanthology.org/D10-1051.pdf,Automatic Analysis of Rhythmic Poetry with Applications to Generation and Translation,"Erica Greene,Tugba Bodrumlu,Kevin Knight",None,160
+emnlp,https://aclanthology.org/D10-1052.pdf,Discriminative Word Alignment with a Function Word Reordering Model,"Hendra Setiawan,Chris Dyer,Philip Resnik",None,13
+emnlp,https://aclanthology.org/D10-1053.pdf,Hierarchical Phrase-Based Translation Grammars Extracted from Alignment Posterior Probabilities,"Adrià de Gispert,Juan Pino,William Byrne",None,15
+emnlp,https://aclanthology.org/D10-1054.pdf,Maximum Entropy Based Phrase Reordering for Hierarchical Phrase-Based Translation,"Zhongjun He,Yao Meng,Hao Yu",None,24
+emnlp,https://aclanthology.org/D10-1055.pdf,Further Meta-Evaluation of Broad-Coverage Surface Realization,"Dominic Espinosa,Rajakrishnan Rajkumar,Michael White,Shoshana Berleant",None,24
+emnlp,https://aclanthology.org/D10-1056.pdf,Two Decades of Unsupervised POS Induction: How Far Have We Come?,"Christos Christodoulopoulos,Sharon Goldwater,Mark Steedman",None,166
+emnlp,https://aclanthology.org/D10-1057.pdf,We’re Not in Kansas Anymore: Detecting Domain Changes in Streams,"Mark Dredze,Tim Oates,Christine Piatko",None,32
+emnlp,https://aclanthology.org/D10-1058.pdf,A Fast Fertility Hidden Markov Model for Word Alignment Using MCMC,"Shaojun Zhao,Daniel Gildea",None,23
+emnlp,https://aclanthology.org/D10-1059.pdf,Minimum Error Rate Training by Sampling the Translation Lattice,"Samidh Chatterjee,Nicola Cancedda",None,23
+emnlp,https://aclanthology.org/D10-1060.pdf,Statistical Machine Translation with a Factorized Grammar,"Libin Shen,Bing Zhang,Spyros Matsoukas,Jinxi Xu,Ralph Weischedel",None,3
+emnlp,https://aclanthology.org/D10-1061.pdf,Discriminative Sample Selection for Statistical Machine Translation,"Sankaranarayanan Ananthakrishnan,Rohit Prasad,David Stallard,Prem Natarajan",None,13
+emnlp,https://aclanthology.org/D10-1062.pdf,Effects of Empty Categories on Machine Translation,"Tagyoung Chung,Daniel Gildea",None,58
+emnlp,https://aclanthology.org/D10-1063.pdf,SCFG Decoding Without Binarization,"Mark Hopkins,Greg Langmead",None,34
+emnlp,https://aclanthology.org/D10-1064.pdf,Example-Based Paraphrasing for Improved Phrase-Based Statistical Machine Translation,Aurélien Max,None,24
+emnlp,https://aclanthology.org/D10-1065.pdf,Combining Unsupervised and Supervised Alignments for MT: An Empirical Study,"Jinxi Xu,Antti-Veikko Rosti",None,3
+emnlp,https://aclanthology.org/D10-1066.pdf,Top-Down Nearly-Context-Sensitive Parsing,Eugene Charniak,None,13
+emnlp,https://aclanthology.org/D10-1067.pdf,Improved Fully Unsupervised Parsing with Zoomed Learning,"Roi Reichart,Ari Rappoport",None,12
+emnlp,https://aclanthology.org/D10-1068.pdf,Unsupervised Parse Selection for HPSG,"Rebecca Dridan,Timothy Baldwin",None,7
+emnlp,https://aclanthology.org/D10-1069.pdf,Uptraining for Accurate Deterministic Question Parsing,"Slav Petrov,Pi-Chuan Chang,Michael Ringgaard,Hiyan Alshawi",None,94
+emnlp,https://aclanthology.org/D10-1070.pdf,A Unified Framework for Scope Learning via Simplified Shallow Semantic Parsing,"Qiaoming Zhu,Junhui Li,Hongling Wang,Guodong Zhou",None,38
+emnlp,https://aclanthology.org/D10-1071.pdf,A New Approach to Lexical Disambiguation of Arabic Text,"Rushin Shah,Paramveer S. Dhillon,Mark Liberman,Dean Foster,Mohamed Maamouri,Lyle Ungar",None,9
+emnlp,https://aclanthology.org/D10-1072.pdf,What a Parser Can Learn from a Semantic Role Labeler and Vice Versa,"Stephen Boxwell,Dennis Mehay,Chris Brew",None,6
+emnlp,https://aclanthology.org/D10-1073.pdf,Word Sense Induction & Disambiguation Using Hierarchical Random Graphs,"Ioannis Klapaftis,Suresh Manandhar",None,225
+emnlp,https://aclanthology.org/D10-1074.pdf,Towards Conversation Entailment: An Empirical Investigation,"Chen Zhang,Joyce Chai",None,14
+emnlp,https://aclanthology.org/D10-1075.pdf,The Necessity of Combining Adaptation Methods,"Ming-Wei Chang,Michael Connor,Dan Roth",None,14
+emnlp,https://aclanthology.org/D10-1076.pdf,Training Continuous Space Language Models: Some Practical Issues,"Hai Son Le,Alexandre Allauzen,Guillaume Wisniewski,François Yvon",None,39
+emnlp,https://aclanthology.org/D10-1077.pdf,Enhancing Domain Portability of Chinese Segmentation Model Using Chi-Square Statistics and Bootstrapping,"Baobao Chang,Dongxu Han",None,15
+emnlp,https://aclanthology.org/D10-1078.pdf,Latent-Descriptor Clustering for Unsupervised POS Induction,"Michael Lamar,Yariv Maron,Elie Bienenstock",None,14
+emnlp,https://aclanthology.org/D10-1079.pdf,A Probabilistic Morphological Analyzer for Syriac,"Peter McClanahan,George Busby,Robbie Haertel,Kristian Heal,Deryle Lonsdale,Kevin Seppi,Eric Ringger",None,12
+emnlp,https://aclanthology.org/D10-1080.pdf,Lessons Learned in Part-of-Speech Tagging of Conversational Speech,"Vladimir Eidelman,Zhongqiang Huang,Mary Harper",None,12
+emnlp,https://aclanthology.org/D10-1081.pdf,An Efficient Algorithm for Unsupervised Word Segmentation with Branching Entropy and MDL,"Valentin Zhikov,Hiroya Takamura,Manabu Okumura",None,37
+emnlp,https://aclanthology.org/D10-1082.pdf,A Fast Decoder for Joint Word Segmentation and POS-Tagging Using a Single Discriminative Model,"Yue Zhang,Stephen Clark",None,106
+emnlp,https://aclanthology.org/D10-1083.pdf,Simple Type-Level Unsupervised POS Tagging,"Yoong Keok Lee,Aria Haghighi,Regina Barzilay",None,39
+emnlp,https://aclanthology.org/D10-1084.pdf,Classifying Dialogue Acts in One-on-One Live Chats,"Su Nam Kim,Lawrence Cavedon,Timothy Baldwin",None,110
+emnlp,https://aclanthology.org/D10-1085.pdf,Resolving Event Noun Phrases to Their Verbal Mentions,"Bin Chen,Jian Su,Chew Lim Tan",None,20
+emnlp,https://aclanthology.org/D10-1086.pdf,A Tree Kernel-Based Unified Framework for Chinese Zero Anaphora Resolution,"Fang Kong,Guodong Zhou",None,87
+emnlp,https://aclanthology.org/D10-1087.pdf,Automatic Comma Insertion for Japanese Text Generation,"Masaki Murata,Tomohiro Ohno,Shigeki Matsubara",None,5
+emnlp,https://aclanthology.org/D10-1088.pdf,Using Unknown Word Techniques to Learn Known Words,"Kostadin Cholakov,Gertjan van Noord",None,7
+emnlp,https://aclanthology.org/D10-1089.pdf,WikiWars: A New Corpus for Research on Temporal Expressions,"Pawel Mazur,Robert Dale",None,85
+emnlp,https://aclanthology.org/D10-1090.pdf,PEM: A Paraphrase Evaluation Metric Exploiting Parallel Texts,"Chang Liu,Daniel Dahlmeier,Hwee Tou Ng",None,41
+emnlp,https://aclanthology.org/D10-1091.pdf,Assessing Phrase-Based Translation Models with Oracle Decoding,"Guillaume Wisniewski,Alexandre Allauzen,François Yvon",None,25
+emnlp,https://aclanthology.org/D10-1092.pdf,Automatic Evaluation of Translation Quality for Distant Language Pairs,"Hideki Isozaki,Tsutomu Hirao,Kevin Duh,Katsuhito Sudoh,Hajime Tsukada",None,359
+emnlp,https://aclanthology.org/D10-1093.pdf,An Approach of Generating Personalized Views from Normalized Electronic Dictionaries : A Practical Experiment on Arabic Language,"Aida Khemakhem,Bilel Gargouri,Abdelmajid Ben Hamadou",None,2
+emnlp,https://aclanthology.org/D10-1094.pdf,Generating Confusion Sets for Context-Sensitive Error Correction,"Alla Rozovskaya,Dan Roth",None,99
+emnlp,https://aclanthology.org/D10-1095.pdf,Confidence in Structured-Prediction Using Confidence-Weighted Models,"Avihai Mejer,Koby Crammer",None,45
+emnlp,https://aclanthology.org/D10-1096.pdf,Evaluating the Impact of Alternative Dependency Graph Encodings on Solving Event Extraction Tasks,"Ekaterina Buyko,Udo Hahn",None,32
+emnlp,https://aclanthology.org/D10-1097.pdf,Enhancing Mention Detection Using Projection via Aligned Corpora,"Yassine Benajiba,Imed Zitouni",None,6
+emnlp,https://aclanthology.org/D10-1098.pdf,Domain Adaptation of Rule-Based Annotators for Named-Entity Recognition Tasks,"Laura Chiticariu,Rajasekar Krishnamurthy,Yunyao Li,Frederick Reiss,Shivakumar Vaithyanathan",None,179
+emnlp,https://aclanthology.org/D10-1099.pdf,Collective Cross-Document Relation Extraction Without Labelled Data,"Limin Yao,Sebastian Riedel,Andrew McCallum",None,159
+emnlp,https://aclanthology.org/D10-1100.pdf,Automatic Detection and Classification of Social Events,"Apoorv Agarwal,Owen Rambow",None,50
+emnlp,https://aclanthology.org/D10-1101.pdf,Extracting Opinion Targets in a Single and Cross-Domain Setting with Conditional Random Fields,"Niklas Jakob,Iryna Gurevych",None,637
+emnlp,https://aclanthology.org/D10-1102.pdf,Multi-Level Structured Models for Document-Level Sentiment Classification,"Ainur Yessenalina,Yisong Yue,Claire Cardie",None,238
+emnlp,https://aclanthology.org/D10-1103.pdf,Cross Language Text Classification by Model Translation and Semi-Supervised Learning,"Lei Shi,Rada Mihalcea,Mingjun Tian",None,107
+emnlp,https://aclanthology.org/D10-1104.pdf,SRL-Based Verb Selection for ESL,"Xiaohua Liu,Bo Han,Kuan Li,Stephan Hyeonjun Stiller,Ming Zhou",None,22
+emnlp,https://aclanthology.org/D10-1105.pdf,Context Comparison of Bursty Events in Web Search and Online Media,"Yunliang Jiang,Cindy Xide Lin,Qiaozhu Mei",None,9
+emnlp,https://aclanthology.org/D10-1106.pdf,Learning First-Order Horn Clauses from Web Text,"Stefan Schoenmackers,Jesse Davis,Oren Etzioni,Daniel Weld",None,243
+emnlp,https://aclanthology.org/D10-1107.pdf,Constraints Based Taxonomic Relation Classification,"Quang Do,Dan Roth",None,22
+emnlp,https://aclanthology.org/D10-1108.pdf,A Semi-Supervised Method to Learn and Construct Taxonomies Using the Web,"Zornitsa Kozareva,Eduard Hovy",None,203
+emnlp,https://aclanthology.org/D10-1109.pdf,Function-Based Question Classification for General QA,"Fan Bu,Xingwei Zhu,Yu Hao,Xiaoyan Zhu",None,39
+emnlp,https://aclanthology.org/D10-1110.pdf,Learning Recurrent Event Queries for Web Search,"Ruiqiang Zhang,Yuki Konda,Anlei Dong,Pranam Kolari,Yi Chang,Zhaohui Zheng",None,36
+emnlp,https://aclanthology.org/D10-1111.pdf,Staying Informed: Supervised and Semi-Supervised Multi-View Topical Analysis of Ideological Perspective,"Amr Ahmed,Eric Xing",None,98
+emnlp,https://aclanthology.org/D10-1112.pdf,Word-Based Dialect Identification with Georeferenced Rules,"Yves Scherrer,Owen Rambow",None,29
+emnlp,https://aclanthology.org/D10-1113.pdf,Measuring Distributional Similarity in Context,"Georgiana Dinu,Mirella Lapata",None,142
+emnlp,https://aclanthology.org/D10-1114.pdf,A Mixture Model with Sharing for Lexical Semantics,"Joseph Reisinger,Raymond Mooney",None,47
+emnlp,https://aclanthology.org/D10-1115.pdf,"Nouns are Vectors, Adjectives are Matrices: Representing Adjective-Noun Constructions in Semantic Space","Marco Baroni,Roberto Zamparelli",None,577
+emnlp,https://aclanthology.org/D10-1116.pdf,Practical Linguistic Steganography Using Contextual Synonym Substitution and Vertex Colour Coding,"Ching-Yun Chang,Stephen Clark",None,38
+emnlp,https://aclanthology.org/D10-1117.pdf,Unsupervised Induction of Tree Substitution Grammars for Dependency Parsing,"Phil Blunsom,Trevor Cohn",None,95
+emnlp,https://aclanthology.org/D10-1118.pdf,It Depends on the Translation: Unsupervised Dependency Parsing via Word Alignment,Samuel Brody,None,11
+emnlp,https://aclanthology.org/D10-1119.pdf,Inducing Probabilistic CCG Grammars from Logical Form with Higher-Order Unification,"Tom Kwiatkowksi,Luke Zettlemoyer,Sharon Goldwater,Mark Steedman",None,344
+emnlp,https://aclanthology.org/D10-1120.pdf,Using Universal Linguistic Knowledge to Guide Grammar Induction,"Tahira Naseem,Harr Chen,Regina Barzilay,Mark Johnson",None,145
+emnlp,https://aclanthology.org/D10-1121.pdf,What’s with the Attitude? Identifying Sentences with Attitude in Online Discussions,"Ahmed Hassan,Vahed Qazvinian,Dragomir Radev",None,114
+emnlp,https://aclanthology.org/D10-1122.pdf,Hashing-Based Approaches to Spelling Correction of Personal Names,"Raghavendra Udupa,Shaishav Kumar",None,21
+emnlp,https://aclanthology.org/D10-1123.pdf,Identifying Functional Relations in Web Text,"Thomas Lin,Mausam,Oren Etzioni",None,35
+emnlp,https://aclanthology.org/D10-1124.pdf,A Latent Variable Model for Geographic Lexical Variation,"Jacob Eisenstein,Brendan O’Connor,Noah A. Smith,Eric P. Xing",None,836
+emnlp,https://aclanthology.org/D10-1125.pdf,Dual Decomposition for Parsing with Non-Projective Head Automata,"Terry Koo,Alexander M. Rush,Michael Collins,Tommi Jaakkola,David Sontag",None,226
