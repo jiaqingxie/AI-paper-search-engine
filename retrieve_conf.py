@@ -63,10 +63,20 @@ icml_url_list = [
     "https://proceedings.mlr.press/v28/"  # ICML-13
 ]
 
+###  ICRA URL 2010- 2021  ###
+icra_url_list = [
+    "https://dblp.org/db/conf/icra/icra"+ str(2021-i) +".html" for i in range(0,12) 
+]
+
 aaai_url_list = [
-    "https://aaai.org/Library/AAAI/aaai10contents.php"  # AAAI-10
+    "https://dblp.org/db/conf/aaai/aaai"+ str(2021-i) +".html" for i in range(0,12) 
 
 ]
+
+iclr_url_list = [
+    "https://dblp.org/db/conf/iclr/iclr"+ str(2021-i) +".html" for i in range(5,9) 
+]
+
 chromedriver_path = cur_path + "//chromedriver"
 
 
@@ -102,10 +112,25 @@ if __name__ == "__main__":
     elif args.conf == 'sigir':
         url_list = sigir_url_list
         root = cur_path + "//Papers//SIGIR" 
+    elif args.conf == 'icra':
+        url_list = icra_url_list
+        root = cur_path + "//Papers//ICRA"
+    elif args.conf == 'iclr':
+        url_list = iclr_url_list
+        root = cur_path + "//Papers//ICLR"
+    elif args.conf == 'aaai':
+        url_list = aaai_url_list
+        root = cur_path + "//Papers//AAAI"
     os.makedirs(root, exist_ok=True)
     
-    year = 2021
+    year = 2021 if args.conf != 'iclr' else 2016
+    
     for conference_url in url_list:
+        
+        if args.conf == 'aaai' and year == 2018:
+            year = year - 1
+            continue
+        
         driver.get(conference_url)
         pdfurllist, pdfnamelist, abslist, autlist = retreive(driver, year)
         conf = [args.conf for i in range(len(pdfurllist))]
