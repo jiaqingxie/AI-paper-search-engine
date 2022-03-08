@@ -1,8 +1,7 @@
+# run in python 3.8 virtual env
 from time import perf_counter
-import RAKE
-import operator
-import tqdm
-import nltk
+import RAKE # pip install python-rake
+import nltk # pip install nltk
 from nltk.stem.snowball import SnowballStemmer
 from nltk import pos_tag, word_tokenize
 from nltk.tag.stanford import StanfordPOSTagger
