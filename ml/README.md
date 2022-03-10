@@ -1,17 +1,18 @@
 **Machine_Learning_Pipeline
 
 ***TODO:
-Manage all csv files of collected paper into one csv file
+***1. Manage all csv files of collected paper into one csv file
 keyword extractor for paper abstract and search engine indexer
 Grammar corrector loaded to search engine: https://github.com/PrithivirajDamodaran/Gramformer 
-Spelling corrector: https://github.com/filyp/autocorrect 
-Web translator
-Hierarchy of information
-wordnet: https://wordnet.princeton.edu/ 
-similarity:
-https://github.com/MichelDeudon/variational-siamese-network
-https://github.com/MIR-MU/regularized-embeddings
-other papers: https://paperswithcode.com/search?q_meta=&q_type=&q=From+Word+Embeddings+to+Document+Distances 
+
+***2. Spelling corrector: https://github.com/filyp/autocorrect
+
+***3. Web translator
+***4. Hierarchy of information:
+          a. wordnet: https://wordnet.princeton.edu/ 
+          b. similarity: https://github.com/MichelDeudon/variational-siamese-network,
+                         https://github.com/MIR-MU/regularized-embeddings
+          c.other papers: https://paperswithcode.com/search?q_meta=&q_type=&q=From+Word+Embeddings+to+Document+Distances 
 
 ***Ideas:
 Machine Learning:
