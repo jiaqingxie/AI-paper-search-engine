@@ -8,6 +8,7 @@ Grammar corrector loaded to search engine: https://github.com/PrithivirajDamodar
 ***2. Spelling corrector: https://github.com/filyp/autocorrect
 
 ***3. Web translator
+
 ***4. Hierarchy of information:
           a. wordnet: https://wordnet.princeton.edu/ 
           b. similarity: https://github.com/MichelDeudon/variational-siamese-network,
