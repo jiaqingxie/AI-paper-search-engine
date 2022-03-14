@@ -1,0 +1,108 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100px;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.search-label
+{
+    color: #FFFFFF;
+    margin: 0px 20px 0px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.search-input{
+    height: 35px;
+    width: 450px;
+    border: 25px;
+    border-radius: 25px;
+    outline: none;
+    text-indent: 10px;
+}
+
+.search-btn {
+    height: 35px;
+    width: 65px;
+    background: #f2c00a;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    font-size: inherit;
+}
+
+
+.middle-table
+{
+	font-family:'trebuchet MS', 'Lucida sans', Arial;   /*设置字体*/
+	font-size: 14px;                                    /*设置字体大小14px*/
+	color: #555;                                        /*设置字体颜色浅灰色*/
+	width: 80%;                                         /*设置页面宽度占浏览器大小的40%*/
+	margin: 60px auto;                                  /*页面自适应居中*/
+}
+
+table
+{
+                                     /*页面自适应居中*/
+	width: 100%;                                        /*表格占据整个页面*/
+	border-spacing: 0;                                  /*单元格边框间距为0*/
+	box-shadow: 0 1px 1px #ccc;                         /*设置表格外边框阴影,有立体感*/
+}
+
+.Modbus
+{
+	border:none;                              /*设置表格外边框*/
+    /*设置表格外边框圆角*/
+}
+
+.Modbus td,.Modbus th
+{
+	border-right: none;                        /*设置表格单元格外边框，只设置右下边框*/
+	border-top: none;
+    border-left: none;
+	padding: 10px;                                      /*设置单元格内边距，单元格内容显得不拥挤*/
+	text-align: left;                                 /*单元格内容居中*/
+}
+
+.Modbus thead
+{
+	background-color: #faf9f5;                          /*设置表头背景色*/
+}
+
+
+/*鼠标移动至单元格，单元格高亮显示*/
+.Modbus tr:hover
+{
+	background: #fbf8e9;
+}
+
+/*分别设置每一行中单元格的宽度*/
+.item1
+{
+	width: 30%;
+}
+
+.item2
+{
+	width: 20%;
+}
+.item3
+{
+	width: 30%;
+}
+.item3
+{
+	width: 20%;
+}
