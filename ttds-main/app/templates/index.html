@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FIND PAPERS</title>
+    <link rel="stylesheet" href="../static/index.css" />
+
+</head>
+<body>
+
+<div class="header">
+    <form action="http://127.0.0.1:5000/search" method="post">
+        <h1>FIND PAPERS</h1>
+            <div class="form-box">
+                <input type="text" class="search-input" name="keyword" id = "query" required placeholder="conference,url,title,authors,abstract,citations">
+                <button class="search-btn" type="submit" onclick="jump()">Search</button>
+                <script type="text/javascript">
+                    function jump(){
+                        let query = document.getElementById('query');
+                        location.href='paper.html';
+                    }
+                </script>
+            </div>
+
+
+    </form>
+</div>
+
+</body>
+</html>

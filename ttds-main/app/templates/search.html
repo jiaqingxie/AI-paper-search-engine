@@ -1,0 +1,32 @@
+<!doctype html>
+<title>{% block title %}{% endblock %} - Music Search</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<nav>
+  <h1> Music Search</h1>
+</nav>
+
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+{#  {% for message in get_flashed_messages() %}#}
+{#    <div class="flash">{{ message }}</div>#}
+{#  {% endfor %}#}
+  {% block content %}
+
+  <form method="post">
+    <input name="search" id="search" required>
+    <input type="submit" value="Search">
+    <input type="radio" name="search_method" id="radio1" value="keyword" checked>keyword
+    <input type="radio" name="search_method" id="radio2" value="song">song
+  </form>
+
+  <form>
+    <label for="result">Result:</label>
+    <textarea name='result' id='result'>{{ Result }}</textarea>
+    
+
+  </form>
+{% endblock %}
+
+</section>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FIND PAPERS</title>
+    <link rel="stylesheet" href="../static/paper.css" />
+
+</head>
+<body>
+
+<div class="header">
+    <form action="http://127.0.0.1:5000/search" method="post">
+        <div class="form-box">
+            <label class="search-label">FIND PAPERS</label>
+            <input type="text" class="search-input" name="keyword" id = "query" required placeholder={{ search_keyword }}>
+            <button class="search-btn" type="submit">Search</button>
+        </div>
+
+
+    </form>
+</div>
+
+<div class="middle-table">
+        <h2>Result List</h2>
+		<table class="Modbus">
+			<thead>
+			<tr>
+                 <!--conference,url,title,authors,abstract,citations> -->
+                <th>title</th>
+				<th>authors</th>
+				<th>conference</th>
+				<th>keywords</th>
+                <th>citations</th>
+			</tr>
+			</thead>
+        {% for i,v in result.items() %}
+			<tr>
+               
+				<td class="item1">{{v[0]}}</td>
+				<td class="item2">{{v[1]}}</td>
+				<td class="item3">{{v[2]}}</td>
+				<td class="item4">{{v[3]}}</td>
+                <td class="item5">{{v[4]}}</td>
+			</tr>
+      {% endfor %}
+		</table>
+</div>
+
+
+</body>
+</html>

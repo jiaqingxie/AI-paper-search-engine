@@ -1,0 +1,165 @@
+conference,url,title,authors,abstract
+acl,https://aclanthology.org/P11-1001.pdf,A Word-Class Approach to Labeling PSCFG Rules for Machine Translation,"Andreas Zollmann,Stephan Vogel",None
+acl,https://aclanthology.org/P11-1002.pdf,Deciphering Foreign Language,"Sujith Ravi,Kevin Knight",None
+acl,https://aclanthology.org/P11-1003.pdf,Effective Use of Function Words for Rule Generalization in Forest-Based Translation,"Xianchao Wu,Takuya Matsuzaki,Jun’ichi Tsujii",None
+acl,https://aclanthology.org/P11-1004.pdf,Combining Morpheme-based Machine Translation with Post-processing Morpheme Prediction,"Ann Clifton,Anoop Sarkar",None
+acl,https://aclanthology.org/P11-1005.pdf,Evaluating the Impact of Coder Errors on Active Learning,"Ines Rehbein,Josef Ruppenhofer",None
+acl,https://aclanthology.org/P11-1006.pdf,A Fast and Accurate Method for Approximate String Search,"Ziqi Wang,Gu Xu,Hang Li,Ming Zhang",None
+acl,https://aclanthology.org/P11-1007.pdf,Domain Adaptation by Constraining Inter-Domain Variability of Latent Feature Representation,Ivan Titov,None
+acl,https://aclanthology.org/P11-1008.pdf,Exact Decoding of Syntactic Translation Models through Lagrangian Relaxation,"Alexander M. Rush,Michael Collins",None
+acl,https://aclanthology.org/P11-1009.pdf,Jigs and Lures: Associating Web Queries with Structured Entities,"Patrick Pantel,Ariel Fuxman",None
+acl,https://aclanthology.org/P11-1010.pdf,Semi-Supervised SimHash for Efficient Document Similarity Search,"Qixia Jiang,Maosong Sun",None
+acl,https://aclanthology.org/P11-1011.pdf,Joint Annotation of Search Queries,"Michael Bendersky,W. Bruce Croft,David A. Smith",None
+acl,https://aclanthology.org/P11-1012.pdf,Query Weighting for Ranking Model Adaptation,"Peng Cai,Wei Gao,Aoying Zhou,Kam-Fai Wong",None
+acl,https://aclanthology.org/P11-1013.pdf,Automatically Extracting Polarity-Bearing Topics for Cross-Domain Sentiment Classification,"Yulan He,Chenghua Lin,Harith Alani",None
+acl,https://aclanthology.org/P11-1014.pdf,Using Multiple Sources to Construct a Sentiment Sensitive Thesaurus for Cross-Domain Sentiment Classification,"Danushka Bollegala,David Weir,John Carroll",None
+acl,https://aclanthology.org/P11-1015.pdf,Learning Word Vectors for Sentiment Analysis,"Andrew L. Maas,Raymond E. Daly,Peter T. Pham,Dan Huang,Andrew Y. Ng,Christopher Potts",None
+acl,https://aclanthology.org/P11-1016.pdf,Target-dependent Twitter Sentiment Classification,"Long Jiang,Mo Yu,Ming Zhou,Xiaohua Liu,Tiejun Zhao",None
+acl,https://aclanthology.org/P11-1017.pdf,A Comprehensive Dictionary of Multiword Expressions,"Kosho Shudo,Akira Kurahone,Toshifumi Tanabe",None
+acl,https://aclanthology.org/P11-1018.pdf,Multi-Modal Annotation of Quest Games in Second Life,"Sharon Gower Small,Jennifer Strommer-Galley,Tomek Strzalkowski",None
+acl,https://aclanthology.org/P11-1019.pdf,A New Dataset and Method for Automatically Grading ESOL Texts,"Helen Yannakoudakis,Ted Briscoe,Ben Medlock",None
+acl,https://aclanthology.org/P11-1020.pdf,Collecting Highly Parallel Data for Paraphrase Evaluation,"David Chen,William Dolan",None
+acl,https://aclanthology.org/P11-1021.pdf,"A Large Scale Distributed Syntactic, Semantic and Lexical Language Model for Machine Translation","Ming Tan,Wenli Zhou,Lei Zheng,Shaojun Wang",None
+acl,https://aclanthology.org/P11-1022.pdf,Goodness: A Method for Measuring Machine Translation Confidence,"Nguyen Bach,Fei Huang,Yaser Al-Onaizan",None
+acl,https://aclanthology.org/P11-1023.pdf,"MEANT: An inexpensive, high-accuracy, semi-automatic metric for evaluating translation utility based on semantic roles","Chi-kiu Lo,Dekai Wu",None
+acl,https://aclanthology.org/P11-1024.pdf,An exponential translation model for target language morphology,Michael Subotin,None
+acl,https://aclanthology.org/P11-1025.pdf,Bayesian Inference for Zodiac and Other Homophonic Ciphers,"Sujith Ravi,Kevin Knight",None
+acl,https://aclanthology.org/P11-1026.pdf,Interactive Topic Modeling,"Yuening Hu,Jordan Boyd-Graber,Brianna Satinoff",None
+acl,https://aclanthology.org/P11-1027.pdf,Faster and Smaller N-Gram Language Models,"Adam Pauls,Dan Klein",None
+acl,https://aclanthology.org/P11-1028.pdf,Learning to Win by Reading Manuals in a Monte-Carlo Framework,"S.R.K. Branavan,David Silver,Regina Barzilay",None
+acl,https://aclanthology.org/P11-1029.pdf,Creative Language Retrieval: A Robust Hybrid of Information Retrieval and Linguistic Creativity,Tony Veale,None
+acl,https://aclanthology.org/P11-1030.pdf,Local Histograms of Character N-grams for Authorship Attribution,"Hugo Jair Escalante,Thamar Solorio,Manuel Montes-y-Gómez",None
+acl,https://aclanthology.org/P11-1031.pdf,Word Maturity: Computational Modeling of Word Knowledge,"Kirill Kireyev,Thomas K Landauer",None
+acl,https://aclanthology.org/P11-1032.pdf,Finding Deceptive Opinion Spam by Any Stretch of the Imagination,"Myle Ott,Yejin Choi,Claire Cardie,Jeffrey T. Hancock",None
+acl,https://aclanthology.org/P11-1033.pdf,Joint Bilingual Sentiment Classification with Unlabeled Parallel Corpora,"Bin Lu,Chenhao Tan,Claire Cardie,Benjamin K. Tsou",None
+acl,https://aclanthology.org/P11-1034.pdf,A Pilot Study of Opinion Summarization in Conversations,"Dong Wang,Yang Liu",None
+acl,https://aclanthology.org/P11-1035.pdf,Contrasting Opposing Views of News Articles on Contentious Issues,"Souneil Park,KyungSoon Lee,Junehwa Song",None
+acl,https://aclanthology.org/P11-1036.pdf,Content Models with Attitude,"Christina Sauper,Aria Haghighi,Regina Barzilay",None
+acl,https://aclanthology.org/P11-1037.pdf,Recognizing Named Entities in Tweets,"Xiaohua Liu,Shaodian Zhang,Furu Wei,Ming Zhou",None
+acl,https://aclanthology.org/P11-1038.pdf,Lexical Normalisation of Short Text Messages: Makn Sens a #twitter,"Bo Han,Timothy Baldwin",None
+acl,https://aclanthology.org/P11-1039.pdf,Topical Keyphrase Extraction from Twitter,"Xin Zhao,Jing Jiang,Jing He,Yang Song,Palakorn Achanauparp,Ee-Peng Lim,Xiaoming Li",None
+acl,https://aclanthology.org/P11-1040.pdf,Event Discovery in Social Media Feeds,"Edward Benson,Aria Haghighi,Regina Barzilay",None
+acl,https://aclanthology.org/P11-1041.pdf,How do you pronounce your name? Improving G2P with transliterations,"Aditya Bhargava,Grzegorz Kondrak",None
+acl,https://aclanthology.org/P11-1042.pdf,Unsupervised Word Alignment with Arbitrary Features,"Chris Dyer,Jonathan H. Clark,Alon Lavie,Noah A. Smith",None
+acl,https://aclanthology.org/P11-1043.pdf,Model-Based Aligner Combination Using Dual Decomposition,"John DeNero,Klaus Macherey",None
+acl,https://aclanthology.org/P11-1044.pdf,An Algorithm for Unsupervised Transliteration Mining with an Application to Word Alignment,"Hassan Sajjad,Alexander Fraser,Helmut Schmid",None
+acl,https://aclanthology.org/P11-1045.pdf,Beam-Width Prediction for Efficient Context-Free Parsing,"Nathan Bodenstab,Aaron Dunlop,Keith Hall,Brian Roark",None
+acl,https://aclanthology.org/P11-1046.pdf,Optimal Head-Driven Parsing Complexity for Linear Context-Free Rewriting Systems,"Pierluigi Crescenzi,Daniel Gildea,Andrea Marino,Gianluca Rossi,Giorgio Satta",None
+acl,https://aclanthology.org/P11-1047.pdf,Prefix Probability for Probabilistic Synchronous Context-Free Grammars,"Mark-Jan Nederhof,Giorgio Satta",None
+acl,https://aclanthology.org/P11-1048.pdf,A Comparison of Loopy Belief Propagation and Dual Decomposition for Integrated CCG Supertagging and Parsing,"Michael Auli,Adam Lopez",None
+acl,https://aclanthology.org/P11-1049.pdf,Jointly Learning to Extract and Compress,"Taylor Berg-Kirkpatrick,Dan Gillick,Dan Klein",None
+acl,https://aclanthology.org/P11-1050.pdf,Discovery of Topically Coherent Sentences for Extractive Summarization,"Asli Celikyilmaz,Dilek Hakkani-Tür",None
+acl,https://aclanthology.org/P11-1051.pdf,Coherent Citation-Based Summarization of Scientific Papers,"Amjad Abu-Jbara,Dragomir Radev",None
+acl,https://aclanthology.org/P11-1052.pdf,A Class of Submodular Functions for Document Summarization,"Hui Lin,Jeff Bilmes",None
+acl,https://aclanthology.org/P11-1053.pdf,Semi-supervised Relation Extraction with Large-scale Word Clustering,"Ang Sun,Ralph Grishman,Satoshi Sekine",None
+acl,https://aclanthology.org/P11-1054.pdf,In-domain Relation Discovery with Meta-constraints via Posterior Regularization,"Harr Chen,Edward Benson,Tahira Naseem,Regina Barzilay",None
+acl,https://aclanthology.org/P11-1055.pdf,Knowledge-Based Weak Supervision for Information Extraction of Overlapping Relations,"Raphael Hoffmann,Congle Zhang,Xiao Ling,Luke Zettlemoyer,Daniel S. Weld",None
+acl,https://aclanthology.org/P11-1056.pdf,Exploiting Syntactico-Semantic Structures for Relation Extraction,"Yee Seng Chan,Dan Roth",None
+acl,https://aclanthology.org/P11-1057.pdf,Together We Can: Bilingual Bootstrapping for WSD,"Mitesh M. Khapra,Salil Joshi,Arindam Chatterjee,Pushpak Bhattacharyya",None
+acl,https://aclanthology.org/P11-1058.pdf,Which Noun Phrases Denote Which Concepts?,"Jayant Krishnamurthy,Tom Mitchell",None
+acl,https://aclanthology.org/P11-1059.pdf,Semantic Representation of Negation Using Focus Detection,"Eduardo Blanco,Dan Moldovan",None
+acl,https://aclanthology.org/P11-1060.pdf,Learning Dependency-Based Compositional Semantics,"Percy Liang,Michael Jordan,Dan Klein",None
+acl,https://aclanthology.org/P11-1061.pdf,Unsupervised Part-of-Speech Tagging with Bilingual Graph-Based Projections,"Dipanjan Das,Slav Petrov",None
+acl,https://aclanthology.org/P11-1062.pdf,Global Learning of Typed Entailment Rules,"Jonathan Berant,Ido Dagan,Jacob Goldberger",None
+acl,https://aclanthology.org/P11-1063.pdf,Incremental Syntactic Language Models for Phrase-based Translation,"Lane Schwartz,Chris Callison-Burch,William Schuler,Stephen Wu",None
+acl,https://aclanthology.org/P11-1064.pdf,An Unsupervised Model for Joint Phrase Alignment and Extraction,"Graham Neubig,Taro Watanabe,Eiichiro Sumita,Shinsuke Mori,Tatsuya Kawahara",None
+acl,https://aclanthology.org/P11-1065.pdf,Learning Hierarchical Translation Structure with Linguistic Annotations,"Markos Mylonakis,Khalil Sima’an",None
+acl,https://aclanthology.org/P11-1066.pdf,Phrase-Based Translation Model for Question Retrieval in Community Question Answer Archives,"Guangyou Zhou,Li Cai,Jun Zhao,Kang Liu",None
+acl,https://aclanthology.org/P11-1067.pdf,Neutralizing Linguistically Problematic Annotations in Unsupervised Dependency Parsing Evaluation,"Roy Schwartz,Omri Abend,Roi Reichart,Ari Rappoport",None
+acl,https://aclanthology.org/P11-1068.pdf,Dynamic Programming Algorithms for Transition-Based Dependency Parsers,"Marco Kuhlmann,Carlos Gómez-Rodríguez,Giorgio Satta",None
+acl,https://aclanthology.org/P11-1069.pdf,Shift-Reduce CCG Parsing,"Yue Zhang,Stephen Clark",None
+acl,https://aclanthology.org/P11-1070.pdf,Web-Scale Features for Full-Scale Parsing,"Mohit Bansal,Dan Klein",None
+acl,https://aclanthology.org/P11-1071.pdf,The impact of language models and loss functions on repair disfluency detection,"Simon Zwarts,Mark Johnson",None
+acl,https://aclanthology.org/P11-1072.pdf,Learning Sub-Word Units for Open Vocabulary Speech Recognition,"Carolina Parada,Mark Dredze,Abhinav Sethy,Ariya Rastrow",None
+acl,https://aclanthology.org/P11-1073.pdf,Computing and Evaluating Syntactic Complexity Features for Automated Scoring of Spontaneous Non-Native Speech,"Miao Chen,Klaus Zechner",None
+acl,https://aclanthology.org/P11-1074.pdf,N-Best Rescoring Based on Pitch-accent Patterns,"Je Hun Jeon,Wen Wang,Yang Liu",None
+acl,https://aclanthology.org/P11-1075.pdf,Lexically-Triggered Hidden Markov Models for Clinical Document Coding,"Svetlana Kiritchenko,Colin Cherry",None
+acl,https://aclanthology.org/P11-1076.pdf,Learning to Grade Short Answer Questions using Semantic Similarity Measures and Dependency Graph Alignments,"Michael Mohler,Razvan Bunescu,Rada Mihalcea",None
+acl,https://aclanthology.org/P11-1077.pdf,"Age Prediction in Blogs: A Study of Style, Content, and Online Behavior in Pre- and Post-Social Media Generations","Sara Rosenthal,Kathleen McKeown",None
+acl,https://aclanthology.org/P11-1078.pdf,Extracting Social Power Relationships from Natural Language,"Philip Bramsen,Martha Escobar-Molano,Ami Patel,Rafael Alonso",None
+acl,https://aclanthology.org/P11-1079.pdf,Bootstrapping coreference resolution using word associations,"Hamidreza Kobdani,Hinrich Schuetze,Michael Schiehlen,Hans Kamp",None
+acl,https://aclanthology.org/P11-1080.pdf,Large-Scale Cross-Document Coreference Using Distributed Inference and Hierarchical Models,"Sameer Singh,Amarnag Subramanya,Fernando Pereira,Andrew McCallum",None
+acl,https://aclanthology.org/P11-1081.pdf,A Cross-Lingual ILP Solution to Zero Anaphora Resolution,"Ryu Iida,Massimo Poesio",None
+acl,https://aclanthology.org/P11-1082.pdf,Coreference Resolution with World Knowledge,"Altaf Rahman,Vincent Ng",None
+acl,https://aclanthology.org/P11-1083.pdf,How to train your multi bottom-up tree transducer,Andreas Maletti,None
+acl,https://aclanthology.org/P11-1084.pdf,Binarized Forest to String Translation,"Hao Zhang,Licheng Fang,Peng Xu,Xiaoyun Wu",None
+acl,https://aclanthology.org/P11-1085.pdf,Learning to Transform and Select Elementary Trees for Improved Syntax-based Machine Translations,"Bing Zhao,Young-Suk Lee,Xiaoqiang Luo,Liu Li",None
+acl,https://aclanthology.org/P11-1086.pdf,Rule Markov Models for Fast Tree-to-String Translation,"Ashish Vaswani,Haitao Mi,Liang Huang,David Chiang",None
+acl,https://aclanthology.org/P11-1087.pdf,A Hierarchical Pitman-Yor Process HMM for Unsupervised Part of Speech Induction,"Phil Blunsom,Trevor Cohn",None
+acl,https://aclanthology.org/P11-1088.pdf,Using Deep Morphology to Improve Automatic Error Detection in Arabic Handwriting Recognition,"Nizar Habash,Ryan Roth",None
+acl,https://aclanthology.org/P11-1089.pdf,A Discriminative Model for Joint Morphological Disambiguation and Dependency Parsing,"John Lee,Jason Naradowsky,David A. Smith",None
+acl,https://aclanthology.org/P11-1090.pdf,Unsupervised Bilingual Morpheme Segmentation and Alignment with Context-rich Hidden Semi-Markov Models,"Jason Naradowsky,Kristina Toutanova",None
+acl,https://aclanthology.org/P11-1091.pdf,A Graph Approach to Spelling Correction in Domain-Centric Search,"Zhuowei Bao,Benny Kimelfeld,Yunyao Li",None
+acl,https://aclanthology.org/P11-1092.pdf,Grammatical Error Correction with Alternating Structure Optimization,"Daniel Dahlmeier,Hwee Tou Ng",None
+acl,https://aclanthology.org/P11-1093.pdf,Algorithm Selection and Model Adaptation for ESL Correction Tasks,"Alla Rozovskaya,Dan Roth",None
+acl,https://aclanthology.org/P11-1094.pdf,Automated Whole Sentence Grammar Correction Using a Noisy Channel Model,"Y. Albert Park,Roger Levy",None
+acl,https://aclanthology.org/P11-1095.pdf,A Generative Entity-Mention Model for Linking Entities with Knowledge Base,"Xianpei Han,Le Sun",None
+acl,https://aclanthology.org/P11-1096.pdf,Simple supervised document geolocation with geodesic grids,"Benjamin Wing,Jason Baldridge",None
+acl,https://aclanthology.org/P11-1097.pdf,Piggyback: Using Search Engines for Robust Cross-Domain Named Entity Recognition,"Stefan Rüd,Massimiliano Ciaramita,Jens Müller,Hinrich Schütze",None
+acl,https://aclanthology.org/P11-1098.pdf,Template-Based Information Extraction without the Templates,"Nathanael Chambers,Dan Jurafsky",None
+acl,https://aclanthology.org/P11-1099.pdf,Classifying arguments by scheme,"Vanessa Wei Feng,Graeme Hirst",None
+acl,https://aclanthology.org/P11-1100.pdf,Automatically Evaluating Text Coherence Using Discourse Relations,"Ziheng Lin,Hwee Tou Ng,Min-Yen Kan",None
+acl,https://aclanthology.org/P11-1101.pdf,Underspecifying and Predicting Voice for Surface Realisation Ranking,"Sina Zarrieß,Aoife Cahill,Jonas Kuhn",None
+acl,https://aclanthology.org/P11-1102.pdf,Recognizing Authority in Dialogue with an Integer Linear Programming Constrained Model,"Elijah Mayfield,Carolyn Penstein Rosé",None
+acl,https://aclanthology.org/P11-1103.pdf,Reordering Metrics for MT,"Alexandra Birch,Miles Osborne",None
+acl,https://aclanthology.org/P11-1104.pdf,Reordering with Source Language Collocations,"Zhanyi Liu,Haifeng Wang,Hua Wu,Ting Liu,Sheng Li",None
+acl,https://aclanthology.org/P11-1105.pdf,A Joint Sequence Translation Model with Integrated Reordering,"Nadir Durrani,Helmut Schmid,Alexander Fraser",None
+acl,https://aclanthology.org/P11-1106.pdf,Integrating surprisal and uncertain-input models in online sentence comprehension: formal techniques and empirical results,Roger Levy,None
+acl,https://aclanthology.org/P11-1107.pdf,Metagrammar engineering: Towards systematic exploration of implemented grammars,Antske Fokkens,None
+acl,https://aclanthology.org/P11-1108.pdf,Simple Unsupervised Grammar Induction from Raw Text with Cascaded Finite State Models,"Elias Ponvert,Jason Baldridge,Katrin Erk",None
+acl,https://aclanthology.org/P11-1109.pdf,Extracting Paraphrases from Definition Sentences on the Web,"Chikara Hashimoto,Kentaro Torisawa,Stijn De Saeger,Jun’ichi Kazama,Sadao Kurohashi",None
+acl,https://aclanthology.org/P11-1110.pdf,Learning From Collective Human Behavior to Introduce Diversity in Lexical Choice,"Vahed Qazvinian,Dragomir R. Radev",None
+acl,https://aclanthology.org/P11-1111.pdf,Ordering Prenominal Modifiers with a Reranking Approach,"Jenny Liu,Aria Haghighi",None
+acl,https://aclanthology.org/P11-1112.pdf,Unsupervised Semantic Role Induction via Split-Merge Clustering,"Joel Lang,Mirella Lapata",None
+acl,https://aclanthology.org/P11-1113.pdf,Using Cross-Entity Inference to Improve Event Extraction,"Yu Hong,Jianfeng Zhang,Bin Ma,Jianmin Yao,Guodong Zhou,Qiaoming Zhu",None
+acl,https://aclanthology.org/P11-1114.pdf,Peeling Back the Layers: Detecting Event Role Fillers in Secondary Contexts,"Ruihong Huang,Ellen Riloff",None
+acl,https://aclanthology.org/P11-1115.pdf,Knowledge Base Population: Successful Approaches and Challenges,"Heng Ji,Ralph Grishman",None
+acl,https://aclanthology.org/P11-1116.pdf,Nonlinear Evidence Fusion and Propagation for Hyponymy Relation Mining,"Fan Zhang,Shuming Shi,Jing Liu,Shuqi Sun,Chin-Yew Lin",None
+acl,https://aclanthology.org/P11-1117.pdf,A Pronoun Anaphora Resolution System based on Factorial Hidden Markov Models,"Dingcheng Li,Tim Miller,William Schuler",None
+acl,https://aclanthology.org/P11-1118.pdf,Disentangling Chat with Local Coherence Models,"Micha Elsner,Eugene Charniak",None
+acl,https://aclanthology.org/P11-1119.pdf,An Affect-Enriched Dialogue Act Classification Model for Task-Oriented Dialogue,"Kristy Boyer,Joseph Grafsgaard,Eun Young Ha,Robert Phillips,James Lester",None
+acl,https://aclanthology.org/P11-1120.pdf,Fine-Grained Class Label Markup of Search Queries,"Joseph Reisinger,Marius Paşca",None
+acl,https://aclanthology.org/P11-1121.pdf,Creating a manually error-tagged and shallow-parsed learner corpus,"Ryo Nagata,Edward Whittaker,Vera Sheinman",None
+acl,https://aclanthology.org/P11-1122.pdf,Crowdsourcing Translation: Professional Quality from Non-Professionals,"Omar F. Zaidan,Chris Callison-Burch",None
+acl,https://aclanthology.org/P11-1123.pdf,A Statistical Tree Annotator and Its Applications,"Xiaoqiang Luo,Bing Zhao",None
+acl,https://aclanthology.org/P11-1124.pdf,Consistent Translation using Discriminative Learning - A Translation Memory-inspired Approach,"Yanjun Ma,Yifan He,Andy Way,Josef van Genabith",None
+acl,https://aclanthology.org/P11-1125.pdf,Machine Translation System Combination by Confusion Forest,"Taro Watanabe,Eiichiro Sumita",None
+acl,https://aclanthology.org/P11-1126.pdf,Hypothesis Mixture Decoding for Statistical Machine Translation,"Nan Duan,Mu Li,Ming Zhou",None
+acl,https://aclanthology.org/P11-1127.pdf,Minimum Bayes-risk System Combination,"Jesús González-Rubio,Alfons Juan,Francisco Casacuberta",None
+acl,https://aclanthology.org/P11-1128.pdf,Adjoining Tree-to-String Translation,"Yang Liu,Qun Liu,Yajuan Lü",None
+acl,https://aclanthology.org/P11-1129.pdf,Enhancing Language Models in Statistical Machine Translation with Backward N-grams and Mutual Information Triggers,"Deyi Xiong,Min Zhang,Haizhou Li",None
+acl,https://aclanthology.org/P11-1130.pdf,Translating from Morphologically Complex Languages: A Paraphrase-Based Approach,"Preslav Nakov,Hwee Tou Ng",None
+acl,https://aclanthology.org/P11-1131.pdf,Gappy Phrasal Alignment By Agreement,"Mohit Bansal,Chris Quirk,Robert Moore",None
+acl,https://aclanthology.org/P11-1132.pdf,Translationese and Its Dialects,"Moshe Koppel,Noam Ordan",None
+acl,https://aclanthology.org/P11-1133.pdf,Rare Word Translation Extraction from Aligned Comparable Documents,"Emmanuel Prochasson,Pascale Fung",None
+acl,https://aclanthology.org/P11-1134.pdf,Using Bilingual Parallel Corpora for Cross-Lingual Textual Entailment,"Yashar Mehdad,Matteo Negri,Marcello Federico",None
+acl,https://aclanthology.org/P11-1135.pdf,Using Large Monolingual and Bilingual Corpora to Improve Coordination Disambiguation,"Shane Bergsma,David Yarowsky,Kenneth Church",None
+acl,https://aclanthology.org/P11-1136.pdf,Unsupervised Decomposition of a Document into Authorial Components,"Moshe Koppel,Navot Akiva,Idan Dershowitz,Nachum Dershowitz",None
+acl,https://aclanthology.org/P11-1137.pdf,Discovering Sociolinguistic Associations with Structured Sparsity,"Jacob Eisenstein,Noah A. Smith,Eric P. Xing",None
+acl,https://aclanthology.org/P11-1138.pdf,Local and Global Algorithms for Disambiguation to Wikipedia,"Lev Ratinov,Dan Roth,Doug Downey,Mike Anderson",None
+acl,https://aclanthology.org/P11-1139.pdf,A Stacked Sub-Word Model for Joint Chinese Word Segmentation and Part-of-Speech Tagging,Weiwei Sun,None
+acl,https://aclanthology.org/P11-1140.pdf,Language-independent compound splitting with morphological operations,"Klaus Macherey,Andrew Dai,David Talbot,Ashok Popat,Franz Och",None
+acl,https://aclanthology.org/P11-1141.pdf,Parsing the Internal Structure of Words: A New Paradigm for Chinese Word Segmentation,Zhongguo Li,None
+acl,https://aclanthology.org/P11-1142.pdf,A Simple Measure to Assess Non-response,"Anselmo Peñas,Alvaro Rodrigo",None
+acl,https://aclanthology.org/P11-1143.pdf,Improving Question Recommendation by Exploiting Information Need,"Shuguang Li,Suresh Manandhar",None
+acl,https://aclanthology.org/P11-1144.pdf,Semi-Supervised Frame-Semantic Parsing for Unknown Predicates,"Dipanjan Das,Noah A. Smith",None
+acl,https://aclanthology.org/P11-1145.pdf,A Bayesian Model for Unsupervised Semantic Parsing,"Ivan Titov,Alexandre Klementiev",None
+acl,https://aclanthology.org/P11-1146.pdf,Unsupervised Learning of Semantic Relation Composition,"Eduardo Blanco,Dan Moldovan",None
+acl,https://aclanthology.org/P11-1147.pdf,Unsupervised Discovery of Domain-Specific Knowledge from Text,"Dirk Hovy,Chunliang Zhang,Eduard Hovy,Anselmo Peñas",None
+acl,https://aclanthology.org/P11-1148.pdf,Latent Semantic Word Sense Induction and Disambiguation,"Tim Van de Cruys,Marianna Apidianaki",None
+acl,https://aclanthology.org/P11-1149.pdf,Confidence Driven Unsupervised Semantic Parsing,"Dan Goldwasser,Roi Reichart,James Clarke,Dan Roth",None
+acl,https://aclanthology.org/P11-1150.pdf,Aspect Ranking: Identifying Important Product Aspects from Online Consumer Reviews,"Jianxing Yu,Zheng-Jun Zha,Meng Wang,Tat-Seng Chua",None
+acl,https://aclanthology.org/P11-1151.pdf,Collective Classification of Congressional Floor-Debate Transcripts,"Clinton Burfoot,Steven Bird,Timothy Baldwin",None
+acl,https://aclanthology.org/P11-1152.pdf,Integrating history-length interpolation and classes in language modeling,Hinrich Schütze,None
+acl,https://aclanthology.org/P11-1153.pdf,Structural Topic Model for Latent Topical Structure Analysis,"Hongning Wang,Duo Zhang,ChengXiang Zhai",None
+acl,https://aclanthology.org/P11-1154.pdf,Automatic Labelling of Topic Models,"Jey Han Lau,Karl Grieser,David Newman,Timothy Baldwin",None
+acl,https://aclanthology.org/P11-1155.pdf,Using Bilingual Information for Cross-Language Document Summarization,Xiaojun Wan,None
+acl,https://aclanthology.org/P11-1156.pdf,Exploiting Web-Derived Selectional Preference to Improve Statistical Dependency Parsing,"Guangyou Zhou,Jun Zhao,Kang Liu,Li Cai",None
+acl,https://aclanthology.org/P11-1157.pdf,Effective Measures of Domain Similarity for Parsing,"Barbara Plank,Gertjan van Noord",None
+acl,https://aclanthology.org/P11-1158.pdf,Efficient CCG Parsing: A* versus Adaptive Supertagging,"Michael Auli,Adam Lopez",None
+acl,https://aclanthology.org/P11-1159.pdf,Improving Arabic Dependency Parsing with Form-based and Functional Morphological Features,"Yuval Marton,Nizar Habash,Owen Rambow",None
+acl,https://aclanthology.org/P11-1160.pdf,Partial Parsing from Bitext Projections,"Prashanth Mannem,Aswarth Dara",None
+acl,https://aclanthology.org/P11-1161.pdf,Ranking Class Labels Using Query Sessions,Marius Paşca,None
+acl,https://aclanthology.org/P11-1162.pdf,Insights from Network Structure for Text Mining,"Zornitsa Kozareva,Eduard Hovy",None
+acl,https://aclanthology.org/P11-1163.pdf,Event Extraction as Dependency Parsing,"David McClosky,Mihai Surdeanu,Christopher Manning",None
+acl,https://aclanthology.org/P11-1164.pdf,Extracting Comparative Entities and Predicates from Texts Using Comparative Type Classification,"Seon Yang,Youngjoong Ko",None
